@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://urban-edge-designs.com/sitemap.xml

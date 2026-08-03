@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f6f1e7;
+  --cream-2: #efe7d8;
+  --ink: #1c1a15;
+  --green: #122e24;
+  --green-2: #1b3d30;
+  --terra: #c05a2e;
+  --terra-2: #d9734a;
+  --gold: #c9a55c;
+  --sage: #7d9b8a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--cream);
+  color: var(--ink);
+}
+
+.font-display {
+  font-family: "Fraunces", serif;
+}
+
+/* ---------- Agency styles ---------- */
+.terra-gradient-text {
+  background: linear-gradient(110deg, #a84a24, #d9734a 55%, #c05a2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-terra {
+  background: var(--terra);
+  color: #fff8f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.btn-terra:hover {
+  transform: translateY(-2px);
+  background: #a84a24;
+  box-shadow: 0 16px 34px -12px rgba(192, 90, 46, 0.55);
+}
+
+.btn-green {
+  background: var(--green);
+  color: var(--cream);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-green:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px -12px rgba(18, 46, 36, 0.5);
+}
+
+.btn-outline-ink {
+  border: 1.5px solid rgba(28, 26, 21, 0.35);
+  color: var(--ink);
+  transition: all 0.3s ease;
+}
+.btn-outline-ink:hover {
+  border-color: var(--ink);
+  background: rgba(28, 26, 21, 0.05);
+}
+
+.card-cream {
+  background: #fffdf8;
+  border: 1px solid rgba(28, 26, 21, 0.09);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.card-cream:hover {
+  transform: translateY(-6px);
+  border-color: rgba(192, 90, 46, 0.4);
+  box-shadow: 0 28px 60px -24px rgba(28, 26, 21, 0.25);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ---------- Demo site shared ---------- */
+.demo-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.demo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 55px -22px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Chatbot ---------- */
+.typing-dot {
+  animation: typingBounce 1.2s infinite ease-in-out;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
+.chat-scroll::-webkit-scrollbar { width: 6px; }
+.chat-scroll::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.2); border-radius: 8px; }
+
+::selection { background: rgba(192, 90, 46, 0.25); }
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--cream-2); }
+::-webkit-scrollbar-thumb { background: #b9ac93; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--terra); }
+
+/* ---------- Accessibility ---------- */
+:focus-visible {
+  outline: 2px solid var(--terra);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Prevent transient horizontal scrollbars from entrance animations.
+   `clip` (unlike `hidden`) does not create a scroll container,
+   so position: sticky keeps working. */
+html,
+body {
+  overflow-x: clip;
+}
