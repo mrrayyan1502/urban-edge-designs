@@ -5,7 +5,7 @@ const SERVICES = [
   {
     icon: Bot,
     title: "AI Chatbots",
-    text: "A smart assistant trained on your services, prices and FAQs. It answers customers, takes bookings and collects leads — 24/7, even while you sleep.",
+    text: "A smart assistant trained on your services, prices and FAQs. It answers customers, collects booking requests and gathers leads — 24/7, even while you sleep.",
     tag: "From £99",
   },
   {

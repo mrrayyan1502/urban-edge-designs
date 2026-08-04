@@ -44,6 +44,8 @@ export default function DemoGallery() {
                     src={d.heroImage}
                     alt={`${d.category} demo website preview`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    width={2048}
+                    height={1152}
                     loading={i < 2 ? "eager" : "lazy"}
                     decoding="async"
                   />

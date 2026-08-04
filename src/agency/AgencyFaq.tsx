@@ -76,8 +76,19 @@ const FAQS: { q: string; a: string }[] = [
 export default function AgencyFaq() {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: FAQS.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <section id="faq" className="py-24 md:py-32" aria-labelledby="faq-heading">
+      <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       <div className="max-w-4xl mx-auto px-5 md:px-8">
         <div className="text-center">
           <div className="flex items-center justify-center gap-3 mb-5">

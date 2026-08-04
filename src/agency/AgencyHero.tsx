@@ -36,8 +36,8 @@ export default function AgencyHero() {
 
           <p className="mt-8 text-lg md:text-xl font-light text-[#1c1a15]/65 leading-relaxed max-w-2xl">
             Professional, mobile-friendly websites with a smart AI chatbot that answers
-            your customers, takes bookings and captures leads — while you get on with
-            running your business.
+            your customers, collects booking requests and captures leads — while you get
+            on with running your business.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

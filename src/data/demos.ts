@@ -23,6 +23,11 @@ export interface Intent {
   startsBooking?: boolean;
 }
 
+export interface MenuSection {
+  title: string;
+  items: string; // each line: "Name — £x" or a note
+}
+
 export interface BotConfig {
   botName: string;
   accent: string; // hex used for chat header/buttons
@@ -34,6 +39,16 @@ export interface BotConfig {
   confirmNote: string;
   intents: Intent[];
   fallback: string;
+  /** honest "I won't guess" fallback listing only what THIS business offers */
+  unknown: string;
+  /** enquiry terminology used in summaries */
+  enquiryType: string; // e.g. "booking enquiry" | "call-out enquiry" | "table-booking enquiry" | "appointment enquiry"
+  /** true if the service flows by number of guests (restaurant) */
+  byGuests?: boolean;
+  /** restaurant menu sections (only for Ember & Oak) */
+  menu?: MenuSection[];
+  /** whether this bot answers medical/dental emergency questions with NHS guidance */
+  isDental?: boolean;
 }
 
 /* ---------------- Demo site config ---------------- */
@@ -87,9 +102,12 @@ const spaBot: BotConfig = {
   accent: "#c9a55c",
   accentText: "#0b1f1a",
   greeting:
-    "Welcome to Velvet Lotus! I'm Lotus, the spa's demo AI assistant (this whole site is a demonstration by Urban Edge Designs). Ask me about treatments, prices or gift vouchers — or say \"book\" and I'll arrange your escape in seconds.",
+    "Welcome to Velvet Lotus! I'm Lotus, the spa's demo AI assistant (this whole site is a demonstration by Urban Edge Designs). Ask me about treatments, prices or gift vouchers — or say \"book\" and I'll help you submit a demonstration booking enquiry in just a few simple steps.",
   quickReplies: ["Treatment prices", "Book a massage", "Opening hours", "Gift vouchers"],
   bookingWord: "appointment",
+  enquiryType: "booking enquiry",
+  unknown:
+    "I'm not able to help with that in this fictional demonstration, so I won't guess. I can help with treatments and prices, gift vouchers, opening hours, location and booking enquiries.",
   services: [
     {
       name: "Signature Aromatherapy Massage",
@@ -123,7 +141,7 @@ const spaBot: BotConfig = {
     },
   ],
   confirmNote:
-    "To confirm your slot, tap \"Call to Confirm\" below — we're open 7 days a week and evenings fill fast.",
+    "Tap the chat assistant to submit a demonstration booking enquiry — nothing is really booked.",
   intents: [
     {
       keywords: ["price", "cost", "how much", "fee", "charge"],
@@ -143,7 +161,7 @@ const spaBot: BotConfig = {
     {
       keywords: ["gift", "voucher", "present"],
       response:
-        "Our eGift vouchers are a beautiful present — personalised, delivered instantly by email, and valid for 12 months on any treatment. You can order one by calling us, or I can note it for the team. A present they'll truly treasure!",
+        "Our eGift vouchers are a beautiful present — personalised, delivered instantly by email, and valid for 12 months on any treatment. On a real client website, customers could order one by phone. In this fictional demonstration, I can answer questions or help you submit a demonstration booking enquiry. A present they'd truly treasure!",
     },
     {
       keywords: ["facial", "skin", "glow"],
@@ -243,9 +261,12 @@ const tradesBot: BotConfig = {
   accent: "#e07b2e",
   accentText: "#131c2b",
   greeting:
-    "Hi! I'm Fixi, FixRight's demo AI assistant (this whole site is a demonstration by Urban Edge Designs). Leak, fault, project or clean-up — tell me what's going on and I'll get you a fast quote or an emergency visit.",
+    "Hi! I'm Fixi, FixRight's demo AI assistant. This entire website is a fictional demonstration by Urban Edge Designs. Tell me about your leak, fault, project or clean-up and I'll help you create a demonstration quote or call-out enquiry.",
   quickReplies: ["Emergency help!", "Get a quote", "Your services", "Call out areas"],
   bookingWord: "visit",
+  enquiryType: "call-out enquiry",
+  unknown:
+    "I'm not able to help with that in this fictional demonstration, so I won't guess. I can help with services and example prices, opening hours, service areas, contact information and call-out enquiries.",
   services: [
     {
       name: "Plumbing Repair",
@@ -276,12 +297,12 @@ const tradesBot: BotConfig = {
     },
   ],
   confirmNote:
-    "Tap \"Request Call-Out\" below and our team will ring you within 15 minutes to confirm your slot.",
+    "Tap \"Request Call-Out\" to create a demonstration call-out enquiry. On a real client website, the business team would receive the details and contact the customer.",
   intents: [
     {
-      keywords: ["emergency", "urgent", "leak", "burst", "flood", "no power", "sparking", "now", "asap"],
+      keywords: ["emergency", "urgent", "burst", "flood", "no power", "sparking", "asap"],
       response:
-        "Sorry to hear that — let's move fast. Our emergency team aims to reach you within 60–90 minutes, 24/7. Emergency call-outs start from £95 with no hidden extras.\n\nTell me what service you need below, or tap \"Request Call-Out\" and we'll phone you straight back.",
+        "Sorry to hear that. In this fictional demonstration, emergency call-outs start from £95 and the example response target is 60–90 minutes. No real emergency service is being dispatched.\n\nTell me what service you need below, or tap \"Request Call-Out\" to create a demonstration call-out enquiry. On a real client website, the business team would receive the details and contact the customer.",
       startsBooking: true,
     },
     {
@@ -290,7 +311,7 @@ const tradesBot: BotConfig = {
         "Here's our honest pricing:\n\n· Standard call-out — from £65\n· Emergency call-out (24/7) — from £95\n· Deep cleaning — from £80\n· Building & renovation — free site survey, fixed written quote\n\nAll quotes are fixed before we start. Want me to arrange a visit?",
     },
     {
-      keywords: ["plumb", "tap", "boiler", "toilet", "pipe", "sink", "water"],
+      keywords: ["plumb", "leak", "tap", "boiler", "toilet", "pipe", "sink", "water"],
       response:
         "Our Gas-Safe registered plumbers handle leaks, taps, toilets, radiators and full bathroom installs. Standard visits from £65, fixed quote before any work begins. Shall I book a plumber for you?",
     },
@@ -402,9 +423,13 @@ const restaurantBot: BotConfig = {
   accent: "#b6542f",
   accentText: "#fff8f0",
   greeting:
-    "Good evening! I'm Ember, Ember & Oak's demo AI host (this whole site is a demonstration by Urban Edge Designs). Ask me about the menu, dietary options or today's specials — or say \"book a table\" and I'll find you the perfect spot.",
+    "Good evening! I'm Ember, Ember & Oak's demo AI host (this whole site is a demonstration by Urban Edge Designs). Ask me about the menu, dietary options or today's specials — or say \"book a table\" and I'll help you submit a demonstration table-booking enquiry.",
   quickReplies: ["Book a table", "See the menu", "Dietary options", "Opening hours"],
   bookingWord: "table",
+  enquiryType: "table-booking enquiry",
+  byGuests: true,
+  unknown:
+    "I'm not able to help with that in this fictional demonstration, so I won't guess. I can help with the food and drink menu, example prices, dietary information, opening hours, location and table-booking enquiries.",
   services: [
     {
       name: "Lunch Table",
@@ -438,17 +463,59 @@ const restaurantBot: BotConfig = {
     },
   ],
   confirmNote:
-    "Tap \"Confirm by Phone\" below and we'll hold your table — we keep every booking for 15 minutes past the reserved time.",
-  intents: [
+    "Tap the chat assistant to create a demonstration table-booking enquiry — no table is really reserved.",
+  menu: [
     {
-      keywords: ["menu", "food", "eat", "dish", "special", "serve"],
-      response:
-        "A few guest favourites from our seasonal menu:\n\n· Wood-fired sea bass, herb oil — £24\n· Slow-braised lamb shoulder — £22\n· Wild mushroom risotto (v) — £17\n· Burnt Basque cheesecake — £8\n\nOur full menu changes with the seasons. Fancy the Chef's Tasting Menu? It's £65pp with wine pairings available.",
+      title: "Starters",
+      items:
+        "· Wood-fired sourdough, whipped smoked butter — £5\n· Cured sea trout, dill & horseradish — £9\n· Roast squash soup, toasted seeds (vg) — £7",
     },
     {
-      keywords: ["vegan", "vegetarian", "gluten", "allerg", "dietary", "dairy", "halal"],
+      title: "Lunch dishes",
+      items:
+        "· Ember chicken club, skin fries — £14\n· Woodland mushroom toast, poached egg (v) — £11\n· Day-boat fish fingers, tartare — £13",
+    },
+    {
+      title: "Main courses",
+      items:
+        "· Wood-fired sea bass, herb oil — £24\n· Slow-braised lamb shoulder, smoked aubergine — £22\n· 28-day aged sirloin, bone-marrow butter — £27",
+    },
+    {
+      title: "Vegetarian & vegan",
+      items:
+        "· Wild mushroom risotto (v) — £17\n· Charred hispi cabbage, romesco (vg) — £15\n· Roast cauliflower steak, tahini (vg) — £14",
+    },
+    {
+      title: "Desserts",
+      items:
+        "· Burnt Basque cheesecake — £8\n· Dark chocolate & olive oil torte — £8\n· Wood-oven baked apple, oat crumble (vg) — £7",
+    },
+    {
+      title: "Sunday roast (served 12–5pm)",
+      items:
+        "· Roast sirloin or half chicken, all the trimmings — from £16\n· Nut roast, mushroom gravy (vg) — £15",
+    },
+    {
+      title: "Chef's Tasting Menu",
+      items:
+        "· Five courses — £65 per person\n· Wine pairing available — +£35 per person",
+    },
+    {
+      title: "Drinks",
+      items:
+        "· House wines from — £6 a glass\n· Local ales & craft lager — from £5\n· Specialty coffee, loose-leaf teas — from £3",
+    },
+  ],
+  intents: [
+    {
+      keywords: ["vegan", "vegetarian", "gluten", "dietary", "dairy", "halal"],
       response:
-        "We look after every guest — we always have dedicated vegan and vegetarian dishes, most plates can be made gluten-free, and our team is fully trained on all 14 major allergens. Just mention any dietary needs when booking and the kitchen will prepare. Shall I reserve your table?",
+        "We look after every guest — we always have dedicated vegan and vegetarian dishes, most plates can be made gluten-free, and our team is fully trained on all 14 major allergens. Ask me for the vegetarian & vegan section of the menu if you'd like to see examples.",
+    },
+    {
+      keywords: ["allerg"],
+      response:
+        "Please discuss allergies directly with the restaurant team before ordering. This fictional demonstration cannot guarantee allergen safety.",
     },
     {
       keywords: ["book", "table", "reserve", "reservation", "seat"],
@@ -558,9 +625,13 @@ const dentalBot: BotConfig = {
   accent: "#2f7d6d",
   accentText: "#ffffff",
   greeting:
-    "Hello! I'm Bright, Brightwell's demo AI care assistant (this whole site is a demonstration by Urban Edge Designs). I can explain treatments and prices, help nervous patients feel at ease, or book your appointment — how can I help today?",
+    "Hello! I'm Bright, Brightwell's demo AI care assistant (this whole site is a demonstration by Urban Edge Designs). I can explain the fictional treatments and example prices, help nervous patients understand the process, and help you submit a demonstration appointment enquiry.",
   quickReplies: ["Book an appointment", "Treatment prices", "I'm a nervous patient", "NHS or private?"],
   bookingWord: "appointment",
+  enquiryType: "appointment enquiry",
+  isDental: true,
+  unknown:
+    "I'm not able to help with that in this fictional demonstration, so I won't guess. I can help with treatments and example prices, opening hours, location, nervous-patient information and appointment enquiries.",
   services: [
     {
       name: "New Patient Exam & Hygiene",
@@ -585,12 +656,12 @@ const dentalBot: BotConfig = {
     {
       name: "Emergency Appointment",
       options: [
-        { label: "Same-day slot · £95", price: "£95" },
+        { label: "Same-day appointment enquiry · example fee £95", price: "£95" },
       ],
     },
   ],
   confirmNote:
-    "Tap \"Call to Confirm\" below — our reception team will find you the soonest slot and answer any final questions.",
+    "Tap the chat assistant to submit a demonstration appointment enquiry — no real appointment is made.",
   intents: [
     {
       keywords: ["nervous", "scared", "anxious", "fear", "afraid", "phobia", "worried"],
@@ -613,9 +684,9 @@ const dentalBot: BotConfig = {
         "Invisalign starts with a free consultation and 3D scan — you'll see your future smile on screen before deciding anything. Treatment typically runs 6–14 months, from £2,800 with 0% finance. Shall I book your free scan?",
     },
     {
-      keywords: ["emergency", "pain", "toothache", "broken", "chipped", "swelling", "hurt"],
+      keywords: ["emergency", "pain", "toothache", "broken", "chipped", "swelling", "swollen", "hurt", "bleed", "abscess", "killing", "agony", "excruciating", "unbearable", "severe", "knocked out", "infection"],
       response:
-        "I'm sorry you're in pain — we hold same-day emergency slots every weekday (£95 including assessment and X-rays). Please call us as soon as we open at 8:30am, or tap below and I'll flag it to reception right away.",
+        "I'm sorry you're uncomfortable. In this fictional demonstration I can help you submit a demonstration appointment enquiry, but no real emergency appointment is being arranged.\n\nIf you have severe dental symptoms, facial swelling, uncontrolled bleeding, breathing difficulty or another serious concern: in the UK contact NHS 111 for urgent advice, or call 999 for a life-threatening emergency, severe breathing difficulty or uncontrolled bleeding.",
       startsBooking: true,
     },
     {
@@ -631,7 +702,7 @@ const dentalBot: BotConfig = {
     {
       keywords: ["hour", "open", "when", "saturday"],
       response:
-        "We're open Monday–Friday 8:30am–6pm, plus Saturdays 9am–2pm for hygiene and emergencies. Evening slots until 7pm on Thursdays. Shall I find you a convenient time?",
+        "We're open Monday–Friday 8:30am–6pm, plus Saturdays 9am–2pm for hygiene and emergencies. Evening slots until 7pm on Thursdays. Would you like to submit a preferred date and time for a demonstration appointment enquiry?",
     },
     {
       keywords: ["where", "location", "address", "park"],

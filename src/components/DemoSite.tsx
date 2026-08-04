@@ -5,7 +5,7 @@ import {
   Menu, X, Phone, Mail, MapPin, Clock, Star, Quote, ArrowLeft, Sparkles, MessageCircle,
 } from "lucide-react";
 import type { DemoConfig } from "@/data/demos";
-import { AGENCY } from "@/data/demos";
+import { AGENCY, DEMO_ROUTES } from "@/data/demos";
 import DemoChatbot from "./DemoChatbot";
 import { usePageMeta } from "@/lib/usePageMeta";
 import { trackEvent } from "@/lib/analytics";
@@ -20,11 +20,26 @@ const NAV = [
 export default function DemoSite({ demo }: { demo: DemoConfig }) {
   const dark = demo.theme === "dark";
   const [open, setOpen] = useState(false);
+  const routePath = DEMO_ROUTES[demo.slug] ?? `/demos/${demo.slug}`;
 
   usePageMeta(
     `${demo.brand} ${demo.tagline} — Demo Website by Urban Edge Designs`,
     `Fictional ${demo.category.toLowerCase()} demo website with a working AI chatbot, built by Urban Edge Designs to demonstrate website and chatbot capabilities.`
   );
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://urban-edge-designs.com/" },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `${demo.brand} ${demo.tagline} (Demo)`,
+        item: `https://urban-edge-designs.com${routePath}`,
+      },
+    ],
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -39,6 +54,7 @@ export default function DemoSite({ demo }: { demo: DemoConfig }) {
 
   return (
     <div style={{ background: bg, color: text }} className="min-h-screen">
+      <script type="application/ld+json">{JSON.stringify(breadcrumbJsonLd)}</script>
       <a
         href="#demo-main"
         className="sr-only focus:not-sr-only focus:absolute focus:z-[70] focus:top-2 focus:left-2 focus:bg-[#c05a2e] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg"
@@ -144,6 +160,8 @@ export default function DemoSite({ demo }: { demo: DemoConfig }) {
             src={demo.heroImage}
             alt={`${demo.brand} — ${demo.category} demo website hero image`}
             className="absolute inset-0 w-full h-full object-cover"
+            width={2048}
+            height={1152}
             fetchPriority="high"
           />
           <div
@@ -308,6 +326,8 @@ export default function DemoSite({ demo }: { demo: DemoConfig }) {
                 src={demo.secondaryImage}
                 alt={`Inside ${demo.brand} — demonstration photograph`}
                 className="w-full h-[380px] md:h-[480px] object-cover"
+                width={1536}
+                height={1024}
                 loading="lazy"
                 decoding="async"
               />

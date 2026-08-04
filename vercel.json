@@ -1,6 +1,9 @@
 {
   "rewrites": [
     { "source": "/demos/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/((?!assets/|images/|favicon\\.svg|og-image\\.png|robots\\.txt|sitemap\\.xml).*)",
+      "destination": "/index.html"
+    }
   ]
 }
