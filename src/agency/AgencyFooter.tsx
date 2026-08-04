@@ -143,15 +143,6 @@ export default function AgencyFooter() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <button
-                  type="button"
-                  onClick={() => window.dispatchEvent(new Event("open-cookie-settings"))}
-                  className="text-sm font-light text-[#f6f1e7]/60 hover:text-[#f6f1e7] transition-colors"
-                >
-                  Cookie Settings
-                </button>
-              </li>
             </ul>
           </div>
         </nav>

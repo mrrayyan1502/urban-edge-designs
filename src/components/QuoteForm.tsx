@@ -14,7 +14,7 @@ const PACKAGES = [
   "Not Sure",
 ];
 
-const CONTACT_METHODS = ["WhatsApp", "Telephone", "Email"];
+const CONTACT_METHODS = ["WhatsApp", "Phone", "Email"];
 
 interface FormState {
   name: string;
@@ -123,7 +123,7 @@ export default function QuoteForm() {
       `Preferred Contact: ${form.contactMethod}`,
       `Additional Details: ${form.details.trim() || "None"}`,
       "",
-      "I understand this is an enquiry and no project or payment has been confirmed.",
+      "I understand that this is an enquiry and no work or payment is confirmed yet.",
     ].join("\n");
 
     trackEvent("quote_form_submit", { package: form.pkg });
@@ -159,7 +159,7 @@ export default function QuoteForm() {
           <div className="mt-6 rounded-2xl border border-[#f6f1e7]/15 bg-[#f6f1e7]/[0.04] px-5 py-4 flex items-start gap-3">
             <ShieldCheck size={20} className="text-[#d9734a] shrink-0 mt-0.5" aria-hidden="true" />
             <p className="text-sm text-[#f6f1e7]/65 font-light leading-relaxed">
-              Submitting an enquiry does not require payment. After we review your
+              Submitting this form does not require payment. After we review your
               requirements and agree the project scope, we will privately send the
               correct secure Stripe deposit link.
             </p>

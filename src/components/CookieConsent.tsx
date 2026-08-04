@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router";
 import { AnimatePresence, motion } from "framer-motion";
 import { Cookie } from "lucide-react";
@@ -7,21 +7,12 @@ import { getConsent, setConsent, type ConsentChoice } from "@/lib/analytics";
 export default function CookieConsent() {
   const [choice, setChoice] = useState<ConsentChoice>(() => getConsent());
   const [showSettings, setShowSettings] = useState(false);
-  // Allows the banner to be re-opened later (e.g. a "Cookie Settings" footer link)
-  const [reopened, setReopened] = useState(false);
 
-  useEffect(() => {
-    const handler = () => setReopened(true);
-    window.addEventListener("open-cookie-settings", handler);
-    return () => window.removeEventListener("open-cookie-settings", handler);
-  }, []);
-
-  if (choice !== null && !reopened) return null;
+  if (choice !== null) return null;
 
   const decide = (c: Exclude<ConsentChoice, null>) => {
     setConsent(c);
     setChoice(c);
-    setReopened(false);
   };
 
   return (

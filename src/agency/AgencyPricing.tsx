@@ -147,10 +147,8 @@ export default function AgencyPricing() {
               50% to start · 50% after demo approval
             </div>
             <p className="text-sm font-light text-[#1c1a15]/55 mt-1.5">
-              Domain, hosting and paid third-party services are charged separately unless
-              specifically included in your written quotation. Prices may vary for custom
-              requirements. Optional monthly care plans are recurring services, separate
-              from the one-time setup price.
+              Domain, hosting and paid third-party software are charged separately.
+              Prices may vary for custom requirements.
             </p>
           </div>
         </motion.div>
