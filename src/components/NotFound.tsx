@@ -6,7 +6,8 @@ import { DEMO_ROUTES } from "@/data/demos";
 export default function NotFound() {
   usePageMeta(
     "Page Not Found | Urban Edge Designs",
-    "The page you are looking for does not exist. Return to Urban Edge Designs — web design and AI chatbots for UK small businesses."
+    "The page you are looking for does not exist. Return to Urban Edge Designs — web design and AI chatbots for UK small businesses.",
+    true
   );
 
   return (
