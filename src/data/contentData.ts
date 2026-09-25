@@ -206,7 +206,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80",
         description: "Slim armrests and raised tapered legs engineered for compact living rooms.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa&tag=urbanedge0c-20",
         tier: "Featured"
       },
       {
@@ -217,7 +217,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=80",
         description: "Tuck the smaller table away when entertaining or pull out for drinks.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=nesting+coffee+tables",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=nesting+coffee+tables&tag=urbanedge0c-20",
         tier: "Featured"
       },
       {
@@ -228,7 +228,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=600&q=80",
         description: "Natural fibers add tactile warmth without visual clutter.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=natural+area+rug",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=natural+area+rug&tag=urbanedge0c-20",
         tier: "Featured"
       },
       {
@@ -239,7 +239,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
         description: "Frees up table surfaces by arching light directly over the sofa corner.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=slim+arch+floor+lamp",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=slim+arch+floor+lamp&tag=urbanedge0c-20",
         tier: "Featured"
       }
     ],
@@ -252,7 +252,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=600&q=80",
         description: "Budget-friendly alternative with clean lines and stain-resistant fabric.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa&tag=urbanedge0c-20",
         tier: "Budget"
       },
       {
@@ -263,7 +263,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=600&q=80",
         description: "Lighter weight veneer tables perfect for rental flats.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=stacking+coffee+tables",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=stacking+coffee+tables&tag=urbanedge0c-20",
         tier: "Budget"
       }
     ]
@@ -288,7 +288,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80",
         description: "Lift-up storage creates useful hidden space for bedding, seasonal clothing and luggage.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=ottoman+storage+bed",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=ottoman+storage+bed&tag=urbanedge0c-20",
         tier: "Featured"
       },
       {
@@ -299,7 +299,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80",
         description: "Zero floor contact makes small bedroom floors appear continuous.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=floating+bedside+shelf",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=floating+bedside+shelf&tag=urbanedge0c-20",
         tier: "Featured"
       }
     ],
@@ -312,7 +312,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80",
         description: "Dust-proof zippered containers with reinforced handles.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=underbed+storage+bins",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=underbed+storage+bins&tag=urbanedge0c-20",
         tier: "Budget"
       }
     ]
@@ -337,7 +337,7 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
         price: "Check current price",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80",
         description: "Grounded seating height emphasizes room ceiling height.",
-        affiliateUrl: "https://www.amazon.co.uk/s?k=low+profile+sofa",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=low+profile+sofa&tag=urbanedge0c-20",
         tier: "Featured"
       }
     ],
