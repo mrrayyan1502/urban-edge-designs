@@ -5,35 +5,87 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/demos/spa-salon</loc>
+    <loc>https://urban-edge-designs.com/category/living-room</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/bedroom</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/kitchen</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/bathroom</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/small-apartments</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/storage</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/category/decor</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/shop-the-look</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/shop-the-look/warm-minimalist-living-room</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/demos/trades-home-services</loc>
+    <loc>https://urban-edge-designs.com/shop-the-look/modern-small-bedroom</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/demos/restaurant-cafe</loc>
+    <loc>https://urban-edge-designs.com/shop-the-look/japandi-living-room</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/demos/dental-clinic</loc>
+    <loc>https://urban-edge-designs.com/ideas/small-living-room-ideas</loc>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/ideas/small-bedroom-storage</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/ideas/studio-apartment-layout-ideas</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/ideas/small-kitchen-ideas</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/about-us</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://urban-edge-designs.com/contact</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://urban-edge-designs.com/privacy-policy</loc>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://urban-edge-designs.com/terms-of-service</loc>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/cookie-policy</loc>
-    <priority>0.3</priority>
+    <loc>https://urban-edge-designs.com/affiliate-disclosure</loc>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://urban-edge-designs.com/refund-policy</loc>
-    <priority>0.3</priority>
+    <loc>https://urban-edge-designs.com/editorial-policy</loc>
+    <priority>0.4</priority>
   </url>
 </urlset>

@@ -1,86 +1,114 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router";
-import { AnimatePresence, motion } from "framer-motion";
-import { Cookie } from "lucide-react";
-import { getConsent, setConsent, type ConsentChoice } from "@/lib/analytics";
+import { Cookie, ShieldCheck, X } from "lucide-react";
 
 export default function CookieConsent() {
-  const [choice, setChoice] = useState<ConsentChoice>(() => getConsent());
-  const [showSettings, setShowSettings] = useState(false);
-  // Allows the banner to be re-opened later (e.g. a "Cookie Settings" footer link)
-  const [reopened, setReopened] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [showPreferences, setShowPreferences] = useState(false);
+  const [analyticsAllowed, setAnalyticsAllowed] = useState(true);
 
   useEffect(() => {
-    const handler = () => setReopened(true);
-    window.addEventListener("open-cookie-settings", handler);
-    return () => window.removeEventListener("open-cookie-settings", handler);
+    const consent = localStorage.getItem("ued_cookie_consent");
+    if (!consent) {
+      const timer = setTimeout(() => setVisible(true), 1500);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
-  if (choice !== null && !reopened) return null;
-
-  const decide = (c: Exclude<ConsentChoice, null>) => {
-    setConsent(c);
-    setChoice(c);
-    setReopened(false);
+  const handleAccept = () => {
+    localStorage.setItem("ued_cookie_consent", "accepted");
+    setVisible(false);
   };
 
+  const handleReject = () => {
+    localStorage.setItem("ued_cookie_consent", "rejected");
+    setVisible(false);
+  };
+
+  const handleSavePreferences = () => {
+    localStorage.setItem(
+      "ued_cookie_consent",
+      analyticsAllowed ? "accepted" : "essential_only"
+    );
+    setVisible(false);
+    setShowPreferences(false);
+  };
+
+  if (!visible) return null;
+
   return (
-    <AnimatePresence>
-      <motion.div
-        initial={{ y: 80, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: 80, opacity: 0 }}
-        role="dialog"
-        aria-label="Cookie consent"
-        className="fixed bottom-4 left-4 right-4 sm:right-auto sm:max-w-md z-[60] rounded-2xl bg-[#122e24] text-[#f6f1e7] shadow-2xl border border-[#f6f1e7]/15 p-5"
-      >
+    <div className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 animate-slideUp font-sans">
+      <div className="bg-[#1c1a15] text-[#faf7f2] border border-[#3b372d] rounded-2xl p-5 shadow-2xl">
         <div className="flex items-start gap-3">
-          <Cookie size={22} className="text-[#d9734a] shrink-0 mt-0.5" aria-hidden="true" />
-          <div>
-            <p className="text-sm font-light leading-relaxed">
-              We use essential cookies to make this site work, and optional analytics
-              cookies to understand how visitors use it. Analytics only load with your
-              consent. See our{" "}
-              <Link to="/cookie-policy" className="underline underline-offset-2 text-[#d9734a] hover:opacity-80">
+          <Cookie className="text-[#a8b8aa] shrink-0 mt-0.5" size={22} />
+          <div className="flex-1">
+            <h4 className="font-serif text-base font-semibold">Privacy & Cookies</h4>
+            <p className="text-xs text-[#faf7f2]/70 mt-1 leading-relaxed">
+              We use essential cookies and anonymous analytics to improve your small space browsing experience and credit affiliate partners. Read our{" "}
+              <Link to="/cookie-policy" className="underline text-[#a8b8aa]">
                 Cookie Policy
-              </Link>
-              .
+              </Link>.
             </p>
+          </div>
+          <button
+            onClick={handleReject}
+            className="text-[#faf7f2]/50 hover:text-[#faf7f2] p-1"
+            aria-label="Close cookie banner"
+          >
+            <X size={18} />
+          </button>
+        </div>
 
-            {showSettings && (
-              <p className="mt-3 text-xs text-[#f6f1e7]/60 font-light leading-relaxed">
-                <strong className="text-[#f6f1e7]">Essential cookies</strong> — always on;
-                required for the site to function (including remembering this choice).
-                <br />
-                <strong className="text-[#f6f1e7]">Analytics cookies</strong> — optional;
-                help us improve the site. No personal details are tracked.
-              </p>
-            )}
+        {showPreferences && (
+          <div className="mt-4 pt-3 border-t border-[#2d2a23] space-y-2 text-xs">
+            <div className="flex items-center justify-between">
+              <span>Essential Functional Cookies</span>
+              <span className="text-[10px] text-[#a8b8aa] uppercase font-bold">Always Active</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span>Analytics & Affiliate Attribution</span>
+              <input
+                type="checkbox"
+                checked={analyticsAllowed}
+                onChange={(e) => setAnalyticsAllowed(e.target.checked)}
+                className="accent-[#4a5d4e]"
+              />
+            </div>
+          </div>
+        )}
 
-            <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap items-center justify-end gap-2 text-xs">
+          {showPreferences ? (
+            <button
+              onClick={handleSavePreferences}
+              className="px-4 py-2 rounded-full bg-[#4a5d4e] font-semibold text-[#faf7f2] hover:bg-[#5b7260]"
+            >
+              Save Preferences
+            </button>
+          ) : (
+            <>
               <button
-                onClick={() => decide("accepted")}
-                className="btn-terra px-4 py-2 rounded-full text-xs font-medium tracking-wide"
+                onClick={() => setShowPreferences(true)}
+                className="px-3 py-1.5 rounded-full border border-[#3b372d] text-[#faf7f2]/70 hover:text-[#faf7f2]"
               >
-                Accept Analytics
+                Manage Preferences
               </button>
               <button
-                onClick={() => decide("rejected")}
-                className="px-4 py-2 rounded-full text-xs font-medium tracking-wide border border-[#f6f1e7]/30 hover:bg-[#f6f1e7]/10 transition-colors"
+                onClick={handleReject}
+                className="px-3 py-1.5 rounded-full border border-[#3b372d] text-[#faf7f2]/70 hover:text-[#faf7f2]"
               >
                 Reject Non-Essential
               </button>
               <button
-                onClick={() => setShowSettings((s) => !s)}
-                className="px-4 py-2 rounded-full text-xs tracking-wide text-[#f6f1e7]/70 hover:text-[#f6f1e7] underline underline-offset-2"
-                aria-expanded={showSettings}
+                onClick={handleAccept}
+                className="px-4 py-2 rounded-full bg-[#4a5d4e] font-semibold text-[#faf7f2] hover:bg-[#5b7260]"
               >
-                Cookie Settings
+                Accept All
               </button>
-            </div>
-          </div>
+            </>
+          )}
         </div>
-      </motion.div>
-    </AnimatePresence>
+      </div>
+    </div>
   );
 }
