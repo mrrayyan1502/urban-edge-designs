@@ -4,7 +4,7 @@
  * No names, emails, phone numbers, or message contents are ever tracked.
  */
 
-const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "";
+const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "G-8F1TR8INLK";
 export const CONSENT_KEY = "ued_cookie_consent";
 
 export type ConsentChoice = "accepted" | "rejected" | "essential_only" | null;
