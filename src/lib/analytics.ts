@@ -1,13 +1,13 @@
 /**
  * Consent-gated Google Analytics.
- * GA (G-MX1K24JJSK) is only loaded AFTER the user accepts analytics cookies.
- * No names, emails, phone numbers or message contents are ever tracked.
+ * GA4 (VITE_GA_MEASUREMENT_ID) is only loaded AFTER the user accepts analytics cookies.
+ * No names, emails, phone numbers, or message contents are ever tracked.
  */
 
-const GA_ID = "G-MX1K24JJSK";
-const CONSENT_KEY = "ue_cookie_consent";
+const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "";
+export const CONSENT_KEY = "ued_cookie_consent";
 
-export type ConsentChoice = "accepted" | "rejected" | null;
+export type ConsentChoice = "accepted" | "rejected" | "essential_only" | null;
 
 declare global {
   interface Window {
@@ -19,7 +19,7 @@ declare global {
 export function getConsent(): ConsentChoice {
   try {
     const v = localStorage.getItem(CONSENT_KEY);
-    return v === "accepted" || v === "rejected" ? v : null;
+    return v === "accepted" || v === "rejected" || v === "essential_only" ? (v as ConsentChoice) : null;
   } catch {
     return null;
   }
@@ -29,15 +29,17 @@ export function setConsent(choice: Exclude<ConsentChoice, null>) {
   try {
     localStorage.setItem(CONSENT_KEY, choice);
   } catch {
-    /* storage unavailable — consent applies to this session only */
+    /* storage unavailable */
   }
-  if (choice === "accepted") loadAnalytics();
+  if (choice === "accepted") {
+    loadAnalytics();
+  }
 }
 
 function loadAnalytics() {
-  if (document.getElementById("ue-ga-script")) return;
+  if (!GA_ID || document.getElementById("ued-ga-script")) return;
   const s = document.createElement("script");
-  s.id = "ue-ga-script";
+  s.id = "ued-ga-script";
   s.async = true;
   s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
   document.head.appendChild(s);
@@ -56,20 +58,14 @@ export function initAnalytics() {
 }
 
 export type TrackEvent =
-  | "demo_view"
-  | "chatbot_open"
-  | "chatbot_message"
-  | "package_select"
-  | "whatsapp_click"
-  | "phone_click"
-  | "email_click"
-  | "quote_form_start"
-  | "quote_form_submit";
+  | "article_view"
+  | "shop_look_view"
+  | "affiliate_click"
+  | "category_select"
+  | "search_perform"
+  | "newsletter_submit"
+  | "contact_form_submit";
 
-/**
- * Non-personal context attached to every event: page path, traffic source
- * (referring host) and campaign (utm_campaign). Never includes any PII.
- */
 function baseParams(): Record<string, string> {
   const p: Record<string, string> = { page_path: window.location.pathname };
   try {
@@ -85,6 +81,6 @@ function baseParams(): Record<string, string> {
 
 /** Fires only when analytics consent has been given. Never pass personal data. */
 export function trackEvent(event: TrackEvent, params?: Record<string, string>) {
-  if (getConsent() !== "accepted" || typeof window.gtag !== "function") return;
+  if (getConsent() !== "accepted" || typeof window.gtag !== "function" || !GA_ID) return;
   window.gtag("event", event, { ...baseParams(), ...params });
 }
