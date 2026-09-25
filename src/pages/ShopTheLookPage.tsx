@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router";
 import { Sparkles, ShoppingBag, ExternalLink, AlertCircle, ChevronRight, Check } from "lucide-react";
-import { SHOP_THE_LOOK_ROOMS, ShopLookRoom, Product } from "@/data/contentData";
+import { SHOP_THE_LOOK_ROOMS } from "@/data/contentData";
 import PinterestButton from "@/components/PinterestButton";
 import AdPlaceholder from "@/components/AdPlaceholder";
 import { usePageMeta } from "@/lib/usePageMeta";

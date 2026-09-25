@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
-import { Search, Menu, X, ChevronDown, BookmarkHeart, Sparkles } from "lucide-react";
+import { Search, Menu, X, ChevronDown, Sparkles } from "lucide-react";
 import { CATEGORIES } from "@/data/contentData";
 
 export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
