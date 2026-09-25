@@ -5,7 +5,7 @@
 :root {
   --cream: #f6f1e7;
   --cream-2: #efe7d8;
-  --ink: #1c1a15;
+  --ink: #171611;
   --green: #122e24;
   --green-2: #1b3d30;
   --terra: #c05a2e;
@@ -151,3 +151,57 @@ html,
 body {
   overflow-x: clip;
 }
+
+/* ---------- Urban Edge luxury editorial layer ---------- */
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(200, 173, 127, 0.10), transparent 28rem),
+    linear-gradient(180deg, #fbf8f1 0%, #f8f5ee 34%, #f4efe5 100%);
+}
+
+h1, h2, h3, .font-serif {
+  text-wrap: balance;
+}
+
+header {
+  box-shadow: 0 1px 0 rgba(23, 22, 17, 0.03);
+}
+
+article img,
+section img {
+  backface-visibility: hidden;
+}
+
+.luxury-surface {
+  background: rgba(255, 253, 248, 0.68);
+  border: 1px solid rgba(139, 111, 71, 0.16);
+  box-shadow: 0 22px 70px -40px rgba(23, 22, 17, 0.28);
+  backdrop-filter: blur(14px);
+}
+
+.luxury-card {
+  background: rgba(255, 253, 248, 0.9);
+  border: 1px solid rgba(139, 111, 71, 0.13);
+  box-shadow: 0 16px 40px -32px rgba(23, 22, 17, 0.45);
+  transition: transform 280ms ease, box-shadow 280ms ease, border-color 280ms ease;
+}
+
+.luxury-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(139, 111, 71, 0.36);
+  box-shadow: 0 26px 54px -34px rgba(23, 22, 17, 0.44);
+}
+
+::selection {
+  background: rgba(200, 173, 127, 0.38);
+  color: #171611;
+}
+
+:focus-visible {
+  outline: 2px solid #8b6f47;
+  outline-offset: 3px;
+}
+
+::-webkit-scrollbar-track { background: #eee7db; }
+::-webkit-scrollbar-thumb { background: #b8a68a; }
+::-webkit-scrollbar-thumb:hover { background: #8b6f47; }

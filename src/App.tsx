@@ -23,7 +23,7 @@ export default function App() {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#faf7f2] font-sans text-[#1c1a15]">
+    <div className="min-h-screen flex flex-col bg-[#f8f5ee] font-sans text-[#171611]">
       <ScrollManager />
       <Header onOpenSearch={() => setSearchOpen(true)} />
 

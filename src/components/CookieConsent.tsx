@@ -38,21 +38,21 @@ export default function CookieConsent() {
 
   return (
     <div className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 animate-slideUp font-sans">
-      <div className="bg-[#1c1a15] text-[#faf7f2] border border-[#3b372d] rounded-2xl p-5 shadow-2xl">
+      <div className="bg-[#171611] text-[#f8f5ee] border border-[#3a342a] rounded-2xl p-5 shadow-2xl">
         <div className="flex items-start gap-3">
-          <Cookie className="text-[#a8b8aa] shrink-0 mt-0.5" size={22} />
+          <Cookie className="text-[#c8ad7f] shrink-0 mt-0.5" size={22} />
           <div className="flex-1">
             <h4 className="font-serif text-base font-semibold">Privacy & Cookies</h4>
-            <p className="text-xs text-[#faf7f2]/70 mt-1 leading-relaxed">
+            <p className="text-xs text-[#f8f5ee]/70 mt-1 leading-relaxed">
               We use essential cookies and anonymous analytics to improve your small space browsing experience and credit affiliate partners. Read our{" "}
-              <Link to="/cookie-policy" className="underline text-[#a8b8aa]">
+              <Link to="/cookie-policy" className="underline text-[#c8ad7f]">
                 Cookie Policy
               </Link>.
             </p>
           </div>
           <button
             onClick={handleReject}
-            className="text-[#faf7f2]/50 hover:text-[#faf7f2] p-1"
+            className="text-[#f8f5ee]/50 hover:text-[#f8f5ee] p-1"
             aria-label="Close cookie banner"
           >
             <X size={18} />
@@ -60,10 +60,10 @@ export default function CookieConsent() {
         </div>
 
         {showPreferences && (
-          <div className="mt-4 pt-3 border-t border-[#2d2a23] space-y-2 text-xs">
+          <div className="mt-4 pt-3 border-t border-[#2c2923] space-y-2 text-xs">
             <div className="flex items-center justify-between">
               <span>Essential Functional Cookies</span>
-              <span className="text-[10px] text-[#a8b8aa] uppercase font-bold">Always Active</span>
+              <span className="text-[10px] text-[#c8ad7f] uppercase font-bold">Always Active</span>
             </div>
             <div className="flex items-center justify-between">
               <span>Analytics & Affiliate Attribution</span>
@@ -71,7 +71,7 @@ export default function CookieConsent() {
                 type="checkbox"
                 checked={analyticsAllowed}
                 onChange={(e) => setAnalyticsAllowed(e.target.checked)}
-                className="accent-[#4a5d4e]"
+                className="accent-[#8b6f47]"
               />
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function CookieConsent() {
           {showPreferences ? (
             <button
               onClick={handleSavePreferences}
-              className="px-4 py-2 rounded-full bg-[#4a5d4e] font-semibold text-[#faf7f2] hover:bg-[#5b7260]"
+              className="px-4 py-2 rounded-full bg-[#8b6f47] font-semibold text-[#f8f5ee] hover:bg-[#a18358]"
             >
               Save Preferences
             </button>
@@ -89,19 +89,19 @@ export default function CookieConsent() {
             <>
               <button
                 onClick={() => setShowPreferences(true)}
-                className="px-3 py-1.5 rounded-full border border-[#3b372d] text-[#faf7f2]/70 hover:text-[#faf7f2]"
+                className="px-3 py-1.5 rounded-full border border-[#3a342a] text-[#f8f5ee]/70 hover:text-[#f8f5ee]"
               >
                 Manage Preferences
               </button>
               <button
                 onClick={handleReject}
-                className="px-3 py-1.5 rounded-full border border-[#3b372d] text-[#faf7f2]/70 hover:text-[#faf7f2]"
+                className="px-3 py-1.5 rounded-full border border-[#3a342a] text-[#f8f5ee]/70 hover:text-[#f8f5ee]"
               >
                 Reject Non-Essential
               </button>
               <button
                 onClick={handleAccept}
-                className="px-4 py-2 rounded-full bg-[#4a5d4e] font-semibold text-[#faf7f2] hover:bg-[#5b7260]"
+                className="px-4 py-2 rounded-full bg-[#8b6f47] font-semibold text-[#f8f5ee] hover:bg-[#a18358]"
               >
                 Accept All
               </button>

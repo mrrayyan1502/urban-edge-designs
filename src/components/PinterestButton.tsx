@@ -40,7 +40,7 @@ export default function PinterestButton({
 
       <button
         onClick={handleCopyLink}
-        className="p-1.5 rounded-full bg-[#1c1a15]/70 text-[#faf7f2] hover:bg-[#1c1a15] transition-colors shadow-md"
+        className="p-1.5 rounded-full bg-[#171611]/70 text-[#f8f5ee] hover:bg-[#171611] transition-colors shadow-md"
         title="Copy Link"
       >
         {copied ? <Check size={14} className="text-green-400" /> : <Share2 size={14} />}

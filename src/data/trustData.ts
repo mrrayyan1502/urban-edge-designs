@@ -19,7 +19,7 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
       },
       {
         heading: "Editorial Standards",
-        text: "Our editorial team tests, researches, and selects spatial layouts, multifunctional furniture, and decor that prioritize real-life utility, budget transparency, and durability. We never publish mass-generated thin pages or fake reviews."
+        text: "Our editorial process focuses on researching practical layouts, multifunctional furniture categories, materials and decor ideas for compact homes. We aim to distinguish inspiration from verified product information and do not publish fabricated first-hand reviews."
       }
     ]
   },
@@ -47,11 +47,31 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
     sections: [
       {
         heading: "1. Information We Collect",
-        text: "We collect voluntary email addresses when you subscribe to our newsletter and anonymous analytics usage data (via Google Analytics 4) to improve website performance."
+        text: "We only collect personal information when you deliberately provide it through a configured contact or newsletter service. Analytics should only be enabled after the required consent and tracking configuration is in place."
       },
       {
         heading: "2. Cookies & Tracking",
-        text: "We use essential cookies for site functionality and non-essential cookies for performance analytics and affiliate link attribution. You can customize cookie preferences anytime via our Cookie Consent banner."
+        text: "The site may use essential browser storage for preferences. Non-essential analytics or advertising technologies should only be activated in accordance with the consent choices shown in the cookie banner."
+      }
+    ]
+  },
+  "cookie-policy": {
+    slug: "cookie-policy",
+    title: "Cookie Policy",
+    lastUpdated: "September 2026",
+    summary: "How Urban Edge Design uses essential browser storage and how non-essential analytics or advertising technologies should be handled.",
+    sections: [
+      {
+        heading: "Essential Storage",
+        text: "The site may store essential preferences, such as your cookie-consent choice, so the interface can remember your selection."
+      },
+      {
+        heading: "Analytics & Advertising",
+        text: "Non-essential analytics, advertising, or affiliate-attribution technologies should only be loaded when they are configured and when the required consent has been obtained. You can reject non-essential tracking from the consent banner."
+      },
+      {
+        heading: "Changing Your Choice",
+        text: "If a consent-management control is enabled on the site, you can use it to update your preferences. You can also clear site data in your browser to reset the stored consent choice."
       }
     ]
   },
@@ -115,7 +135,7 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
     sections: [
       {
         heading: "Image Sources",
-        text: "Images featured on Urban Edge Design originate from licensed stock photography, brand press kits, designer submissions, and original photography. If you believe your copyrighted image has been used without attribution, please contact copyright@urban-edge-designs.com."
+        text: "Current editorial imagery is sourced from image providers and URLs referenced in the website code, including Unsplash imagery. Before adding third-party brand, designer, or reader-submitted photography, usage rights should be verified. Copyright concerns can be reported to contact@urban-edge-designs.com."
       }
     ]
   },
@@ -127,7 +147,7 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
     sections: [
       {
         heading: "Prompt Updates",
-        text: "We review product pricing and availability regularly. If you notice an outdated link or factual error, notify corrections@urban-edge-designs.com for immediate updating."
+        text: "Product pricing and availability can change quickly. Where live retailer verification is not configured, the site should avoid presenting a price as current. If you notice an outdated link or factual error, email contact@urban-edge-designs.com so it can be reviewed."
       }
     ]
   }

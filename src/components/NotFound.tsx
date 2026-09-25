@@ -1,51 +1,35 @@
 import { Link } from "react-router";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Search, Sparkles } from "lucide-react";
 import { usePageMeta } from "@/lib/usePageMeta";
-import { DEMO_ROUTES } from "@/data/demos";
 
 export default function NotFound() {
   usePageMeta(
-    "Page Not Found | Urban Edge Designs",
-    "The page you are looking for does not exist. Return to Urban Edge Designs — web design and AI chatbots for UK small businesses.",
+    "Page Not Found | Urban Edge Design",
+    "The page you are looking for could not be found. Explore small-space interior ideas and curated room inspiration from Urban Edge Design.",
     true
   );
 
   return (
-    <main className="min-h-screen bg-[#f6f1e7] flex items-center justify-center px-5 py-24">
-      <div className="text-center max-w-xl">
-        <div className="font-display text-8xl md:text-9xl text-[#c05a2e] leading-none">404</div>
-        <h1 className="mt-4 font-display text-3xl md:text-4xl text-[#1c1a15]">
-          This page doesn't exist
-        </h1>
-        <p className="mt-4 text-[#1c1a15]/60 font-light leading-relaxed">
-          The link may be old or mistyped. Let's get you back to something useful.
+    <main className="min-h-[70vh] bg-[#f8f5ee] flex items-center justify-center px-5 py-24">
+      <div className="text-center max-w-2xl">
+        <span className="text-[11px] uppercase tracking-[0.3em] text-[#8b6f47] font-semibold">Urban Edge Design</span>
+        <div className="font-serif text-8xl md:text-9xl text-[#171611] leading-none mt-3">404</div>
+        <h1 className="mt-4 font-serif text-3xl md:text-4xl text-[#171611]">This space is still empty.</h1>
+        <p className="mt-4 text-[#171611]/60 font-light leading-relaxed">
+          The link may be old, mistyped, or no longer available. Continue with our most useful small-space collections.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <Link
-            to="/"
-            className="btn-green flex items-center gap-2 px-7 py-3.5 rounded-full text-sm font-medium min-h-[44px]"
-          >
-            <ArrowLeft size={15} aria-hidden="true" /> Back to Home
+          <Link to="/" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#171611] text-[#f8f5ee] text-sm font-medium hover:bg-[#8b6f47] transition-colors min-h-[44px]">
+            <ArrowLeft size={15} /> Back to Home
+          </Link>
+          <Link to="/shop-the-look" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-[#171611]/20 text-sm font-medium hover:border-[#8b6f47] hover:text-[#8b6f47] transition-colors min-h-[44px]">
+            <Sparkles size={15} /> Shop the Look
           </Link>
         </div>
-        <nav aria-label="Popular pages" className="mt-10">
-          <p className="text-xs tracking-[0.25em] uppercase text-[#1c1a15]/40 mb-3">Or explore a demo</p>
-          <div className="flex flex-wrap justify-center gap-2">
-            {[
-              { label: "Spa & Salon", to: DEMO_ROUTES.spa },
-              { label: "Trades", to: DEMO_ROUTES.trades },
-              { label: "Restaurant", to: DEMO_ROUTES.restaurant },
-              { label: "Dental", to: DEMO_ROUTES.dental },
-            ].map((l) => (
-              <Link
-                key={l.to}
-                to={l.to}
-                className="px-4 py-2 rounded-full border border-[#1c1a15]/20 text-sm text-[#1c1a15]/70 hover:border-[#c05a2e] hover:text-[#c05a2e] transition-colors"
-              >
-                {l.label}
-              </Link>
-            ))}
-          </div>
+        <nav aria-label="Popular pages" className="mt-10 flex flex-wrap justify-center gap-2 text-xs">
+          <Link to="/category/living-room" className="px-4 py-2 rounded-full bg-white/50 border border-[#ded4c2] hover:border-[#8b6f47]">Living Room</Link>
+          <Link to="/category/bedroom" className="px-4 py-2 rounded-full bg-white/50 border border-[#ded4c2] hover:border-[#8b6f47]">Bedroom</Link>
+          <Link to="/category/small-apartments" className="px-4 py-2 rounded-full bg-white/50 border border-[#ded4c2] hover:border-[#8b6f47]">Small Apartments</Link>
         </nav>
       </div>
     </main>

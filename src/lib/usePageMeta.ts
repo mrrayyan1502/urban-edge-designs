@@ -3,36 +3,38 @@ import { useLocation } from "react-router";
 
 const SITE_URL = "https://urban-edge-designs.com";
 
-/** Sets document title + meta description + canonical + robots per page (client-side routing). */
+function setMeta(selector: string, attr: "name" | "property", key: string, content: string) {
+  let element = document.head.querySelector<HTMLMetaElement>(selector);
+  if (!element) {
+    element = document.createElement("meta");
+    element.setAttribute(attr, key);
+    document.head.appendChild(element);
+  }
+  element.setAttribute("content", content);
+}
+
+/** Keeps essential SEO/social metadata in sync with client-side routes. */
 export function usePageMeta(title: string, description: string, noindex = false) {
   const { pathname } = useLocation();
 
   useEffect(() => {
+    const canonicalUrl = `${SITE_URL}${pathname === "/" ? "/" : pathname.replace(/\/$/, "")}`;
     document.title = title;
 
-    let meta = document.querySelector('meta[name="description"]');
-    if (!meta) {
-      meta = document.createElement("meta");
-      meta.setAttribute("name", "description");
-      document.head.appendChild(meta);
-    }
-    meta.setAttribute("content", description);
+    setMeta('meta[name="description"]', "name", "description", description);
+    setMeta('meta[name="robots"]', "name", "robots", noindex ? "noindex, follow" : "index, follow");
+    setMeta('meta[property="og:title"]', "property", "og:title", title);
+    setMeta('meta[property="og:description"]', "property", "og:description", description);
+    setMeta('meta[property="og:url"]', "property", "og:url", canonicalUrl);
+    setMeta('meta[name="twitter:title"]', "name", "twitter:title", title);
+    setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
 
-    let robots = document.querySelector('meta[name="robots"]');
-    if (!robots) {
-      robots = document.createElement("meta");
-      robots.setAttribute("name", "robots");
-      document.head.appendChild(robots);
-    }
-    robots.setAttribute("content", noindex ? "noindex, follow" : "index, follow");
-
-    let canonical = document.querySelector('link[rel="canonical"]');
+    let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement("link");
       canonical.setAttribute("rel", "canonical");
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute("href", `${SITE_URL}${pathname === "/" ? "/" : pathname.replace(/\/$/, "")}`);
+    canonical.setAttribute("href", canonicalUrl);
   }, [title, description, noindex, pathname]);
 }
-

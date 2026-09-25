@@ -5,7 +5,7 @@ export interface Article {
   excerpt: string;
   category: "Living Room" | "Bedroom" | "Kitchen" | "Bathroom" | "Small Apartments" | "Storage" | "Decor";
   roomSlug: string;
-  style: "Modern" | "Minimalist" | "Japandi" | "Scandinavian" | "Contemporary" | "Industrial";
+  style: "Modern" | "Minimalist" | "Warm Minimalist" | "Japandi" | "Scandinavian" | "Contemporary" | "Industrial";
   color: "Neutral" | "Green" | "Beige" | "White" | "Dark" | "Terracotta";
   budget: "Budget" | "Mid-range" | "Premium";
   space: "Tiny" | "Small" | "Medium";
@@ -172,16 +172,16 @@ export const CATEGORIES = [
 
 export const AUTHORS = [
   {
-    name: "Elena Rostova",
-    role: "Senior Architectural & Interior Editor",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
-    bio: "Elena specializes in urban micro-living and Scandinavian minimalism. She has designed over 40 apartment makeovers across London and Berlin."
+    name: "Urban Edge Design Editorial Team",
+    role: "Small-space interiors & editorial research",
+    avatar: "/og-image.png",
+    bio: "Our editorial team researches practical layouts, space-saving ideas, materials and product categories for compact homes."
   },
   {
-    name: "Marcus Vance",
-    role: "Furniture & Spatial Design Strategist",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
-    bio: "Marcus consults for space-saving modular furniture brands and writes about rental-friendly DIY renovations."
+    name: "Urban Edge Design Product Desk",
+    role: "Furniture & product research",
+    avatar: "/og-image.png",
+    bio: "Our product desk curates space-conscious furniture and decor references. Product availability, pricing and retailer links should be verified before publication."
   }
 ];
 
@@ -196,74 +196,74 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
     colorPalette: ["#FAF7F2", "#D8C4B6", "#4F4A45", "#A89A8E"],
     heroImage: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
     description: "Designed specifically for narrow urban apartments. This look combines a low-profile linen sofa, slim nesting oak tables, and neutral bouclé cushions to maximize perceived floor space.",
-    designerNotes: "Keep the sofa legs exposed and elevated from the floor to allow light to flow underneath, instantly making a 12sqm room feel 30% wider.",
+    designerNotes: "Keep the sofa visually light and elevated on exposed legs. Seeing more continuous floor area can help a compact room feel less crowded.",
     products: [
       {
         id: "p1",
-        name: "Kanso 2-Seater Linen Sofa in Oat",
-        brand: "NORDIC HOME",
-        retailer: "Made / Design Co",
-        price: "£599.00",
+        name: "Compact linen-look 2-seater sofa",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80",
         description: "Slim armrests and raised tapered legs engineered for compact living rooms.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa",
         tier: "Featured"
       },
       {
         id: "p2",
-        name: "Solid Oak Nesting Coffee Tables (Set of 2)",
-        brand: "URBAN WOOD",
-        retailer: "John Lewis & Partners",
-        price: "£189.00",
+        name: "Oak-look nesting coffee tables",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=80",
         description: "Tuck the smaller table away when entertaining or pull out for drinks.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=nesting+coffee+tables",
         tier: "Featured"
       },
       {
         id: "p3",
-        name: "Woven Jute & Wool Area Rug (160x230cm)",
-        brand: "CRAFT & WEAVE",
-        retailer: "Dunelm / Amazon",
-        price: "£120.00",
+        name: "Natural-texture area rug",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=600&q=80",
         description: "Natural fibers add tactile warmth without visual clutter.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=natural+area+rug",
         tier: "Featured"
       },
       {
         id: "p4",
-        name: "Adjustable Brass Arch Floor Lamp",
-        brand: "LUMEN STUDIO",
-        retailer: "Oliver Bonas",
-        price: "£145.00",
+        name: "Slim arch floor lamp",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
         description: "Frees up table surfaces by arching light directly over the sofa corner.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=slim+arch+floor+lamp",
         tier: "Featured"
       }
     ],
     budgetAlternatives: [
       {
         id: "p5",
-        name: "Compact 2-Seater Fabric Sofa - Sand",
-        brand: "HOME ESSENTIALS",
+        name: "Compact sand-tone 2-seater sofa",
+        brand: "STYLE REFERENCE",
         retailer: "Amazon UK",
-        price: "£279.00",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=600&q=80",
         description: "Budget-friendly alternative with clean lines and stain-resistant fabric.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=compact+2+seater+sofa",
         tier: "Budget"
       },
       {
         id: "p6",
-        name: "Round Stacking Coffee Table Pair",
-        brand: "MODERN LIVING",
-        retailer: "Wayfair",
-        price: "£79.00",
+        name: "Round stacking coffee table pair",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=600&q=80",
         description: "Lighter weight veneer tables perfect for rental flats.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=stacking+coffee+tables",
         tier: "Budget"
       }
     ]
@@ -282,37 +282,37 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
     products: [
       {
         id: "p7",
-        name: "Lift-Up Storage Ottoman Bed (Double)",
-        brand: "SLEEP & SPACE",
-        retailer: "Dreams / Amazon",
-        price: "£449.00",
+        name: "Lift-up storage ottoman bed",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80",
-        description: "Hydraulic lift mechanism reveals 650 liters of hidden under-bed storage for bedding and luggage.",
-        affiliateUrl: "https://amazon.co.uk",
+        description: "Lift-up storage creates useful hidden space for bedding, seasonal clothing and luggage.",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=ottoman+storage+bed",
         tier: "Featured"
       },
       {
         id: "p8",
-        name: "Floating Oak Bedside Shelf with Drawer",
-        brand: "URBAN CRAFT",
-        retailer: "Etsy / Amazon",
-        price: "£65.00",
+        name: "Floating bedside shelf with drawer",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80",
         description: "Zero floor contact makes small bedroom floors appear continuous.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=floating+bedside+shelf",
         tier: "Featured"
       }
     ],
     budgetAlternatives: [
       {
         id: "p9",
-        name: "Underbed Rolling Storage Bins (Set of 2)",
-        brand: "STORAGE PRO",
+        name: "Low-profile under-bed storage bins",
+        brand: "STYLE REFERENCE",
         retailer: "Amazon UK",
-        price: "£34.99",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80",
         description: "Dust-proof zippered containers with reinforced handles.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=underbed+storage+bins",
         tier: "Budget"
       }
     ]
@@ -331,13 +331,13 @@ export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
     products: [
       {
         id: "p10",
-        name: "Low-Rider 3-Seater Sofa in Charcoal",
-        brand: "JAPANDI STUDIO",
-        retailer: "Habitat / Argos",
-        price: "£499.00",
+        name: "Low-profile charcoal sofa",
+        brand: "STYLE REFERENCE",
+        retailer: "Amazon UK search",
+        price: "Check current price",
         image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80",
         description: "Grounded seating height emphasizes room ceiling height.",
-        affiliateUrl: "https://amazon.co.uk",
+        affiliateUrl: "https://www.amazon.co.uk/s?k=low+profile+sofa",
         tier: "Featured"
       }
     ],
@@ -578,6 +578,120 @@ export const ARTICLES: Article[] = [
     ],
     relatedArticleSlugs: ["small-living-room-ideas", "small-bedroom-storage"],
     relatedShopLookSlugs: ["warm-minimalist-living-room"]
+  },
+  {
+    id: "art-5",
+    slug: "small-bathroom-ideas",
+    title: "17 Small Bathroom Ideas That Feel Calm, Useful and Uncluttered",
+    excerpt: "Use floating storage, clearer sightlines, layered lighting and restrained finishes to make a compact bathroom work harder without feeling busy.",
+    category: "Bathroom",
+    roomSlug: "bathroom",
+    style: "Modern",
+    color: "Neutral",
+    budget: "Mid-range",
+    space: "Small",
+    propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=82",
+    pinterestImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0],
+    publishDate: "2026-09-18",
+    updatedDate: "2026-09-25",
+    readTime: "6 min read",
+    toc: [
+      { id: "floating-storage", title: "Choose Floating Storage" },
+      { id: "visual-continuity", title: "Create Visual Continuity" },
+      { id: "layered-lighting", title: "Layer the Lighting" }
+    ],
+    content: {
+      intro: "A small bathroom usually feels better when the visual field is simple and the floor remains as visible as possible. Start with the layout, then add storage only where it solves a real daily problem.",
+      sections: [
+        { id: "floating-storage", title: "Choose Floating Storage", body: "Wall-mounted vanities, slim mirrored cabinets and shallow shelves keep essentials close without making the floor plan feel heavier. Prioritise storage depth carefully so doors and circulation paths remain comfortable.", tip: "Measure door swings, towel-rail clearance and knee space before ordering wall-mounted furniture." },
+        { id: "visual-continuity", title: "Create Visual Continuity", body: "Using a limited material palette can reduce visual fragmentation. Repeating one tile tone or keeping grout contrast subtle often makes a compact room feel calmer than mixing many competing finishes." },
+        { id: "layered-lighting", title: "Layer the Lighting", body: "Combine practical overhead light with softer mirror lighting where possible. Good facial illumination and fewer harsh shadows improve function while making the room feel more considered." }
+      ]
+    },
+    faqs: [
+      { question: "How do I make a very small bathroom feel less cramped?", answer: "Keep circulation clear, use appropriately scaled fixtures, reduce visual clutter and favour storage that does not unnecessarily occupy floor area." },
+      { question: "Are large tiles suitable for small bathrooms?", answer: "They can be. Fewer grout lines may create a calmer visual field, but tile size should still suit the room geometry, falls and installation requirements." }
+    ],
+    relatedArticleSlugs: ["small-living-room-ideas", "studio-apartment-layout-ideas"],
+    relatedShopLookSlugs: []
+  },
+  {
+    id: "art-6",
+    slug: "small-space-storage-ideas",
+    title: "21 Small-Space Storage Ideas That Keep Everyday Clutter Under Control",
+    excerpt: "Build useful storage into overlooked vertical, under-bed and transitional areas without filling every wall with bulky furniture.",
+    category: "Storage",
+    roomSlug: "storage",
+    style: "Minimalist",
+    color: "Neutral",
+    budget: "Budget",
+    space: "Small",
+    propertyType: "Flat",
+    heroImage: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=82",
+    pinterestImage: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0],
+    publishDate: "2026-09-19",
+    updatedDate: "2026-09-25",
+    readTime: "7 min read",
+    toc: [
+      { id: "vertical-space", title: "Use Vertical Space Intentionally" },
+      { id: "hidden-storage", title: "Choose Hidden Storage for High-Clutter Items" },
+      { id: "entry-zones", title: "Give the Entryway a Landing Zone" }
+    ],
+    content: {
+      intro: "The goal of small-space storage is not to hide more possessions in the same footprint. It is to give frequently used items a predictable home while protecting circulation, daylight and visual calm.",
+      sections: [
+        { id: "vertical-space", title: "Use Vertical Space Intentionally", body: "Tall shelving, wall rails and over-door solutions can use height without consuming much floor area. Keep the most-used items between waist and eye level, and reserve harder-to-reach shelves for seasonal belongings." },
+        { id: "hidden-storage", title: "Choose Hidden Storage for High-Clutter Items", body: "Beds, benches and ottomans with concealed compartments work best for items that are bulky but not constantly accessed. Avoid buying storage furniture before measuring what actually needs to go inside." },
+        { id: "entry-zones", title: "Give the Entryway a Landing Zone", body: "A compact tray, hooks and one closed basket can prevent keys, bags, shoes and post from migrating through the rest of the home.", tip: "A storage system is successful when it reduces daily friction, not when every empty surface has been filled." }
+      ]
+    },
+    faqs: [
+      { question: "What should I store first in a small flat?", answer: "Start with the items that currently create daily clutter: shoes, outerwear, laundry, charging cables, cleaning supplies and frequently used kitchen items." },
+      { question: "Is open shelving good for a small space?", answer: "It can be, especially for attractive or frequently used items, but too much exposed storage can increase visual noise. A mix of open and closed storage is often easier to maintain." }
+    ],
+    relatedArticleSlugs: ["small-bedroom-storage", "studio-apartment-layout-ideas"],
+    relatedShopLookSlugs: ["modern-small-bedroom"]
+  },
+  {
+    id: "art-7",
+    slug: "small-space-decor-ideas",
+    title: "19 Small-Space Decor Ideas for a More Polished, Less Cluttered Home",
+    excerpt: "Use scale, texture, mirrors, lighting and a disciplined colour story to add personality without overwhelming a compact room.",
+    category: "Decor",
+    roomSlug: "decor",
+    style: "Warm Minimalist",
+    color: "Beige",
+    budget: "Budget",
+    space: "Small",
+    propertyType: "Rental",
+    heroImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1400&q=82",
+    pinterestImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[1],
+    publishDate: "2026-09-20",
+    updatedDate: "2026-09-25",
+    readTime: "6 min read",
+    toc: [
+      { id: "scale", title: "Choose Fewer, Better-Scaled Pieces" },
+      { id: "mirrors", title: "Use Mirrors for Light, Not Just Decoration" },
+      { id: "texture", title: "Layer Texture Within a Tight Palette" }
+    ],
+    content: {
+      intro: "Compact rooms rarely need tiny versions of everything. A restrained number of correctly scaled pieces usually looks more intentional than many small accessories competing for attention.",
+      sections: [
+        { id: "scale", title: "Choose Fewer, Better-Scaled Pieces", body: "One well-proportioned artwork, rug or pendant can create a stronger focal point than a collection of undersized accents. Leave breathing room around decorative objects so each one has visual purpose." },
+        { id: "mirrors", title: "Use Mirrors for Light, Not Just Decoration", body: "Place mirrors where they can reflect daylight or an attractive sightline rather than automatically hanging them on the darkest wall. Consider what will actually be reflected from normal viewing positions." },
+        { id: "texture", title: "Layer Texture Within a Tight Palette", body: "Linen, timber, wool, ceramic and woven fibres can add depth even when the colour palette stays restrained. Texture is especially useful in rentals where major architectural changes are not practical.", tip: "Before adding another decorative object, ask whether changing scale, lighting or texture would solve the room more elegantly." }
+      ]
+    },
+    faqs: [
+      { question: "How many colours should I use in a small room?", answer: "There is no fixed number, but a limited base palette with one or two controlled accents is usually easier to make cohesive in a compact room." },
+      { question: "Should small rooms only use light colours?", answer: "No. Dark colours can work well when used deliberately. What matters is the relationship between daylight, artificial lighting, contrast, furniture scale and the atmosphere you want." }
+    ],
+    relatedArticleSlugs: ["small-living-room-ideas", "small-bedroom-storage"],
+    relatedShopLookSlugs: ["warm-minimalist-living-room", "japandi-living-room"]
   }
 ];
 

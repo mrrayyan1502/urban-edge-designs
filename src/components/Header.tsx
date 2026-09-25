@@ -26,20 +26,20 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
     <header
       className={`sticky top-0 z-40 transition-all duration-300 border-b ${
         scrolled
-          ? "bg-[#faf7f2]/95 backdrop-blur-md border-[#e5dfd3] shadow-sm py-3"
-          : "bg-[#faf7f2] border-[#eee8dc] py-4"
+          ? "bg-[#f8f5ee]/95 backdrop-blur-md border-[#ded4c2] shadow-sm py-3"
+          : "bg-[#f8f5ee] border-[#ebe3d5] py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top announcement / subhead bar */}
-        <div className="hidden lg:flex items-center justify-between pb-2 border-b border-[#eee8dc]/70 mb-3 text-[11px] tracking-wider uppercase text-[#1c1a15]/60 font-sans">
+        <div className="hidden lg:flex items-center justify-between pb-2 border-b border-[#ebe3d5]/70 mb-3 text-[11px] tracking-wider uppercase text-[#171611]/60 font-sans">
           <div className="flex items-center gap-2">
-            <span className="inline-block w-2 h-2 rounded-full bg-[#4a5d4e]"></span>
+            <span className="inline-block w-2 h-2 rounded-full bg-[#8b6f47]"></span>
             <span>Better ideas for smaller spaces</span>
           </div>
           <div className="flex items-center gap-6">
-            <span>UK & International Small Home Editions</span>
-            <Link to="/affiliate-disclosure" className="hover:text-[#4a5d4e] transition-colors">
+            <span>Interiors · Compact Living · Curated Finds</span>
+            <Link to="/affiliate-disclosure" className="hover:text-[#8b6f47] transition-colors">
               Affiliate Disclosure
             </Link>
           </div>
@@ -49,22 +49,22 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-md bg-[#1c1a15] text-[#faf7f2] flex items-center justify-center font-serif text-lg font-bold tracking-tighter group-hover:bg-[#4a5d4e] transition-colors">
+            <div className="w-11 h-11 rounded-full border border-[#8b6f47]/45 bg-[#171611] text-[#c8ad7f] flex items-center justify-center font-serif text-base font-semibold tracking-tight group-hover:border-[#8b6f47] group-hover:bg-[#211f1a] transition-all">
               UE
             </div>
             <div>
-              <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#1c1a15]">
-                Urban Edge <span className="font-serif italic text-[#4a5d4e]">Design</span>
+              <span className="font-serif text-xl sm:text-2xl font-semibold tracking-tight text-[#171611]">
+                Urban Edge <span className="font-serif italic text-[#8b6f47]">Design</span>
               </span>
-              <span className="block text-[10px] tracking-[0.25em] uppercase text-[#1c1a15]/60 font-sans -mt-1">
+              <span className="block text-[10px] tracking-[0.25em] uppercase text-[#171611]/60 font-sans -mt-1">
                 Smart Interiors for Modern Living
               </span>
             </div>
           </Link>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden lg:flex items-center gap-6 text-xs tracking-wider uppercase font-medium text-[#1c1a15]/80 font-sans">
-            <Link to="/" className="hover:text-[#4a5d4e] transition-colors py-1">
+          <nav className="hidden lg:flex items-center gap-6 text-xs tracking-wider uppercase font-medium text-[#171611]/80 font-sans">
+            <Link to="/" className="hover:text-[#8b6f47] transition-colors py-1">
               Home
             </Link>
 
@@ -78,23 +78,23 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
               >
                 <Link
                   to={`/category/${cat.slug}`}
-                  className="hover:text-[#4a5d4e] transition-colors flex items-center gap-1 py-1"
+                  className="hover:text-[#8b6f47] transition-colors flex items-center gap-1 py-1"
                 >
                   {cat.name}
                   <ChevronDown size={12} className="opacity-60" />
                 </Link>
 
                 {activeDropdown === cat.slug && (
-                  <div className="absolute top-full left-0 w-64 bg-[#faf7f2] border border-[#e5dfd3] shadow-lg rounded-md p-4 mt-1 z-50 animate-fadeIn">
-                    <p className="text-[10px] uppercase font-bold text-[#4a5d4e] tracking-widest mb-2 border-b border-[#eee8dc] pb-1">
+                  <div className="absolute top-full left-0 w-64 bg-[#f8f5ee] border border-[#ded4c2] shadow-2xl rounded-2xl p-4 mt-1 z-50 animate-fadeIn">
+                    <p className="text-[10px] uppercase font-bold text-[#8b6f47] tracking-widest mb-2 border-b border-[#ebe3d5] pb-1">
                       {cat.name} Topics
                     </p>
                     <ul className="space-y-2">
                       {cat.subcategories.slice(0, 6).map((sub, idx) => (
                         <li key={idx}>
                           <Link
-                            to={`/category/${cat.slug}`}
-                            className="text-xs text-[#1c1a15]/80 hover:text-[#4a5d4e] normal-case block transition-colors"
+                            to={`/category/${cat.slug}?topic=${encodeURIComponent(sub)}`}
+                            className="text-xs text-[#171611]/80 hover:text-[#8b6f47] normal-case block transition-colors"
                           >
                             {sub}
                           </Link>
@@ -106,15 +106,15 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
               </div>
             ))}
 
-            <Link to="/category/storage" className="hover:text-[#4a5d4e] transition-colors py-1">
+            <Link to="/category/storage" className="hover:text-[#8b6f47] transition-colors py-1">
               Storage
             </Link>
-            <Link to="/category/decor" className="hover:text-[#4a5d4e] transition-colors py-1">
+            <Link to="/category/decor" className="hover:text-[#8b6f47] transition-colors py-1">
               Decor
             </Link>
             <Link
               to="/shop-the-look"
-              className="text-[#4a5d4e] font-semibold hover:text-[#1c1a15] transition-colors flex items-center gap-1 py-1"
+              className="text-[#8b6f47] font-semibold hover:text-[#171611] transition-colors flex items-center gap-1 py-1"
             >
               <Sparkles size={13} />
               Shop the Look
@@ -125,7 +125,7 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
           <div className="flex items-center gap-3">
             <button
               onClick={onOpenSearch}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-full border border-[#e5dfd3] text-xs text-[#1c1a15]/70 hover:border-[#1c1a15] hover:text-[#1c1a15] transition-all bg-[#faf7f2]"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-full border border-[#ded4c2] text-xs text-[#171611]/70 hover:border-[#171611] hover:text-[#171611] transition-all bg-[#f8f5ee]"
               aria-label="Search site"
             >
               <Search size={14} />
@@ -134,7 +134,7 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-[#1c1a15]"
+              className="lg:hidden p-2 text-[#171611]"
               aria-label="Toggle navigation menu"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -144,28 +144,28 @@ export default function Header({ onOpenSearch }: { onOpenSearch: () => void }) {
 
         {/* Mobile Navigation Drawer */}
         {mobileMenuOpen && (
-          <div className="lg:hidden mt-4 pt-4 border-t border-[#eee8dc] pb-6 space-y-4 animate-fadeIn">
+          <div className="lg:hidden mt-4 pt-4 border-t border-[#ebe3d5] pb-6 space-y-4 animate-fadeIn">
             <nav className="flex flex-col space-y-3 font-sans text-sm tracking-wide">
-              <Link to="/" className="font-semibold text-[#1c1a15]">
+              <Link to="/" className="font-semibold text-[#171611]">
                 Home
               </Link>
               {CATEGORIES.map((cat) => (
                 <Link
                   key={cat.slug}
                   to={`/category/${cat.slug}`}
-                  className="text-[#1c1a15]/80 hover:text-[#4a5d4e] pl-2 border-l-2 border-[#eee8dc]"
+                  className="text-[#171611]/80 hover:text-[#8b6f47] pl-2 border-l-2 border-[#ebe3d5]"
                 >
                   {cat.name}
                 </Link>
               ))}
               <Link
                 to="/shop-the-look"
-                className="font-semibold text-[#4a5d4e] flex items-center gap-1 pt-2"
+                className="font-semibold text-[#8b6f47] flex items-center gap-1 pt-2"
               >
                 <Sparkles size={14} />
                 Shop the Look
               </Link>
-              <Link to="/about-us" className="text-xs uppercase tracking-wider text-[#1c1a15]/60 pt-2">
+              <Link to="/about-us" className="text-xs uppercase tracking-wider text-[#171611]/60 pt-2">
                 About Urban Edge Design
               </Link>
             </nav>
