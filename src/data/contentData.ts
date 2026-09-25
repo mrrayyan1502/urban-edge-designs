@@ -349,7 +349,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-1",
     slug: "small-living-room-ideas",
-    title: "25 Small Living Room Ideas That Make the Most of Your Space",
+    title: "Small Living Room Ideas That Make the Most of Your Space",
     excerpt: "Transform a cramped urban living room into a light, functional haven with multi-use furniture, elevated sightlines, and clever wall storage.",
     category: "Living Room",
     roomSlug: "living-room",
@@ -433,7 +433,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-2",
     slug: "small-bedroom-storage",
-    title: "21 Small Bedroom Storage Ideas That Keep Clothes & Clutter Hidden",
+    title: "Small Bedroom Storage Ideas That Keep Clothes & Clutter Hidden",
     excerpt: "Conquer small bedroom clutter with ottoman lift-up beds, vertical hanging organisers, and floating bedside drawers.",
     category: "Bedroom",
     roomSlug: "bedroom",
@@ -486,7 +486,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-3",
     slug: "studio-apartment-layout-ideas",
-    title: "19 Studio Apartment Layout Ideas for Seamless Micro Living",
+    title: "Studio Apartment Layout Ideas for Seamless Micro Living",
     excerpt: "Learn how to define distinct sleep, work, and living zones in a single room studio without building permanent walls.",
     category: "Small Apartments",
     roomSlug: "small-apartments",
@@ -582,7 +582,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-5",
     slug: "small-bathroom-ideas",
-    title: "17 Small Bathroom Ideas That Feel Calm, Useful and Uncluttered",
+    title: "Small Bathroom Ideas That Feel Calm, Useful and Uncluttered",
     excerpt: "Use floating storage, clearer sightlines, layered lighting and restrained finishes to make a compact bathroom work harder without feeling busy.",
     category: "Bathroom",
     roomSlug: "bathroom",
@@ -620,7 +620,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-6",
     slug: "small-space-storage-ideas",
-    title: "21 Small-Space Storage Ideas That Keep Everyday Clutter Under Control",
+    title: "Small-Space Storage Ideas That Keep Everyday Clutter Under Control",
     excerpt: "Build useful storage into overlooked vertical, under-bed and transitional areas without filling every wall with bulky furniture.",
     category: "Storage",
     roomSlug: "storage",
@@ -658,7 +658,7 @@ export const ARTICLES: Article[] = [
   {
     id: "art-7",
     slug: "small-space-decor-ideas",
-    title: "19 Small-Space Decor Ideas for a More Polished, Less Cluttered Home",
+    title: "Small-Space Decor Ideas for a More Polished, Less Cluttered Home",
     excerpt: "Use scale, texture, mirrors, lighting and a disciplined colour story to add personality without overwhelming a compact room.",
     category: "Decor",
     roomSlug: "decor",
@@ -692,12 +692,234 @@ export const ARTICLES: Article[] = [
     ],
     relatedArticleSlugs: ["small-living-room-ideas", "small-bedroom-storage"],
     relatedShopLookSlugs: ["warm-minimalist-living-room", "japandi-living-room"]
+  },
+  {
+    id: "art-8",
+    slug: "small-bedroom-ideas",
+    title: "Small Bedroom Ideas for a Calm, Space-Smart Room",
+    excerpt: "Make a compact bedroom feel calmer with better furniture scale, wall-mounted lighting, concealed storage and a restrained colour palette.",
+    category: "Bedroom", roomSlug: "bedroom", style: "Warm Minimalist", color: "Neutral", budget: "Mid-range", space: "Small", propertyType: "Flat",
+    heroImage: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1400&q=82",
+    pinterestImage: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "scale", title: "Start with furniture scale" }, { id: "walls", title: "Move useful functions to the walls" }, { id: "palette", title: "Keep the visual palette calm" }],
+    content: { intro: "In a small bedroom, the layout matters more than adding decorative pieces. Start by protecting the path around the bed, then choose storage and lighting that reduce floor clutter.", sections: [
+      { id: "scale", title: "Start with furniture scale", body: "Measure the bed wall and circulation first. A slightly narrower bedside table, a bed with exposed legs or a low-profile frame can preserve breathing room without making the room feel under-furnished.", tip: "Mark the proposed furniture footprint on the floor with painter's tape before buying." },
+      { id: "walls", title: "Move useful functions to the walls", body: "Wall-mounted sconces, floating shelves and slim hooks can replace bulky bedside furniture. Keep the most-used items close to hand and avoid filling every vertical surface." },
+      { id: "palette", title: "Keep the visual palette calm", body: "A limited combination of wall colour, bedding and timber tones makes the room easier to read visually. Add personality through texture rather than many small contrasting accessories." }
+    ]},
+    faqs: [{ question: "Where should a bed go in a small bedroom?", answer: "Choose the wall that preserves the clearest circulation path and access to wardrobes, doors and windows. Symmetry is useful only when it does not waste space." }],
+    relatedArticleSlugs: ["small-bedroom-storage", "small-space-storage-ideas", "small-space-decor-ideas"], relatedShopLookSlugs: ["modern-small-bedroom"]
+  },
+  {
+    id: "art-9",
+    slug: "small-living-room-layout-ideas",
+    title: "Small Living Room Layout Ideas That Improve Flow",
+    excerpt: "Plan a compact living room around circulation, focal points and flexible furniture rather than pushing every piece against a wall.",
+    category: "Living Room", roomSlug: "living-room", style: "Modern", color: "Beige", budget: "Budget", space: "Small", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "path", title: "Protect the main walkway" }, { id: "anchor", title: "Choose one visual anchor" }, { id: "flex", title: "Use flexible secondary seating" }],
+    content: { intro: "A good small living room layout makes movement feel effortless. Before styling, decide where people enter, where they naturally walk and which activity deserves the strongest position.", sections: [
+      { id: "path", title: "Protect the main walkway", body: "Keep the route between doors, seating and adjacent rooms as direct as possible. Avoid placing coffee tables or accent chairs where they force people into repeated detours." },
+      { id: "anchor", title: "Choose one visual anchor", body: "A window, fireplace, media wall or artwork can become the room's focal point. Arrange the main sofa to acknowledge that feature instead of trying to give every wall equal importance." },
+      { id: "flex", title: "Use flexible secondary seating", body: "Poufs, stools and lightweight occasional chairs can provide extra seats without permanently occupying the room's centre." }
+    ]},
+    faqs: [{ question: "Should a sofa touch the wall in a small room?", answer: "It can, but leaving even a small gap may improve proportions and access to curtains or sockets. Choose based on circulation rather than a fixed rule." }],
+    relatedArticleSlugs: ["small-living-room-ideas", "small-space-decor-ideas", "small-space-storage-ideas"], relatedShopLookSlugs: ["warm-minimalist-living-room", "japandi-living-room"]
+  },
+  {
+    id: "art-10",
+    slug: "small-living-room-with-tv",
+    title: "Small Living Room With TV: Practical Layout and Styling Ideas",
+    excerpt: "Fit a television into a compact living room without letting the screen dominate the entire space.",
+    category: "Living Room", roomSlug: "living-room", style: "Contemporary", color: "Neutral", budget: "Mid-range", space: "Small", propertyType: "Flat",
+    heroImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "5 min read",
+    toc: [{ id: "height", title: "Set a comfortable screen height" }, { id: "console", title: "Keep the media unit visually light" }, { id: "balance", title: "Balance the wall around the TV" }],
+    content: { intro: "The television often becomes the strongest dark rectangle in a small room. Treat it as one part of the composition and keep viewing comfort more important than decorative tricks.", sections: [
+      { id: "height", title: "Set a comfortable screen height", body: "Position the screen so the centre sits close to seated eye level where practical. Avoid mounting it unusually high simply to free a wall below." },
+      { id: "console", title: "Keep the media unit visually light", body: "A shallow floating console or slim-legged unit can provide cable and device storage while preserving more visible floor area." },
+      { id: "balance", title: "Balance the wall around the TV", body: "Use restrained shelving, artwork or a textured wall finish to integrate the screen. Avoid surrounding it with so many objects that the wall becomes visually noisy." }
+    ]},
+    faqs: [{ question: "Is a large TV always wrong in a small living room?", answer: "No. Screen size should relate to viewing distance and how the room is used. A larger screen can still work if the layout remains comfortable and uncluttered." }],
+    relatedArticleSlugs: ["small-living-room-layout-ideas", "small-living-room-ideas"], relatedShopLookSlugs: ["warm-minimalist-living-room"]
+  },
+  {
+    id: "art-11",
+    slug: "small-bedroom-with-desk",
+    title: "Small Bedroom With Desk Ideas for Work and Rest",
+    excerpt: "Create a useful work zone in a compact bedroom without allowing the desk to take over the sleeping area.",
+    category: "Bedroom", roomSlug: "bedroom", style: "Scandinavian", color: "White", budget: "Budget", space: "Small", propertyType: "Rental",
+    heroImage: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "5 min read",
+    toc: [{ id: "narrow", title: "Choose a shallow desk" }, { id: "light", title: "Use task lighting" }, { id: "reset", title: "Create an end-of-day reset" }],
+    content: { intro: "A bedroom workspace works best when it has a defined footprint and can visually quiet down after work. Prioritise ergonomics, cable control and enough clear surface for the tasks you actually do.", sections: [
+      { id: "narrow", title: "Choose a shallow desk", body: "A slim desk or wall-mounted surface can provide laptop space while protecting circulation beside the bed. Measure chair pull-out depth before deciding on the position." },
+      { id: "light", title: "Use task lighting", body: "A directional wall or desk light reduces the need to brighten the whole bedroom for work. Position it to avoid screen glare and harsh shadows." },
+      { id: "reset", title: "Create an end-of-day reset", body: "Use one drawer, box or laptop stand to remove work items from view when the day ends. This helps the bedroom return to a calmer visual state." }
+    ]},
+    faqs: [{ question: "Can a desk go beside the bed?", answer: "Yes, if chair clearance and access to the bed remain comfortable. A desk can even replace a bedside table when its height and storage suit both uses." }],
+    relatedArticleSlugs: ["small-bedroom-ideas", "small-bedroom-storage"], relatedShopLookSlugs: ["modern-small-bedroom"]
+  },
+  {
+    id: "art-12",
+    slug: "small-bedroom-layout-ideas",
+    title: "Small Bedroom Layout Ideas That Protect Floor Space",
+    excerpt: "Use bed placement, wardrobe clearance and simple circulation rules to improve a tight bedroom plan.",
+    category: "Bedroom", roomSlug: "bedroom", style: "Modern", color: "Neutral", budget: "Budget", space: "Tiny", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "5 min read",
+    toc: [{ id: "bed", title: "Place the bed first" }, { id: "wardrobe", title: "Protect wardrobe access" }, { id: "corners", title: "Use awkward corners deliberately" }],
+    content: { intro: "Small bedroom layouts become easier when you place the largest object first. The bed establishes the circulation pattern, so solve that before choosing storage or decorative furniture.", sections: [
+      { id: "bed", title: "Place the bed first", body: "Test the longest uninterrupted wall and consider whether one-sided access is acceptable for the people using the room. Keep door swings and radiator clearance in mind." },
+      { id: "wardrobe", title: "Protect wardrobe access", body: "Sliding doors can help where swing space is limited, but internal drawer access still needs room. Measure the wardrobe in use, not just when closed." },
+      { id: "corners", title: "Use awkward corners deliberately", body: "A narrow chair, shelf, laundry basket or plant can make use of a corner without forcing a bulky piece into the central floor area." }
+    ]},
+    faqs: [{ question: "Is it okay to put a bed against a wall?", answer: "Yes, especially in a single-occupancy room or very tight plan. The trade-off is reduced access for making the bed and for a second sleeper." }],
+    relatedArticleSlugs: ["small-bedroom-ideas", "small-bedroom-with-desk", "small-bedroom-storage"], relatedShopLookSlugs: ["modern-small-bedroom"]
+  },
+  {
+    id: "art-13",
+    slug: "small-kitchen-storage-ideas",
+    title: "Small Kitchen Storage Ideas for Clearer Worktops",
+    excerpt: "Use cabinet interiors, wall zones and portable storage to keep a compact kitchen practical without crowding the counters.",
+    category: "Kitchen", roomSlug: "kitchen", style: "Modern", color: "White", budget: "Budget", space: "Small", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "cabinets", title: "Use the full cabinet height" }, { id: "worktop", title: "Protect the worktop" }, { id: "portable", title: "Add movable storage only when needed" }],
+    content: { intro: "In a compact kitchen, storage should support cooking rather than simply hold more things. Keep everyday tools close to their point of use and move rarely used items higher or elsewhere.", sections: [
+      { id: "cabinets", title: "Use the full cabinet height", body: "Shelf risers, internal racks and stackable containers can make tall cupboards easier to use. Avoid piling items so deeply that the ones at the back disappear." },
+      { id: "worktop", title: "Protect the worktop", body: "Keep only the appliances you use frequently on the counter. Wall rails, magnetic strips and cabinet-door organisers can reclaim useful prep space." },
+      { id: "portable", title: "Add movable storage only when needed", body: "A narrow trolley can add prep and pantry capacity, but it should have a clear parking position so it does not become a permanent obstacle." }
+    ]},
+    faqs: [{ question: "What should stay on a small kitchen counter?", answer: "Only items used frequently enough to justify the space. Grouping essentials on one tray can also make cleaning and visual organisation easier." }],
+    relatedArticleSlugs: ["small-kitchen-ideas", "small-space-storage-ideas"], relatedShopLookSlugs: []
+  },
+  {
+    id: "art-14",
+    slug: "galley-kitchen-ideas",
+    title: "Galley Kitchen Ideas for Better Flow and Storage",
+    excerpt: "Improve a narrow galley kitchen with clearer work zones, lighter visual lines and storage that does not obstruct movement.",
+    category: "Kitchen", roomSlug: "kitchen", style: "Contemporary", color: "White", budget: "Mid-range", space: "Small", propertyType: "Flat",
+    heroImage: "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "zones", title: "Separate prep and cleaning zones" }, { id: "upper", title: "Manage upper cabinets carefully" }, { id: "light", title: "Use continuous lighting" }],
+    content: { intro: "A galley layout can be highly efficient because everything is close. The challenge is preventing the two parallel runs from feeling visually heavy or creating conflicts between open doors and people moving through the space.", sections: [
+      { id: "zones", title: "Separate prep and cleaning zones", body: "Keep the sink, bin and dishwasher working together where possible, while preserving a separate stretch of uninterrupted counter for preparation." },
+      { id: "upper", title: "Manage upper cabinets carefully", body: "Full-height wall cabinets provide storage but can make a narrow room feel enclosed. Consider open space, glass fronts or lighter finishes in selected areas rather than automatically filling every wall." },
+      { id: "light", title: "Use continuous lighting", body: "Under-cabinet lighting reduces dark worktop zones and can make the room feel longer and more even after sunset." }
+    ]},
+    faqs: [{ question: "Is a galley kitchen good for a small home?", answer: "It can be very efficient. The key is maintaining comfortable aisle width and preventing appliance, cabinet and room doors from colliding." }],
+    relatedArticleSlugs: ["small-kitchen-ideas", "small-kitchen-storage-ideas"], relatedShopLookSlugs: []
+  },
+  {
+    id: "art-15",
+    slug: "rental-friendly-decorating-ideas",
+    title: "Rental-Friendly Decorating Ideas for Small Flats",
+    excerpt: "Add personality to a rented flat with reversible lighting, textiles, furniture and wall treatments that are easier to undo when you move.",
+    category: "Decor", roomSlug: "decor", style: "Warm Minimalist", color: "Terracotta", budget: "Budget", space: "Small", propertyType: "Rental",
+    heroImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "textiles", title: "Use textiles for colour" }, { id: "lighting", title: "Upgrade portable lighting" }, { id: "walls", title: "Treat walls reversibly" }],
+    content: { intro: "Rental-friendly design works best when the investment can move with you. Focus on portable pieces that improve comfort and identity without depending on permanent alterations.", sections: [
+      { id: "textiles", title: "Use textiles for colour", body: "Curtains, rugs, cushions and bedding can establish a palette without repainting. Choose fewer coordinated pieces rather than adding many unrelated accents." },
+      { id: "lighting", title: "Upgrade portable lighting", body: "Floor and table lamps can improve atmosphere without touching fixed electrical fittings. Use warm, comfortable light levels suited to each activity." },
+      { id: "walls", title: "Treat walls reversibly", body: "Picture ledges, removable hooks and renter-approved adhesive products can create displays with less permanent impact. Always follow the product instructions and your tenancy agreement." }
+    ]},
+    faqs: [{ question: "Can I use peel-and-stick products in a rental?", answer: "Only if the surface and tenancy rules allow it. Some adhesives can damage paint or leave residue, so test a discreet area first." }],
+    relatedArticleSlugs: ["small-space-decor-ideas", "studio-apartment-layout-ideas"], relatedShopLookSlugs: ["japandi-living-room"]
+  },
+  {
+    id: "art-16",
+    slug: "studio-apartment-ideas",
+    title: "Studio Apartment Ideas for a More Organised One-Room Home",
+    excerpt: "Create clear zones for sleeping, working, eating and relaxing without making a studio feel divided into tiny boxes.",
+    category: "Small Apartments", roomSlug: "small-apartments", style: "Japandi", color: "Neutral", budget: "Mid-range", space: "Tiny", propertyType: "Studio",
+    heroImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "7 min read",
+    toc: [{ id: "zones", title: "Define zones without hard walls" }, { id: "storage", title: "Concentrate storage" }, { id: "furniture", title: "Choose furniture with more than one use" }],
+    content: { intro: "The best studio apartments feel like one coherent home with several clear functions. Use rugs, lighting, furniture orientation and storage placement to signal those functions without blocking light.", sections: [
+      { id: "zones", title: "Define zones without hard walls", body: "Turn a sofa, open shelving unit or rug to create subtle boundaries. Keep the main sightline and natural light path as open as possible." },
+      { id: "storage", title: "Concentrate storage", body: "A few well-planned storage walls or tall cabinets often look calmer than many small storage pieces scattered around the room." },
+      { id: "furniture", title: "Choose furniture with more than one use", body: "A drop-leaf table, storage bench or nesting table can support different activities while reducing the number of permanent furniture footprints." }
+    ]},
+    faqs: [{ question: "How can I separate a bed in a studio apartment?", answer: "Use a curtain, slatted screen, open shelf or strategic furniture placement while maintaining ventilation, light and safe circulation." }],
+    relatedArticleSlugs: ["studio-apartment-layout-ideas", "small-space-storage-ideas", "rental-friendly-decorating-ideas"], relatedShopLookSlugs: ["japandi-living-room"]
+  },
+  {
+    id: "art-17",
+    slug: "small-apartment-storage-ideas",
+    title: "Small Apartment Storage Ideas That Reduce Daily Clutter",
+    excerpt: "Organise a compact apartment around entry, bedroom, kitchen and living-room storage zones instead of buying random containers.",
+    category: "Small Apartments", roomSlug: "small-apartments", style: "Minimalist", color: "Neutral", budget: "Budget", space: "Small", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "entry", title: "Solve the entry first" }, { id: "closed", title: "Use closed storage for visual noise" }, { id: "seasonal", title: "Move seasonal items out of prime space" }],
+    content: { intro: "Storage improves a small apartment when it reduces repeated decisions. Give everyday categories a predictable home and keep prime storage positions for items you reach for most often.", sections: [
+      { id: "entry", title: "Solve the entry first", body: "A compact shoe zone, hooks and a tray for keys can stop clutter before it spreads into living areas." },
+      { id: "closed", title: "Use closed storage for visual noise", body: "Documents, cables, cleaning products and mixed small objects often look calmer behind doors or in labelled boxes than on open shelving." },
+      { id: "seasonal", title: "Move seasonal items out of prime space", body: "Store off-season clothing and occasional equipment higher up, under the bed or in clearly labelled containers so daily storage remains easy to reach." }
+    ]},
+    faqs: [{ question: "How do I avoid overbuying storage containers?", answer: "Declutter and measure first. Choose containers only after you know the category, quantity and exact shelf or cabinet dimensions." }],
+    relatedArticleSlugs: ["small-space-storage-ideas", "studio-apartment-ideas"], relatedShopLookSlugs: []
+  },
+  {
+    id: "art-18",
+    slug: "small-bathroom-storage-ideas",
+    title: "Small Bathroom Storage Ideas Without Bulky Cabinets",
+    excerpt: "Keep toiletries and towels organised with shallow, wall-mounted and recessed storage that preserves the room's circulation.",
+    category: "Bathroom", roomSlug: "bathroom", style: "Modern", color: "White", budget: "Budget", space: "Tiny", propertyType: "Flat",
+    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "5 min read",
+    toc: [{ id: "mirror", title: "Use the mirror zone" }, { id: "shallow", title: "Prefer shallow storage" }, { id: "daily", title: "Separate daily and occasional items" }],
+    content: { intro: "Compact bathrooms need storage, but deep cabinets can make them harder to move through. Prioritise shallow storage near the point of use and keep the floor as visually clear as possible.", sections: [
+      { id: "mirror", title: "Use the mirror zone", body: "A mirrored cabinet can combine grooming storage and reflection without adding another freestanding piece. Check door clearance and lighting positions before installation." },
+      { id: "shallow", title: "Prefer shallow storage", body: "Narrow shelves, recessed niches and slim wall cabinets often hold small bathroom items more efficiently than deep cupboards where products disappear behind one another." },
+      { id: "daily", title: "Separate daily and occasional items", body: "Keep daily skincare and dental products within easy reach; move refills, medicines and spare toiletries to less prominent storage where appropriate." }
+    ]},
+    faqs: [{ question: "What is the best storage above a toilet?", answer: "A shallow closed cabinet or a small number of shelves can work if they do not interfere with headroom, servicing access or safe use." }],
+    relatedArticleSlugs: ["small-bathroom-ideas", "small-space-storage-ideas"], relatedShopLookSlugs: []
+  },
+  {
+    id: "art-19",
+    slug: "small-home-office-ideas",
+    title: "Small Home Office Ideas for Compact Flats",
+    excerpt: "Create a focused work zone using narrow desks, wall storage, task lighting and a clear end-of-day reset routine.",
+    category: "Decor", roomSlug: "decor", style: "Scandinavian", color: "White", budget: "Budget", space: "Small", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[0], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "desk", title: "Choose a desk for the task" }, { id: "background", title: "Control the visual background" }, { id: "storage", title: "Keep work storage compact" }],
+    content: { intro: "A small home office does not need its own room, but it does need a defined working position. Start with posture, screen placement and light, then make the area visually tidy enough to share with the rest of the home.", sections: [
+      { id: "desk", title: "Choose a desk for the task", body: "A laptop-only setup can use a shallower surface than a workstation with two monitors. Choose width and depth based on actual equipment rather than buying the largest desk that fits." },
+      { id: "background", title: "Control the visual background", body: "A calm wall, curtain or well-organised shelf behind you can improve video calls and make the workspace feel more intentional." },
+      { id: "storage", title: "Keep work storage compact", body: "Use one drawer unit, wall shelf or portable box for documents and accessories. Avoid allowing office storage to spread across several rooms." }
+    ]},
+    faqs: [{ question: "Where can I put a desk in a one-bedroom flat?", answer: "Common options include a bedroom corner, living-room wall, hallway alcove or dining-area edge. Choose the location with the best balance of light, power access and separation from distractions." }],
+    relatedArticleSlugs: ["small-bedroom-with-desk", "studio-apartment-ideas"], relatedShopLookSlugs: []
+  },
+  {
+    id: "art-20",
+    slug: "furniture-for-small-apartments",
+    title: "Furniture for Small Apartments: What to Prioritise",
+    excerpt: "Choose compact furniture by proportion, function and circulation rather than relying on products simply labelled 'small space'.",
+    category: "Small Apartments", roomSlug: "small-apartments", style: "Modern", color: "Beige", budget: "Mid-range", space: "Small", propertyType: "Apartment",
+    heroImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1400&q=82", pinterestImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82",
+    author: AUTHORS[1], publishDate: "2026-09-25", updatedDate: "2026-09-25", readTime: "6 min read",
+    toc: [{ id: "measure", title: "Measure circulation, not just walls" }, { id: "multi", title: "Prioritise useful multi-function pieces" }, { id: "visual", title: "Consider visual weight" }],
+    content: { intro: "The right furniture for a small apartment is not always the smallest furniture. A properly scaled sofa or table can look calmer than several undersized pieces, provided the circulation remains comfortable.", sections: [
+      { id: "measure", title: "Measure circulation, not just walls", body: "Record doorways, hall widths, lift dimensions and the space needed to pull out chairs or open drawers. Delivery access matters as much as the final footprint." },
+      { id: "multi", title: "Prioritise useful multi-function pieces", body: "Storage benches, nesting tables and extendable dining tables can earn their footprint when both functions are genuinely useful to you." },
+      { id: "visual", title: "Consider visual weight", body: "Raised legs, open bases, slim arms and lighter materials can make substantial furniture feel less dominant while still providing comfort." }
+    ]},
+    faqs: [{ question: "Should every piece of furniture in a small apartment be multifunctional?", answer: "No. Multi-function furniture is useful only when both functions are convenient. A simple, well-proportioned piece is often better than a complicated one you rarely use." }],
+    relatedArticleSlugs: ["small-living-room-ideas", "studio-apartment-ideas", "small-apartment-storage-ideas"], relatedShopLookSlugs: ["warm-minimalist-living-room", "japandi-living-room"]
   }
 ];
 
 export const EVERGREEN_GUIDES = [
   {
-    title: "17 Ways to Make a Small Room Look Bigger (Without Knocking Down Walls)",
+    title: "Ways to Make a Small Room Look Bigger (Without Knocking Down Walls)",
     slug: "small-living-room-ideas",
     category: "Living Room",
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
@@ -711,7 +933,7 @@ export const EVERGREEN_GUIDES = [
     readTime: "10 min read"
   },
   {
-    title: "Small Space Storage Hacks That Cost Under £50",
+    title: "Small Space Storage Ideas for a Tighter Budget",
     slug: "small-bedroom-storage",
     category: "Storage",
     image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80",

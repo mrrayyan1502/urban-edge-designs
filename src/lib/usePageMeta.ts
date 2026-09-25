@@ -14,7 +14,7 @@ function setMeta(selector: string, attr: "name" | "property", key: string, conte
 }
 
 /** Keeps essential SEO/social metadata in sync with client-side routes. */
-export function usePageMeta(title: string, description: string, noindex = false) {
+export function usePageMeta(title: string, description: string, noindex = false, image = `${SITE_URL}/og-image.png`) {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -26,8 +26,11 @@ export function usePageMeta(title: string, description: string, noindex = false)
     setMeta('meta[property="og:title"]', "property", "og:title", title);
     setMeta('meta[property="og:description"]', "property", "og:description", description);
     setMeta('meta[property="og:url"]', "property", "og:url", canonicalUrl);
+    setMeta('meta[property="og:image"]', "property", "og:image", image);
+    setMeta('meta[property="og:type"]', "property", "og:type", pathname.startsWith("/ideas/") ? "article" : "website");
     setMeta('meta[name="twitter:title"]', "name", "twitter:title", title);
     setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
+    setMeta('meta[name="twitter:image"]', "name", "twitter:image", image);
 
     let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
@@ -36,5 +39,5 @@ export function usePageMeta(title: string, description: string, noindex = false)
       document.head.appendChild(canonical);
     }
     canonical.setAttribute("href", canonicalUrl);
-  }, [title, description, noindex, pathname]);
+  }, [title, description, noindex, pathname, image]);
 }

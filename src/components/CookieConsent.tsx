@@ -10,10 +10,19 @@ export default function CookieConsent() {
 
   useEffect(() => {
     const consent = localStorage.getItem(CONSENT_KEY);
+    let timer: ReturnType<typeof setTimeout> | undefined;
     if (!consent) {
-      const timer = setTimeout(() => setVisible(true), 1500);
-      return () => clearTimeout(timer);
+      timer = setTimeout(() => setVisible(true), 1500);
     }
+    const openSettings = () => {
+      setShowPreferences(true);
+      setVisible(true);
+    };
+    window.addEventListener("ued:open-cookie-settings", openSettings);
+    return () => {
+      if (timer) clearTimeout(timer);
+      window.removeEventListener("ued:open-cookie-settings", openSettings);
+    };
   }, []);
 
   const handleAcceptAll = () => {

@@ -6,13 +6,33 @@ import AdPlaceholder from "@/components/AdPlaceholder";
 import { usePageMeta } from "@/lib/usePageMeta";
 
 export default function HomePage() {
+  const featuredArticles = [...ARTICLES].sort((a, b) => b.updatedDate.localeCompare(a.updatedDate)).slice(0, 6);
+
   usePageMeta(
     "Urban Edge Design | Small Space Interior Ideas & Apartment Inspiration",
     "Discover practical small-space interior ideas, apartment inspiration, clever storage solutions and stylish ways to make compact homes work better."
   );
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Urban Edge Design",
+    "url": "https://urban-edge-designs.com/",
+    "description": "Small-space interior ideas, apartment inspiration, storage solutions and curated room looks."
+  };
+
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Urban Edge Design",
+    "url": "https://urban-edge-designs.com/",
+    "logo": "https://urban-edge-designs.com/og-image.png"
+  };
+
   return (
     <div className="bg-[#f8f5ee] font-sans text-[#171611]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       {/* 1. HERO SECTION */}
       <section className="relative overflow-hidden pt-8 pb-16 lg:pt-14 lg:pb-24 border-b border-[#ebe3d5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,7 +40,7 @@ export default function HomePage() {
             {/* Left Editorial Copy */}
             <div className="lg:col-span-7 space-y-6">
               <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#ebe3d5] text-[#8b6f47] text-xs font-semibold uppercase tracking-wider">
-                <Compass size={14} /> Practical Micro-Living Architecture
+                <Compass size={14} /> Small-Space Interior Inspiration
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#171611] leading-[1.15]">
                 Better ideas for <br />
@@ -159,7 +179,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {ARTICLES.map((art) => (
+            {featuredArticles.map((art) => (
               <article
                 key={art.id}
                 className="bg-[#f8f5ee] border border-[#ded4c2] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group"

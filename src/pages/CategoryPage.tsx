@@ -18,7 +18,8 @@ export default function CategoryPage() {
   usePageMeta(
     category ? `${category.name} Ideas & Small Space Solutions | Urban Edge Design` : "Page Not Found | Urban Edge Design",
     category ? category.description : "The requested category could not be found.",
-    !category
+    !category,
+    category?.heroImage
   );
 
   if (!category) return <NotFound />;

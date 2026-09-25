@@ -15,6 +15,10 @@
 - Affiliate outbound links use `sponsored nofollow` plus safe new-tab attributes.
 - Contact and newsletter controls no longer pretend to submit data to a backend; they open a pre-filled email draft instead.
 - Starter articles added for previously empty Bathroom, Storage and Decor categories.
+- Final content expansion: 20 total editorial articles across focused Living Room, Bedroom, Kitchen, Small Apartments, Bathroom, Storage and Decor clusters.
+- GA4 startup initialization and consent-gated SPA page-view tracking added.
+- Footer Cookie Settings control added so consent preferences can be reopened.
+- Article social metadata now uses each article hero image; article breadcrumb schema and homepage WebSite/Organization schema added.
 
 ## Configure before monetisation
 1. Create and verify real inboxes for `contact@urban-edge-designs.com` (or replace with your preferred address).
@@ -26,7 +30,7 @@
 7. Replace `/og-image.png` with a final 1200×630 brand social image if desired.
 
 ## Suggested content threshold before pushing hard on SEO/AdSense
-The site now has a working starter article in every core category, but it is still an early-stage publication. Build focused content clusters rather than mass-producing thin pages. A practical first milestone is 3–5 genuinely useful articles for each priority category, with especially strong clusters around Living Room, Bedroom, Kitchen and Small Apartments.
+The site now contains 20 editorial articles and a useful starter cluster in every core category. Continue expanding only from real search demand and Search Console evidence; avoid mass-producing thin pages. The next milestone should be 30–40 genuinely useful articles, with especially strong clusters around Living Room, Bedroom, Kitchen and Small Apartments.
 
 ## Technical QA performed
 - TypeScript/TSX syntax transpilation diagnostics: passed across `src`.

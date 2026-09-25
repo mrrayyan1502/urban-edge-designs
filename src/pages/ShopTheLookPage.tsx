@@ -24,7 +24,8 @@ export default function ShopTheLookPage() {
       : invalidRoom
         ? "The requested room collection could not be found."
         : "Discover curated furniture, decor, lighting, and rugs for compact living rooms, studio apartments, and small bedrooms.",
-    invalidRoom
+    invalidRoom,
+    activeRoom?.heroImage
   );
 
   if (invalidRoom) return <NotFound />;

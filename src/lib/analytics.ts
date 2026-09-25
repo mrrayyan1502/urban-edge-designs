@@ -57,6 +57,16 @@ export function initAnalytics() {
   if (getConsent() === "accepted") loadAnalytics();
 }
 
+/** Track SPA navigation as page views after consent. */
+export function trackPageView(path: string, title?: string) {
+  if (getConsent() !== "accepted" || typeof window.gtag !== "function" || !GA_ID) return;
+  window.gtag("event", "page_view", {
+    page_path: path,
+    page_title: title || document.title,
+    page_location: window.location.href,
+  });
+}
+
 export type TrackEvent =
   | "article_view"
   | "shop_look_view"

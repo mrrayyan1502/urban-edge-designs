@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import { CATEGORIES } from "@/data/contentData";
+import { trackEvent } from "@/lib/analytics";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -11,6 +12,7 @@ export default function Footer() {
     if (!email.trim()) return;
     const subject = encodeURIComponent("Urban Edge Design newsletter signup");
     const body = encodeURIComponent(`Please add this address to the Urban Edge Design newsletter list: ${email.trim()}`);
+    trackEvent("newsletter_submit", { method: "email_fallback" });
     window.location.href = `mailto:contact@urban-edge-designs.com?subject=${subject}&body=${body}`;
   };
 
@@ -88,6 +90,7 @@ export default function Footer() {
               <li><Link to="/affiliate-disclosure" className="hover:text-[#c8ad7f]">Affiliate Disclosure</Link></li>
               <li><Link to="/editorial-policy" className="hover:text-[#c8ad7f]">Editorial Policy</Link></li>
               <li><Link to="/advertising-policy" className="hover:text-[#c8ad7f]">Advertising Policy</Link></li>
+              <li><button type="button" onClick={() => window.dispatchEvent(new Event("ued:open-cookie-settings"))} className="hover:text-[#c8ad7f] text-left">Cookie Settings</button></li>
             </ul>
           </div>
         </div>

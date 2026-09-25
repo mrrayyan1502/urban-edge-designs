@@ -10,11 +10,14 @@ import ArticlePage from "@/pages/ArticlePage";
 import ShopTheLookPage from "@/pages/ShopTheLookPage";
 import TrustPage from "@/pages/TrustPage";
 import NotFound from "@/components/NotFound";
+import { trackPageView } from "@/lib/analytics";
 
 function ScrollManager() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
+    const timer = window.setTimeout(() => trackPageView(pathname, document.title), 0);
+    return () => window.clearTimeout(timer);
   }, [pathname]);
   return null;
 }

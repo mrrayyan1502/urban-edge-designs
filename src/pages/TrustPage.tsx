@@ -4,6 +4,7 @@ import { ShieldCheck, Send, CheckCircle2, ChevronRight } from "lucide-react";
 import { TRUST_DOCS } from "@/data/trustData";
 import { usePageMeta } from "@/lib/usePageMeta";
 import NotFound from "@/components/NotFound";
+import { trackEvent } from "@/lib/analytics";
 
 export default function TrustPage() {
   const { docSlug } = useParams<{ docSlug: string }>();
@@ -24,6 +25,7 @@ export default function TrustPage() {
     e.preventDefault();
     const subject = encodeURIComponent(`[${formData.topic}] Urban Edge Design enquiry from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`);
+    trackEvent("contact_form_submit", { method: "email_fallback", topic: formData.topic });
     window.location.href = `mailto:contact@urban-edge-designs.com?subject=${subject}&body=${body}`;
     setFormSent(true);
   };

@@ -15,7 +15,8 @@ export default function ArticlePage() {
   usePageMeta(
     article ? `${article.title} | Urban Edge Design` : "Page Not Found | Urban Edge Design",
     article ? article.excerpt : "The requested article could not be found.",
-    !article
+    !article,
+    article?.heroImage
   );
 
   if (!article) return <NotFound />;
@@ -46,6 +47,16 @@ export default function ArticlePage() {
     }
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://urban-edge-designs.com/" },
+      { "@type": "ListItem", "position": 2, "name": article.category, "item": `https://urban-edge-designs.com/category/${article.roomSlug}` },
+      { "@type": "ListItem", "position": 3, "name": article.title, "item": `https://urban-edge-designs.com/ideas/${article.slug}` }
+    ]
+  };
+
   const faqJsonLd = article.faqs.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -62,6 +73,7 @@ export default function ArticlePage() {
   return (
     <div className="bg-[#f8f5ee] font-sans text-[#171611] min-h-screen pb-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       )}
