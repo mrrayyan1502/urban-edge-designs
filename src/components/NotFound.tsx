@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { ArrowLeft, Search, Sparkles } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import { usePageMeta } from "@/lib/usePageMeta";
 
 export default function NotFound() {

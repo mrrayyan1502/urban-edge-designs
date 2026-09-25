@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router";
-import { ChevronRight, Clock, Calendar, HelpCircle, ArrowRight, Sparkles, AlertCircle, List } from "lucide-react";
+import { ChevronRight, Clock, Calendar, HelpCircle, Sparkles, AlertCircle, List } from "lucide-react";
 import { ARTICLES, SHOP_THE_LOOK_ROOMS } from "@/data/contentData";
 import PinterestButton from "@/components/PinterestButton";
 import AdPlaceholder from "@/components/AdPlaceholder";
@@ -182,7 +182,7 @@ export default function ArticlePage() {
             <AdPlaceholder slot="In-Article Top" />
 
             {/* Sections */}
-            {article.content.sections.map((sec, idx) => (
+            {article.content.sections.map((sec) => (
               <section id={sec.id} key={sec.id} className="space-y-4 pt-4 border-t border-[#ebe3d5]">
                 <h2 className="font-serif text-2xl font-bold text-[#171611] tracking-tight">
                   {sec.title}
