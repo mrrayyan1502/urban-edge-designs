@@ -50,8 +50,31 @@ export default function CategoryPage() {
     (r) => r.roomType.toLowerCase().includes(category.name.toLowerCase()) || r.slug.includes(category.slug)
   );
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://urban-edge-designs.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": category.name,
+        "item": `https://urban-edge-designs.com/category/${category.slug}`
+      }
+    ]
+  };
+
   return (
     <div className="bg-[#f8f5ee] font-sans text-[#171611] min-h-screen pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Breadcrumb Bar */}
       <div className="bg-[#ebe3d5]/50 border-b border-[#ebe3d5] py-3 text-xs text-[#171611]/60 font-sans">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2">
