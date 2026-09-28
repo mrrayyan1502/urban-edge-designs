@@ -183,6 +183,148 @@ export const AUTHORS = [
     avatar: "/og-image.png",
     bio: "Our product desk curates space-conscious furniture and decor references. Product availability, pricing and retailer links should be verified before publication."
   }
+,
+  {
+    id: "article-21",
+    slug: "small-balcony-ideas",
+    title: "12 Brilliant Small Balcony Ideas for Compact Apartments",
+    category: "Small Apartments",
+    roomSlug: "small-apartments",
+    date: "2026-09-28",
+    readTime: "7 min read",
+    author: "Elena Rostova",
+    authorRole: "Outdoor & Small Space Architect",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    excerpt: "Transform your compact apartment balcony into a cozy outdoor sanctuary with space-saving fold-down tables, vertical railing planters, and weatherproof lighting.",
+    style: "Modern Warm Scandinavian",
+    content: {
+      quickAnswer: "Designing a small balcony requires prioritizing vertical wall space and multifunctional furniture. Using fold-down railing tables, hanging planters, and weather-resistant bistro chairs maximizes floor area while creating an inviting outdoor lounging extension for compact city flats.",
+      sections: [
+        {
+          id: "rail-tables",
+          title: "1. Install Fold-Down Railing Tables",
+          body: "Floor space is at a premium on urban apartment balconies. Railing-mounted fold-down tables clip directly onto metal or glass balustrades, giving you a functional dining or laptop surface without occupying a single inch of deck area.",
+          image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "vertical-greenery",
+          title: "2. Utilize Vertical Hanging Planters",
+          body: "Instead of crowding floor tiles with heavy terracotta pots, grow your balcony herb garden upward. Wall-mounted wooden trellises, hanging pocket planters, and stacked tier pots keep greenery elevated and easy to water.",
+          image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "weather-lighting",
+          title: "3. Layer Warm String Lighting and Lanterns",
+          body: "Solar-powered LED string lights coiled around railings or suspended from overhead eaves create instant evening ambiance. Pair with cordless rechargeable table lamps for warm, glare-free outdoor reading light.",
+          image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "outdoor-rugs",
+          title: "4. Ground the Space with Weatherproof Outdoor Rugs",
+          body: "Define the seating zone and mask plain concrete balcony tiles with a woven polypropylene outdoor rug. They resist UV fading, dry quickly after rain, and instantly introduce tactile texture underfoot.",
+          image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    faqs: [
+      {
+        question: "What furniture works best for a narrow apartment balcony?",
+        answer: "Opt for slender metal bistro sets, folding acacia wood chairs, or hanging egg chairs attached to ceiling joists. Foldable pieces allow you to clear the balcony floor whenever needed."
+      },
+      {
+        question: "How do I make a small balcony private from neighbors?",
+        answer: "Attach bamboo privacy screens, weatherproof fabric drapes, or tall potted grasses like horsetail reed along the side railings for natural, breezy screening."
+      }
+    ],
+    relatedSlugs: ["rental-friendly-decorating-ideas", "studio-apartment-ideas", "small-space-decor-ideas"],
+    metaTitle: "12 Small Balcony Ideas for Compact Apartments | Urban Edge Design",
+    metaDescription: "Discover practical small balcony design ideas, fold-down railing tables, vertical herb gardens, and cozy outdoor lighting for apartment balconies.",
+    ogImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    affiliateLinks: [
+      {
+        anchorText: "Fold-Down Balcony Railing Table on Amazon",
+        url: "https://www.amazon.co.uk/s?k=fold+down+balcony+railing+table&tag=urbanedge0c-20"
+      },
+      {
+        anchorText: "Solar Outdoor String Lights on Amazon",
+        url: "https://www.amazon.co.uk/s?k=solar+outdoor+string+lights&tag=urbanedge0c-20"
+      }
+    ],
+    editorialDisclaimer: "Product selections are curated independently by our design team. Purchases made through retailer links may earn an affiliate commission.",
+    editorialReviewer: "Urban Edge Product Desk",
+    editorialReviewerBio: "Our product desk curates space-conscious furniture and decor references."
+  },
+  {
+    id: "article-22",
+    slug: "small-laundry-room-ideas",
+    title: "10 Space-Saving Small Laundry Room Storage Ideas",
+    category: "Storage",
+    roomSlug: "storage",
+    date: "2026-09-28",
+    readTime: "6 min read",
+    author: "Marcus Vance",
+    authorRole: "Storage & Home Organization Lead",
+    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80",
+    excerpt: "Maximize utility in compact laundry rooms and closet nooks with stacked appliances, retractable drying racks, over-the-washer shelving, and slim hamper carts.",
+    style: "Clean Industrial Utility",
+    content: {
+      quickAnswer: "Optimizing a small laundry room relies on vertical appliance stacking and hidden wall utilities. Installing over-washer shelving units, pull-out ironing boards, and wall-mounted folding drying racks turns even a tight laundry closet into an efficient cleaning workstation.",
+      sections: [
+        {
+          id: "stacked-appliances",
+          title: "1. Stack Washer and Dryer Vertically",
+          body: "In compact homes, stacking a front-load washer and dryer inside a tall utility cabinet or closet doubles your usable floor space. Ensure you install an approved stacking kit for structural stability.",
+          image: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "over-washer-shelving",
+          title: "2. Install Floating Shelves Over Appliances",
+          body: "Utilize the unexploited wall height directly above your machines. Deep floating oak or powder-coated steel shelves hold laundry detergent pods, wool dryer balls, and stain removers within easy arm reach.",
+          image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "retractable-drying",
+          title: "3. Mount Wall-Retractable Drying Racks",
+          body: "Bulky freestanding clothes horses take over walkways. Wall-mounted accordion or drop-down wooden drying racks fold completely flat against the wall when delictate garments are dry.",
+          image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          id: "slim-rolling-hampers",
+          title: "4. Use Slim Rolling Laundry Carts",
+          body: "Narrow 8-inch rolling wire utility carts fit seamlessly between machines or beside cabinet walls, keeping extra linens, mesh wash bags, and cleaning supplies organized and portable.",
+          image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    faqs: [
+      {
+        question: "How do you organize a small laundry closet on a budget?",
+        answer: "Use clear plastic stackable bins with printed labels, over-the-door shoe organizers for stain sprays, and tension rods above appliances to hang freshly ironed shirts."
+      },
+      {
+        question: "What color makes a small laundry room look bigger?",
+        answer: "Light reflective shades like crisp warm ivory, pale sage green, or soft dove grey bounce task lighting and make windowless utility spaces feel larger."
+      }
+    ],
+    relatedSlugs: ["small-space-storage-ideas", "small-kitchen-storage-ideas", "small-apartment-storage-ideas"],
+    metaTitle: "10 Small Laundry Room Storage Ideas | Urban Edge Design",
+    metaDescription: "Maximize tight laundry rooms with space-saving stacked washer layouts, retractable drying racks, over-the-machine shelving, and slim hamper carts.",
+    ogImage: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80",
+    affiliateLinks: [
+      {
+        anchorText: "Wall-Mounted Retractable Drying Rack on Amazon",
+        url: "https://www.amazon.co.uk/s?k=wall+mounted+retractable+drying+rack&tag=urbanedge0c-20"
+      },
+      {
+        anchorText: "Slim Rolling Utility Laundry Cart on Amazon",
+        url: "https://www.amazon.co.uk/s?k=slim+rolling+laundry+cart&tag=urbanedge0c-20"
+      }
+    ],
+    editorialDisclaimer: "Product selections are curated independently by our design team. Purchases made through retailer links may earn an affiliate commission.",
+    editorialReviewer: "Urban Edge Product Desk",
+    editorialReviewerBio: "Our product desk curates space-conscious furniture and decor references."
+  }
+
 ];
 
 export const SHOP_THE_LOOK_ROOMS: ShopLookRoom[] = [
