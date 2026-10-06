@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router";
-import { ChevronRight, Clock, Calendar, HelpCircle, Sparkles, AlertCircle, List } from "lucide-react";
+import { ChevronRight, Clock, Calendar, HelpCircle, Sparkles, AlertCircle, List, ExternalLink, Table } from "lucide-react";
 import { ARTICLES, SHOP_THE_LOOK_ROOMS } from "@/data/contentData";
 import PinterestButton from "@/components/PinterestButton";
 import AdPlaceholder from "@/components/AdPlaceholder";
@@ -179,18 +179,63 @@ export default function ArticlePage() {
               {article.content.intro}
             </p>
 
+            {/* AEO / GEO Quick Answer Box */}
+            {article.content.quickAnswer && (
+              <div className="bg-[#f4eee4] border border-[#8b6f47]/30 rounded-2xl p-5 sm:p-6 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 text-[#8b6f47] font-semibold text-xs uppercase tracking-wider">
+                  <Sparkles size={16} /> Key Takeaway & Quick Answer
+                </div>
+                <p className="text-base text-[#171611] font-medium leading-relaxed">
+                  {article.content.quickAnswer}
+                </p>
+              </div>
+            )}
+
             <AdPlaceholder slot="In-Article Top" />
 
             {/* Sections */}
             {article.content.sections.map((sec) => (
-              <section id={sec.id} key={sec.id} className="space-y-4 pt-4 border-t border-[#ebe3d5]">
+              <section id={sec.id} key={sec.id} className="space-y-4 pt-6 border-t border-[#ebe3d5]">
                 <h2 className="font-serif text-2xl font-bold text-[#171611] tracking-tight">
                   {sec.title}
                 </h2>
-                <p className="text-[#171611]/80 leading-relaxed font-light">{sec.body}</p>
 
+                {/* Paragraphs */}
+                {sec.paragraphs && sec.paragraphs.length > 0 ? (
+                  <div className="space-y-3.5">
+                    {sec.paragraphs.map((p, pIdx) => (
+                      <p key={pIdx} className="text-[#171611]/85 leading-relaxed font-light">
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                ) : sec.body ? (
+                  <div className="space-y-3.5">
+                    {sec.body.split("\n\n").map((p, pIdx) => (
+                      <p key={pIdx} className="text-[#171611]/85 leading-relaxed font-light">
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                ) : null}
+
+                {/* Key Technical Specs / Clearance Rules */}
+                {sec.specs && sec.specs.length > 0 && (
+                  <div className="my-4 grid grid-cols-2 sm:grid-cols-3 gap-2.5 bg-[#ebe3d5]/30 p-4 rounded-xl border border-[#ded4c2]">
+                    {sec.specs.map((spec, sIdx) => (
+                      <div key={sIdx} className="text-xs">
+                        <span className="block text-[#8b6f47] font-semibold uppercase tracking-wider text-[10px]">
+                          {spec.label}
+                        </span>
+                        <span className="font-medium text-[#171611]">{spec.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Section Image */}
                 {sec.image && (
-                  <div className="relative rounded-2xl overflow-hidden border border-[#ded4c2] my-6 group">
+                  <div className="relative rounded-2xl overflow-hidden border border-[#ded4c2] my-6 group shadow-sm">
                     <img
                       src={sec.image}
                       alt={sec.imageAlt || sec.title}
@@ -202,13 +247,109 @@ export default function ArticlePage() {
                   </div>
                 )}
 
+                {/* Section Comparison / Data Table */}
+                {sec.table && (
+                  <div className="my-6 overflow-x-auto rounded-xl border border-[#ded4c2] bg-[#fdfbf7] shadow-sm">
+                    {sec.table.caption && (
+                      <div className="px-4 py-2.5 bg-[#ebe3d5]/50 border-b border-[#ded4c2] text-xs font-semibold uppercase tracking-wider text-[#8b6f47]">
+                        {sec.table.caption}
+                      </div>
+                    )}
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-[#ebe3d5]/70 border-b border-[#ded4c2]">
+                          {sec.table.headers.map((h, hi) => (
+                            <th key={hi} className="p-3 font-semibold text-[#171611]">{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-[#ebe3d5]">
+                        {sec.table.rows.map((row, ri) => (
+                          <tr key={ri} className="hover:bg-[#ebe3d5]/20 transition-colors">
+                            {row.map((cell, ci) => (
+                              <td key={ci} className="p-3 text-[#171611]/85">{cell}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                {/* Designer Tip */}
                 {sec.tip && (
                   <div className="bg-[#8b6f47]/10 border-l-4 border-[#8b6f47] p-4 rounded-r-xl text-xs sm:text-sm text-[#171611]/90 font-medium">
                     {sec.tip}
                   </div>
                 )}
+
+                {/* Recommended Products with Affiliate Links */}
+                {sec.recommendedProducts && sec.recommendedProducts.length > 0 && (
+                  <div className="my-6 space-y-3">
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-[#8b6f47]">
+                      Recommended Design Pieces
+                    </h4>
+                    <div className="grid sm:grid-cols-2 gap-3">
+                      {sec.recommendedProducts.map((prod, pIdx) => (
+                        <div
+                          key={pIdx}
+                          className="p-4 bg-[#fdfbf7] border border-[#ded4c2] rounded-xl flex flex-col justify-between hover:border-[#8b6f47] transition-all shadow-sm"
+                        >
+                          <div>
+                            <div className="flex justify-between items-start gap-2">
+                              <span className="font-serif text-sm font-semibold text-[#171611]">{prod.name}</span>
+                              <span className="text-xs font-bold text-[#8b6f47] shrink-0">{prod.price}</span>
+                            </div>
+                            <p className="text-xs text-[#171611]/70 font-light mt-1.5 leading-relaxed">{prod.description}</p>
+                          </div>
+                          <a
+                            href={prod.amazonUrl}
+                            target="_blank"
+                            rel="nofollow sponsored noopener noreferrer"
+                            className="mt-3.5 inline-flex items-center justify-center gap-1.5 w-full py-2 bg-[#171611] text-[#f8f5ee] rounded-lg text-xs font-semibold hover:bg-[#8b6f47] transition-colors"
+                          >
+                            <span>Check Price on Amazon</span>
+                            <ExternalLink size={12} />
+                          </a>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </section>
             ))}
+
+            {/* Master Comparison Table */}
+            {article.content.comparisonTable && (
+              <section className="pt-6 border-t border-[#ebe3d5]">
+                <div className="flex items-center gap-2 mb-4">
+                  <Table className="text-[#8b6f47]" size={20} />
+                  <h3 className="font-serif text-2xl font-bold text-[#171611]">
+                    {article.content.comparisonTable.caption || "Design Comparison Guide"}
+                  </h3>
+                </div>
+                <div className="overflow-x-auto rounded-xl border border-[#ded4c2] bg-[#fdfbf7] shadow-sm">
+                  <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                    <thead>
+                      <tr className="bg-[#ebe3d5]/70 border-b border-[#ded4c2]">
+                        {article.content.comparisonTable.headers.map((h, hi) => (
+                          <th key={hi} className="p-3 font-semibold text-[#171611]">{h}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-[#ebe3d5]">
+                      {article.content.comparisonTable.rows.map((row, ri) => (
+                        <tr key={ri} className="hover:bg-[#ebe3d5]/20 transition-colors">
+                          {row.map((cell, ci) => (
+                            <td key={ci} className="p-3 text-[#171611]/85">{cell}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            )}
 
             <AdPlaceholder slot="In-Article Bottom" />
 
