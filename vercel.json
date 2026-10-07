@@ -2,14 +2,25 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/",
       "has": [
         {
           "type": "host",
           "value": "www.urban-edge-designs.com"
         }
       ],
-      "destination": "https://urban-edge-designs.com/:path*",
+      "destination": "https://urban-edge-designs.com/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.urban-edge-designs.com"
+        }
+      ],
+      "destination": "https://urban-edge-designs.com/$1",
       "permanent": true
     }
   ],
