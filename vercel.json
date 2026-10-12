@@ -65,6 +65,9 @@
     }
   ],
   "rewrites": [
+    { "source": "/rss.xml", "destination": "/rss.xml" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
