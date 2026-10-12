@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Routes, Route, useLocation } from "react-router";
+import { Routes, Route, useLocation, Navigate } from "react-router";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SearchModal from "@/components/SearchModal";
@@ -38,6 +38,13 @@ export default function App() {
           <Route path="/shop-the-look" element={<ShopTheLookPage />} />
           <Route path="/shop-the-look/:slug" element={<ShopTheLookPage />} />
           
+          {/* Legacy redirects */}
+          <Route path="/about" element={<Navigate to="/about-us" replace />} />
+          <Route path="/faq" element={<Navigate to="/about-us" replace />} />
+          <Route path="/refund-policy" element={<Navigate to="/terms-of-service" replace />} />
+          <Route path="/demos/*" element={<Navigate to="/" replace />} />
+          <Route path="/products/*" element={<Navigate to="/" replace />} />
+
           {/* Trust & Policy Pages */}
           <Route path="/:docSlug" element={<TrustPage />} />
           
