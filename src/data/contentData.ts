@@ -5829,7 +5829,436 @@ export const ARTICLES: Article[] = [
     "small-apartment-storage-ideas"
   ],
   "relatedShopLookSlugs": []
-}
+},
+  {
+    "id": "art-25",
+    "slug": "studio-apartment-room-divider-ideas-with-storage",
+    "title": "Studio Apartment Room Divider Ideas with Storage: 5 Multi-Functional Solutions",
+    "excerpt": "Discover clever studio apartment room divider ideas with integrated storage. From open cube bookcases and modular shelving to acoustic felt screens and ceiling-hung planters, define your zones without losing daylight.",
+    "category": "Small Apartments",
+    "roomSlug": "small-apartments",
+    "style": "Warm Minimalist",
+    "color": "Neutral",
+    "budget": "Mid-range",
+    "space": "Small",
+    "propertyType": "Studio",
+    "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+    "author": {
+      "name": "Clara Finch",
+      "role": "Senior Interior Architect",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+    },
+    "publishDate": "12 October 2026",
+    "updatedDate": "12 October 2026",
+    "readTime": "9 min read",
+    "toc": [
+      { "id": "open-cube-bookcase", "title": "1. Backless Open Cube Shelving" },
+      { "id": "clothing-rack-screen", "title": "2. Wardrobe Divider with Built-in Drawers" },
+      { "id": "acoustic-slat-partition", "title": "3. Slatted Timber Partition with Pegboard Shelves" },
+      { "id": "curtain-credenza-hybrid", "title": "4. Low Credenza Paired with Ceiling-Track Sheers" },
+      { "id": "rolling-utility-wall", "title": "5. Mobile Rolling Bookcase on Lockable Castors" }
+    ],
+    "content": {
+      "intro": "In a studio flat, carving out distinct zones for sleeping, working, and living is essential for psychological well-being. However, building physical drywall ruins the open-plan flow and blocks precious natural light. The most functional compromise is a storage-integrated room divider—a piece of furniture that creates physical separation while swallowing books, clothes, and everyday essentials.",
+      "quickAnswer": "The best studio apartment room divider with storage is a backless, double-sided cube bookcase (such as a 4x4 or 5x5 unit). It lets natural window light pass through both sides while providing structured cubbies for storage baskets, linen boxes, and decorative ceramics.",
+      "sections": [
+        {
+          "id": "open-cube-bookcase",
+          "title": "1. Backless Open Cube Shelving: Light-Filtering Division",
+          "paragraphs": [
+            "An open-backed shelving unit placed perpendicular to a wall remains the gold standard for studio zoning. Because it lacks a solid back panel, sunlight from your main window filters effortlessly into the sleeping alcove behind it.",
+            "To keep visual clutter under control, use a 50/50 styling rule: fill 50 percent of the lower cubbies with matching fabric or woven baskets for private items (clothes, chargers, linens) and leave the top 50 percent airy with books, ceramics, and trailing pothos plants."
+          ],
+          "specs": [
+            "Depth: 35cm - 39cm",
+            "Minimum Walkway: 80cm clear",
+            "Stability: Wall safety strap required"
+          ],
+          "table": {
+            "caption": "Cube Shelving Configuration Guide",
+            "headers": ["Unit Size", "Recommended Ceiling Height", "Privacy Rating", "Best Zone Split"],
+            "rows": [
+              ["2x4 Cubes", "2.1m - 2.4m", "Medium (waist height)", "Desk vs Bed area"],
+              ["4x4 Cubes", "2.4m - 2.7m", "High (eye level)", "Bed vs Living sofa"],
+              ["5x5 Cubes", "2.7m+ (High ceilings)", "Maximum (near ceiling)", "Entryway vs Studio bedroom"]
+            ]
+          },
+          "image": "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Double sided cube bookcase dividing a studio apartment living room and bedroom",
+          "tip": "Always anchor a tall freestanding divider to the adjoining wall using hidden L-brackets or anti-tip safety cables, especially when loaded with heavy hardcovers.",
+          "recommendedProducts": [
+            {
+              "name": "Modular 4-Tier Open Cube Bookcase",
+              "description": "Double-sided storage shelving in neutral oak finish, perfect for studio zoning.",
+              "price": "£89.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=cube+bookcase+divider+storage&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Foldable Canvas Storage Baskets (Set of 4)",
+              "description": "Textured linen storage bins designed to fit standard 33x33cm shelving cubbies.",
+              "price": "£24.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=cube+storage+baskets+fabric+neutral&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "clothing-rack-screen",
+          "title": "2. Wardrobe Divider with Built-in Drawers: The Capsule Closet Screen",
+          "paragraphs": [
+            "If your studio flat lacks a built-in wardrobe, sacrificing perimeter wall space for clothes rail storage can feel cramped. A freestanding modular wardrobe rack placed at the foot of your bed turns your clothing into a functional boundary wall.",
+            "Choose a model featuring a solid bottom dresser or drawers with an open hanging rail above. Dressing the rail with coordinated neutral garments (linens, coats, shirts) creates an intentional boutique aesthetic rather than messy bedroom overflow."
+          ],
+          "specs": [
+            "Footprint: 100cm wide x 45cm deep",
+            "Height: 160cm - 180cm",
+            "Drawer Capacity: 3 to 4 tiers"
+          ],
+          "image": "https://images.unsplash.com/photo-1558997519-83ea9252def8?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Minimalist open clothing rack with lower storage drawers dividing studio space",
+          "tip": "Hang a sheer roller blind or acoustic curtain on the living-room side of the clothes rail if you prefer concealing hangers during dinner gatherings.",
+          "recommendedProducts": [
+            {
+              "name": "Industrial Open Wardrobe Rack with Drawers",
+              "description": "Heavy-duty steel frame with bottom storage chest and dual hanging bars.",
+              "price": "£119.00",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=open+wardrobe+rack+with+drawers+divider&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "acoustic-slat-partition",
+          "title": "3. Slatted Timber Partition with Pegboard Shelves: Sound & Storage",
+          "paragraphs": [
+            "Acoustic wooden slat screens are trending across contemporary interior design because they introduce warm organic texture while buffering echoes in compact open rooms.",
+            "By mounting adjustable floating peg shelves or wire display racks onto the timber battens, you transform a decorative screen into a vertical storage wall for headphones, keys, eyewear, and plants."
+          ],
+          "specs": [
+            "Thickness: 3cm - 5cm",
+            "Weight: 14kg - 22kg",
+            "Acoustic Dampening: NRC 0.70"
+          ],
+          "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Warm acoustic wooden slat partition dividing a compact room with floating display shelves",
+          "tip": "Use tension-pole mounting systems that press against ceiling and floor without requiring drill holes—100% rental deposit safe.",
+          "recommendedProducts": [
+            {
+              "name": "Adjustable Wooden Tension Room Divider Poles",
+              "description": "No-drill ceiling-to-floor timber partition posts for custom slatted screen builds.",
+              "price": "£139.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=tension+pole+room+divider+timber&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "curtain-credenza-hybrid",
+          "title": "4. Low Credenza Paired with Ceiling-Track Sheers: Soft Layering",
+          "paragraphs": [
+            "When high partitions make a small studio feel claustrophobic, adopt a layered two-tiered strategy. Place a low, enclosed sideboard or media credenza (75cm high) behind the sofa back, and hang a ceiling-recessed sheer linen curtain directly above it.",
+            "During the day, the sheer curtain is pushed aside, keeping sightlines long across the apartment while the credenza conceals kitchen appliances or bedding. At night, drawing the curtain provides complete bedroom seclusion."
+          ],
+          "specs": [
+            "Credenza Height: 70cm - 80cm",
+            "Curtain Track: Ceiling-mounted aluminium rail",
+            "Curtain Fabric: 100% Belgian flax or linen sheer"
+          ],
+          "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Low oak credenza combined with ceiling track sheer curtain in a studio flat",
+          "tip": "Choose acoustic-weighted sheer fabric with a 2x fullness drape to soften street noise and bounce interior warmth.",
+          "recommendedProducts": [
+            {
+              "name": "Ceiling Mounted Curtain Track Kit (3 Metres)",
+              "description": "Slimline silent-gliding aluminium ceiling rail suitable for bay windows and room dividers.",
+              "price": "£32.50",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=ceiling+track+room+divider+curtain&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "rolling-utility-wall",
+          "title": "5. Mobile Rolling Bookcase on Lockable Castors: Dynamic Living",
+          "paragraphs": [
+            "For micro-studios under 30 square metres, fixed room divisions can lock you into rigid floorplans. A double-faced mobile bookcase fitted with heavy-duty rubber castors allows you to reconfigure your apartment in five seconds flat.",
+            "Wheel it against the side wall when hosting guests to open up a spacious entertaining floor, then roll it back between bed and dining table when unwinding for the night."
+          ],
+          "specs": [
+            "Castors: 75mm industrial lockable polyurethane wheels",
+            "Max Weight Load: 120kg evenly distributed",
+            "Floor Protection: Non-marking tread"
+          ],
+          "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Mobile rolling storage cart and divider bookcase in compact apartment",
+          "tip": "Ensure at least two of the four wheels feature pedal locks to prevent unexpected movement when leaning against the unit.",
+          "recommendedProducts": [
+            {
+              "name": "Heavy-Duty Lockable Castor Wheels (Set of 4)",
+              "description": "Smooth 360-degree swivel rubber wheels with individual foot brake locks.",
+              "price": "£16.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=heavy+duty+lockable+castor+wheels&tag=urbanedge0c-20"
+            }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Studio Room Divider Storage Comparison",
+        "headers": ["Divider Type", "Storage Capacity", "Daylight Preservation", "Rental Friendly", "Average Cost"],
+        "rows": [
+          ["Open Cube Shelving", "High (16 cubbies)", "85% Light transmission", "100% Freestanding", "£70 - £160"],
+          ["Wardrobe Rack + Drawers", "High (hanging + 3 drawers)", "60% Light transmission", "100% Freestanding", "£90 - £180"],
+          ["Slatted Tension Partition", "Medium (floating pegboards)", "70% Light transmission", "100% No-drill tension", "£120 - £250"],
+          ["Credenza + Sheer Curtain", "High (enclosed cupboards)", "95% (when open)", "Minimal drill track", "£150 - £350"],
+          ["Mobile Rolling Bookshelf", "Medium (4 shelves)", "75% Light transmission", "100% Freestanding", "£80 - £170"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How do you separate a bed from a living room in a studio without making it dark?",
+        "answer": "Use an open-backed cube shelving unit or ceiling-hung semi-sheer linen drapery. Both solutions create a physical sightline break while allowing daylight from external windows to penetrate deep into the sleeping alcove."
+      },
+      {
+        "question": "Do room dividers require drilling into rental walls?",
+        "answer": "No. Freestanding bookcases, wardrobe screens, and vertical tension-pole partitions require zero drilling into walls or ceilings and can be dismantled without a trace upon move-out."
+      },
+      {
+        "question": "What is the minimum walkway clearance needed around a divider in a studio?",
+        "answer": "Maintain a minimum clearance of 75cm to 90cm on the main primary circulation path between your entrance, kitchen, and bathroom to prevent cramped traffic bottlenecks."
+      }
+    ],
+    "relatedArticleSlugs": [
+      "studio-apartment-layout-ideas",
+      "studio-apartment-ideas",
+      "small-space-storage-ideas"
+    ],
+    "relatedShopLookSlugs": [
+      "warm-minimalist-living-room",
+      "modern-small-bedroom"
+    ]
+  },
+  {
+    "id": "art-26",
+    "slug": "small-kitchen-island-alternatives",
+    "title": "Small Kitchen Island Alternatives for Tight Spaces: 6 Space-Saving Solutions",
+    "excerpt": "Need extra food prep space in a compact kitchen? Explore 6 smart small kitchen island alternatives, including slim rolling butcher blocks, drop-leaf bistro bars, and wall-mounted fold-down counter extenders.",
+    "category": "Kitchen",
+    "roomSlug": "kitchen",
+    "style": "Modern",
+    "color": "Beige",
+    "budget": "Mid-range",
+    "space": "Small",
+    "propertyType": "Apartment",
+    "heroImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+    "author": {
+      "name": "Julian Mercer",
+      "role": "Spatial Planner & Storage Specialist",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "publishDate": "12 October 2026",
+    "updatedDate": "12 October 2026",
+    "readTime": "8 min read",
+    "toc": [
+      { "id": "slim-rolling-butcher-cart", "title": "1. Slim Rolling Butcher Cart on Wheels" },
+      { "id": "drop-leaf-bistro-island", "title": "2. Drop-Leaf Console with Stool Tuck-Away" },
+      { "id": "wall-mounted-folding-prep", "title": "3. Floating Wall-Mounted Drop-Down Counter" },
+      { "id": "counter-height-bar-table", "title": "4. Narrow Counter-Height Dining Bar" },
+      { "id": "sink-stove-cover-extender", "title": "5. Over-the-Sink & Stovetop Wooden Prep Boards" },
+      { "id": "tiered-bakers-rack-prep", "title": "6. Vertical Baker's Rack with Integrated Worktop" }
+    ],
+    "content": {
+      "intro": "A traditional kitchen island requires at least 100cm of clearance on all four sides—a luxury few compact city flats or galley kitchens can afford. If you struggle with crowded chopping boards and appliances cluttering your countertops, permanent cabinetry isn't your only answer. These six space-smart kitchen island alternatives deliver generous chopping room, pantry drawers, and casual breakfast seating without monopolising your floorplan.",
+      "quickAnswer": "The best kitchen island alternative for small kitchens is a narrow rolling butcher block cart (40cm to 50cm depth) with lockable rubber wheels. It provides an instant solid wood prep station and utensil shelving that can roll against a wall or out of the room when not in use.",
+      "sections": [
+        {
+          "id": "slim-rolling-butcher-cart",
+          "title": "1. Slim Rolling Butcher Cart on Wheels: Portable Prep Station",
+          "paragraphs": [
+            "A freestanding butcher cart is the most versatile workstation for a compact kitchen. Look for designs measuring between 45cm and 55cm in depth featuring a solid hardwood chopping top, slotted spice racks, and a towel bar.",
+            "Because it sits on multi-directional castors, you can glide it into the center of the kitchen during batch cooking, then tuck it flush beside the refrigerator or dining area when dinner is served."
+          ],
+          "specs": [
+            "Width: 60cm - 90cm",
+            "Depth: 45cm - 50cm",
+            "Weight Capacity: 40kg on top worktop"
+          ],
+          "table": {
+            "caption": "Cart Worktop Material Guide",
+            "headers": ["Top Material", "Durability", "Maintenance", "Aesthetic"],
+            "rows": [
+              ["End-Grain Bamboo", "High (cut resistant)", "Oil every 3 months", "Warm organic natural"],
+              ["Stainless Steel", "Maximum (heat proof)", "Wipe clean disinfectant", "Commercial modern urban"],
+              ["Faux Marble Composite", "Medium (avoid direct heat)", "Gentle dish soap only", "Luxe contemporary chic"]
+            ]
+          },
+          "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Slim rolling wooden kitchen trolley with shelves and wine rack",
+          "tip": "Treat the wooden top with food-grade mineral oil before first use to seal against beetroot and tomato stains.",
+          "recommendedProducts": [
+            {
+              "name": "Mobile Kitchen Trolley Cart with Solid Wood Top",
+              "description": "Compact utility kitchen island with storage drawer, slatted shelves, and lockable wheels.",
+              "price": "£69.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=slim+kitchen+island+cart+wheels+wood&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "drop-leaf-bistro-island",
+          "title": "2. Drop-Leaf Console with Stool Tuck-Away: Prep & Dine Hybrid",
+          "paragraphs": [
+            "If you need your kitchen furniture to pull double duty as a dining table, a drop-leaf island table is unmatched. When the folding extension leaf is dropped down, the console measures a modest 35cm deep.",
+            "Lift the hinged wooden leaves and lock the swing-out support arms, and your surface area instantly doubles to 70cm—providing ample room for two bar stools and dinner place settings."
+          ],
+          "specs": [
+            "Folded Depth: 35cm",
+            "Extended Depth: 75cm",
+            "Seating: 2 bar stools tuck fully beneath"
+          ],
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Drop leaf kitchen prep table with two tuck under bar stools",
+          "tip": "Select backless round wooden bar stools that slide 100% underneath the console frame so no stool legs protrude into your walkways.",
+          "recommendedProducts": [
+            {
+              "name": "Drop-Leaf Folding Kitchen Island Table with Storage",
+              "description": "Multi-functional dining and prep island with folding drop leaf and internal cupboard.",
+              "price": "£129.00",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=drop+leaf+kitchen+island+table&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "wall-mounted-folding-prep",
+          "title": "3. Floating Wall-Mounted Drop-Down Counter: Zero Floor Footprint",
+          "paragraphs": [
+            "In tight galley kitchens where even a rolling trolley causes door conflicts, look to your unused perimeter walls. A wall-mounted fold-down table bracket secures directly into wall studs.",
+            "When released, it locks into a sturdy 90-degree preparation surface capable of supporting heavy Dutch ovens and stand mixers. When finished, a single release latch folds the board flat against the wall, projecting less than 4cm into the corridor."
+          ],
+          "specs": [
+            "Projection Folded: 3.5cm",
+            "Projection Open: 50cm - 60cm",
+            "Bracket Load: 50kg in solid wall anchors"
+          ],
+          "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Wall-mounted fold-down wooden counter shelf in small kitchen",
+          "tip": "Mount the folding board at standard kitchen counter height (90cm) rather than desk height (75cm) so you can prep food comfortably without hunching.",
+          "recommendedProducts": [
+            {
+              "name": "Heavy Duty Wall Mounted Folding Brackets (Pair)",
+              "description": "Stainless steel spring-activated folding brackets rated for 100kg load capacity.",
+              "price": "£18.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=wall+mounted+folding+table+brackets+heavy+duty&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "counter-height-bar-table",
+          "title": "4. Narrow Counter-Height Dining Bar: Galley Boundary Line",
+          "paragraphs": [
+            "A long, slender pub table (120cm wide by 40cm deep) positioned along the boundary between an open kitchen and living room acts as both a visual boundary and an oversized prep zone.",
+            "Because counter-height tables stand at 90cm to 92cm, they match your stove and sink levels seamlessly, creating a continuous ergonomic work line."
+          ],
+          "specs": [
+            "Table Height: 91cm - 95cm",
+            "Depth: 40cm - 45cm",
+            "Frame: Powder-coated box section steel"
+          ],
+          "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Narrow counter height bar table with high stools in an apartment kitchen",
+          "tip": "Look for bar tables with a lower footrest crossbar—it doubles as a shoe resting ledge and structural anchor.",
+          "recommendedProducts": [
+            {
+              "name": "Narrow High Top Bar Table with Footrest",
+              "description": "Industrial style breakfast bar console table in rustic brown and black metal.",
+              "price": "£75.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=narrow+counter+height+bar+table+kitchen&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "sink-stove-cover-extender",
+          "title": "5. Over-the-Sink & Stovetop Wooden Prep Boards: In-Situ Space Expansion",
+          "paragraphs": [
+            "Before spending money on extra floor furniture, exploit dead space already sitting in your kitchen. An over-the-sink cutting board with silicone colander attachments converts your 40cm x 50cm sink basin into an active food prep zone.",
+            "Similarly, thick tempered glass or butcher board stovetop noodle boards rest securely across induction or gas hobs when cool, creating 0.5 square metres of extra dry ingredient assembly room."
+          ],
+          "specs": [
+            "Material: Antibacterial acacia wood or tempered glass",
+            "Sink Colander: Collapsible BPA-free silicone",
+            "Heat Resistance: Up to 200°C for tempered covers"
+          ],
+          "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Large over-the-sink wooden cutting board extending small kitchen counter",
+          "tip": "Measure the inner lip of your sink carefully to ensure cutting board groove tracks sit snugly without slipping during forceful chopping.",
+          "recommendedProducts": [
+            {
+              "name": "Over-The-Sink Acacia Cutting Board with Colander",
+              "description": "Extra large wooden chopping block with built-in extendable strainer basket.",
+              "price": "£29.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=over+the+sink+cutting+board+colander&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "tiered-bakers-rack-prep",
+          "title": "6. Vertical Baker's Rack with Integrated Worktop: Upward Utility",
+          "paragraphs": [
+            "When floor space is narrow, think vertically. A modern baker's rack pairs an eye-level microwave/prep worktop with multiple overhead shelves and bottom storage baskets.",
+            "Equipped with S-hooks along the steel side bars, it accommodates hanging frying pans, coffee mugs, and ladle sets that would otherwise crowd your scarce worktop space."
+          ],
+          "specs": [
+            "Overall Height: 160cm - 170cm",
+            "Counter Height: 85cm",
+            "Capacity: Microwave, kettle, and 6 hanging pans"
+          ],
+          "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+          "imageAlt": "Vertical baker's rack utility stand with microwave and kitchen accessories",
+          "tip": "Place your microwave on the main tier and heavy cast-iron cookware on the bottom wire racks to maintain a low centre of gravity.",
+          "recommendedProducts": [
+            {
+              "name": "5-Tier Kitchen Baker's Rack Microwave Stand",
+              "description": "Multi-tier kitchen storage organiser with 10 S-hooks and sturdy metal frame.",
+              "price": "£84.99",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=kitchen+bakers+rack+microwave+stand+wood&tag=urbanedge0c-20"
+            }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Small Kitchen Island Alternatives Compared",
+        "headers": ["Alternative Option", "Prep Space Added", "Clearance Needed", "Storage Level", "Budget Range"],
+        "rows": [
+          ["Rolling Butcher Cart", "Medium (50x60cm)", "None (rolls away)", "High (shelves + drawers)", "£60 - £120"],
+          ["Drop-Leaf Bistro Bar", "Large (75x100cm)", "70cm when extended", "Medium (stools stow under)", "£100 - £200"],
+          ["Wall-Mounted Drop Counter", "Medium (50x80cm)", "Zero when folded down", "None (surface only)", "£30 - £80"],
+          ["Narrow Bar Table", "Large (40x120cm)", "60cm walkway", "Low (footrest shelf)", "£70 - £150"],
+          ["Over-the-Sink Board", "Compact (40x50cm)", "Zero (uses sink)", "None (prep only)", "£20 - £45"],
+          ["Vertical Baker's Rack", "Medium (40x80cm)", "Floor footprint 45cm", "Maximum (5 vertical tiers)", "£75 - £140"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How much space do you need between kitchen counters and an island alternative?",
+        "answer": "Maintain a minimum clearance of 90cm (approximately 36 inches) between your main kitchen counters and an island alternative to allow oven doors, dishwashers, and drawers to open completely without collisions."
+      },
+      {
+        "question": "Can a rolling cart replace a permanent kitchen island?",
+        "answer": "Yes. A high-quality solid wood rolling butcher cart delivers the exact same chopping and food prep utility as a built-in island, but gives you the flexibility to move it against a wall when not in use."
+      },
+      {
+        "question": "What is the best alternative for a very narrow galley kitchen?",
+        "answer": "For tight galley kitchens under 2 metres wide, an over-the-sink cutting board combined with a wall-mounted fold-down drop-leaf table is the best solution because neither consumes permanent floor space."
+      }
+    ],
+    "relatedArticleSlugs": [
+      "small-kitchen-ideas",
+      "small-kitchen-storage-ideas",
+      "galley-kitchen-ideas"
+    ],
+    "relatedShopLookSlugs": [
+      "warm-minimalist-living-room"
+    ]
+  }
 ];
 
 export const EVERGREEN_GUIDES = [
