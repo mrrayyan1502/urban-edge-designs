@@ -188,16 +188,16 @@ export const CATEGORIES = [
 
 export const AUTHORS = [
   {
-    name: "Urban Edge Design Editorial Team",
-    role: "Small-space interiors & editorial research",
-    avatar: "/og-image.png",
-    bio: "Our editorial team researches practical layouts, space-saving ideas, materials and product categories for compact homes."
+    name: "Rayyan Malik",
+    role: "Founder & Interior Design Researcher",
+    avatar: "/author-avatar.svg",
+    bio: "Founder & Interior Design Researcher at Urban Edge Designs, focusing on practical small-space living, layout optimization, and functional decor. Each guide is built on published planning guidelines and real spatial clearances."
   },
   {
     name: "Urban Edge Design Product Desk",
-    role: "Furniture & product research",
-    avatar: "/og-image.png",
-    bio: "Our product desk curates space-conscious furniture and decor references. Product availability, pricing and retailer links should be verified before publication."
+    role: "Furniture & Product Research",
+    avatar: "/author-avatar.svg",
+    bio: "Our product desk curates space-conscious furniture and decor references by comparing listed dimensions, materials, and small-space suitability."
   }
 ];
 
@@ -5844,11 +5844,7 @@ export const ARTICLES: Article[] = [
     "propertyType": "Studio",
     "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
     "pinterestImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-    "author": {
-      "name": "Clara Finch",
-      "role": "Senior Interior Architect",
-      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
-    },
+    "author": AUTHORS[0],
     "publishDate": "12 October 2026",
     "updatedDate": "12 October 2026",
     "readTime": "9 min read",
@@ -6049,11 +6045,7 @@ export const ARTICLES: Article[] = [
     "propertyType": "Apartment",
     "heroImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
     "pinterestImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
-    "author": {
-      "name": "Julian Mercer",
-      "role": "Spatial Planner & Storage Specialist",
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
-    },
+    "author": AUTHORS[1],
     "publishDate": "12 October 2026",
     "updatedDate": "12 October 2026",
     "readTime": "8 min read",
@@ -6257,6 +6249,339 @@ export const ARTICLES: Article[] = [
     ],
     "relatedShopLookSlugs": [
       "warm-minimalist-living-room"
+    ]
+  },
+{
+    "id": "art-27",
+    "slug": "narrow-living-room-layout-ideas-with-tv-and-dining",
+    "title": "Narrow Living Room Layout Ideas with TV and Dining",
+    "excerpt": "Narrow living room with a TV and a dining table? Use these zoning layouts, walkway widths and furniture sizes to fit both without the room feeling cramped.",
+    "category": "Living Room",
+    "roomSlug": "living-room",
+    "style": "Contemporary",
+    "color": "Neutral",
+    "budget": "Mid-range",
+    "space": "Small",
+    "propertyType": "Flat",
+    "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=80",
+    "author": AUTHORS[0],
+    "publishDate": "2026-10-20",
+    "updatedDate": "2026-10-20",
+    "readTime": "7 min read",
+    "toc": [
+      { "id": "zone-the-room", "title": "1. Zone the Room Along Its Length" },
+      { "id": "walkway-one-side", "title": "2. Keep the Walkway on One Side" },
+      { "id": "tv-placement", "title": "3. Place the TV Where the Sofa Faces It" },
+      { "id": "shrinking-dining-table", "title": "4. Choose a Dining Table That Can Shrink" },
+      { "id": "bench-banquette", "title": "5. Use a Bench on the Long Wall" },
+      { "id": "zone-lighting", "title": "6. Light Each Zone Separately" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "A long, narrow living room is one of the most common layouts in flats and terraced conversions, and one of the hardest to furnish. When the same room has to hold a sofa, a TV and somewhere to eat, the usual mistake is to push everything against the two long walls, which leaves a bowling-alley corridor down the middle. The better approach is to treat the room as two or three zones, keep one clear walking route, and choose furniture by depth rather than width.",
+      "quickAnswer": "Split the room into a seating zone and a dining zone along its length, keep one continuous walkway of 75–90 cm down one side (not the middle), put the TV on the short wall or on the long wall facing a sofa no deeper than 85 cm, and use a round or drop-leaf table for 2–4 people at the window end. Anchor each zone with its own rug and light.",
+      "sections": [
+        {
+          "id": "zone-the-room",
+          "title": "1. Zone the Room Along Its Length",
+          "paragraphs": [
+            "Mark out two rectangles: seating at one end, dining at the other. In most narrow rooms the dining zone works best nearest the window or the kitchen door, because that is where you need light during the day and quick access at mealtimes.",
+            "The seating zone then takes the darker, more enclosed end, which suits evening TV viewing anyway. A rug under the sofa and a separate pendant or lamp over the table make the split obvious without any wall or divider."
+          ],
+          "specs": [
+            { "label": "Seating rug", "value": "160 × 230 cm minimum" },
+            { "label": "Gap between zones", "value": "75 – 90 cm" },
+            { "label": "Front sofa legs", "value": "Resting on the rug" }
+          ],
+          "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+          "imageAlt": "Compact sofa on a rug defining the seating zone of a narrow living room",
+          "tip": "If the room has two doors, put the dining zone at the end nearest the kitchen so plates never travel through the TV area."
+        },
+        {
+          "id": "walkway-one-side",
+          "title": "2. Keep the Walkway on One Side, Not Down the Middle",
+          "paragraphs": [
+            "A central path cuts both zones in half and makes the room read as a corridor. Instead, push the sofa and table toward one long wall and keep the walking route along the other.",
+            "A clear path of about 75 cm is a practical minimum for one person, and around 90 cm feels comfortable if the route leads to another room or a balcony door."
+          ],
+          "specs": [
+            { "label": "Minimum walkway", "value": "about 75 cm" },
+            { "label": "Comfortable walkway", "value": "about 90 cm" }
+          ],
+          "tip": "Before buying anything, tape the walkway on the floor with masking tape and live with it for a day. If you keep stepping outside the tape, the furniture plan is too tight."
+        },
+        {
+          "id": "tv-placement",
+          "title": "3. Place the TV Where the Sofa Can Face It Straight On",
+          "paragraphs": [
+            "In a narrow room you have two TV options. The short end wall works when seating sits at the opposite end; the viewing distance is longer, so it suits larger screens. The long wall opposite the sofa only works if sofa depth plus coffee table plus walkway fits the room's width.",
+            "A common guideline for 4K screens is to sit roughly 1.2 to 1.6 times the screen's diagonal away, which is about 1.6–2.1 m for a 55-inch TV. Wall-mounting, or choosing a media unit no deeper than 30–40 cm, gives back valuable floor width."
+          ],
+          "specs": [
+            { "label": "Sofa depth", "value": "80 – 85 cm" },
+            { "label": "Media unit depth", "value": "30 – 40 cm" },
+            { "label": "55\" 4K viewing distance", "value": "about 1.6 – 2.1 m" }
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Slim TV Media Unit (30–40 cm deep)",
+              "description": "Low-depth TV stands that keep the walkway clear in narrow living rooms. Compare listed depth before buying.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=slim+tv+unit+narrow+depth&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "shrinking-dining-table",
+          "title": "4. Choose a Dining Table That Can Shrink",
+          "paragraphs": [
+            "Rectangular tables eat a narrow room's width. A round table of 80–90 cm diameter seats two comfortably and four at a squeeze, and a drop-leaf or gateleg table can sit almost flat against the wall day to day and open up for guests.",
+            "Allow about 60 cm of table edge per person and roughly 75 cm behind each chair so it can be pushed back. That drops to about 60 cm if one side uses a bench against the wall."
+          ],
+          "specs": [
+            { "label": "Round table for 2–4", "value": "80 – 90 cm Ø" },
+            { "label": "Width per diner", "value": "about 60 cm" },
+            { "label": "Chair pull-back space", "value": "about 75 cm" }
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Drop-Leaf Dining Table for Small Spaces",
+              "description": "Folding-leaf tables that sit slim against a wall and open for guests. Check the folded and open depths in the listing.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=drop+leaf+dining+table+small&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "bench-banquette",
+          "title": "5. Use a Bench or Banquette on the Long Wall",
+          "paragraphs": [
+            "A wall-side bench takes less depth than chairs because nobody needs space to pull it out, and it can hide storage underneath.",
+            "Pair it with two chairs on the open side and the dining zone shrinks by around 15–20 cm compared with chairs on both sides, which can be the difference between a comfortable walkway and a squeeze."
+          ]
+        },
+        {
+          "id": "zone-lighting",
+          "title": "6. Light Each Zone Separately",
+          "paragraphs": [
+            "Narrow rooms often have a single central ceiling light that falls in the wrong place once you zone the room. Use a plug-in pendant or a floor lamp over the dining table and a lamp beside the sofa.",
+            "Hang a pendant roughly 75–90 cm above the tabletop so it lights the table without blocking the view across it."
+          ],
+          "specs": [
+            { "label": "Pendant above table", "value": "75 – 90 cm" }
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Plug-In Pendant Light",
+              "description": "Pendants with a plug and long cable, useful for lighting a dining zone without rewiring a rented flat.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=plug+in+pendant+light&tag=urbanedge0c-20"
+            }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "TV and Dining Layouts for Narrow Living Rooms",
+        "headers": ["Layout", "Best Room Width", "TV Position", "Dining Position", "Main Drawback"],
+        "rows": [
+          ["End-to-end zones", "2.6 m+", "Short end wall", "Window end", "Long viewing distance"],
+          ["Sofa faces long wall", "3.0 m+", "Long wall, mounted", "Window end", "Needs a slim media unit"],
+          ["L-sofa as divider", "3.2 m+", "Short end wall", "Behind the sofa back", "L-sofas are deep"],
+          ["Bench + drop-leaf", "2.4 m+", "Wall-mounted, swivel arm", "Along the long wall", "Seats 2 day to day"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How wide does a living room need to be for a TV and a dining table?",
+        "answer": "Around 2.4–2.6 m works with a wall-mounted TV, a slim sofa and a drop-leaf or bench dining setup. Above about 3 m you get far more layout options."
+      },
+      {
+        "question": "Where should the dining table go in a narrow living room?",
+        "answer": "Usually at the window or kitchen end, where daylight and access are best. The seating and TV then take the darker end of the room."
+      },
+      {
+        "question": "Should the sofa back onto the dining area?",
+        "answer": "Yes, if the room is at least about 3.2 m wide. A sofa back makes a natural divider, but leave about 75–90 cm behind it to walk through."
+      },
+      {
+        "question": "Is a round or rectangular table better for a narrow room?",
+        "answer": "For 2–4 people, round or drop-leaf tables usually fit better because they have no corners sticking into the walkway."
+      },
+      {
+        "question": "How do I stop a narrow living room feeling like a corridor?",
+        "answer": "Keep the walkway on one side, use two rugs to create zones, add a mirror on a long wall, and avoid lining every piece of furniture against the walls."
+      }
+    ],
+    "relatedArticleSlugs": [
+      "small-living-room-layout-ideas",
+      "small-living-room-with-tv",
+      "small-apartment-dining-room-ideas"
+    ],
+    "relatedShopLookSlugs": [
+      "warm-minimalist-living-room",
+      "japandi-living-room"
+    ]
+  },
+  {
+    "id": "art-28",
+    "slug": "floating-nightstand-ideas-for-small-bedrooms",
+    "title": "Floating Nightstand Ideas for Small Bedrooms",
+    "excerpt": "Floating nightstands free up floor space in small bedrooms. See the right heights, depths and fixings, plus rental-friendly options that don't need drilling.",
+    "category": "Bedroom",
+    "roomSlug": "bedroom",
+    "style": "Minimalist",
+    "color": "White",
+    "budget": "Budget",
+    "space": "Small",
+    "propertyType": "Rental",
+    "heroImage": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1000&q=80",
+    "author": AUTHORS[0],
+    "publishDate": "2026-10-20",
+    "updatedDate": "2026-10-20",
+    "readTime": "6 min read",
+    "toc": [
+      { "id": "nightstand-height", "title": "1. Get the Height Right First" },
+      { "id": "nightstand-depth", "title": "2. Match the Depth to the Gap" },
+      { "id": "nightstand-styles", "title": "3. Pick the Right Style" },
+      { "id": "wall-fixings", "title": "4. Use the Right Fixings for Your Wall" },
+      { "id": "rental-alternatives", "title": "5. Rental-Friendly Alternatives" },
+      { "id": "lighting-cables", "title": "6. Plan Lighting and Cables" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "In a small bedroom the bed usually takes most of the floor, and the gap on either side can be as little as 40–50 cm. A standard bedside table with legs and a drawer simply doesn't fit, or it blocks the wardrobe door. A floating nightstand, a shelf or small cabinet fixed to the wall, gives you somewhere for a lamp, phone and glass of water while leaving the floor clear, which makes the room easier to clean and visually larger.",
+      "quickAnswer": "Mount a floating nightstand so its top sits level with, or up to 5 cm below, the top of your mattress (usually 50–65 cm from the floor). Keep it 20–30 cm deep in tight gaps and use proper fixings for your wall type. In rentals, choose clip-on bed shelves or a narrow leaning shelf instead of drilling.",
+      "sections": [
+        {
+          "id": "nightstand-height",
+          "title": "1. Get the Height Right First",
+          "paragraphs": [
+            "The most common mistake is mounting the shelf at a standard table height without checking the bed. Measure from the floor to the top of the mattress, including any topper, and set the shelf top level with it or slightly lower.",
+            "That way you can reach a glass or phone without stretching or knocking things off. Platform beds and low Japandi-style beds often need a shelf as low as 35–45 cm."
+          ],
+          "specs": [
+            { "label": "Shelf top height", "value": "Mattress top to 5 cm below" },
+            { "label": "Typical range", "value": "50 – 65 cm from floor" },
+            { "label": "Low platform beds", "value": "35 – 45 cm" }
+          ],
+          "image": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=1000&q=80",
+          "imageAlt": "Minimal bedroom with a slim wall-mounted bedside shelf beside the bed"
+        },
+        {
+          "id": "nightstand-depth",
+          "title": "2. Match the Depth to the Gap Beside the Bed",
+          "paragraphs": [
+            "Depth matters more than width in a tight room. A 20–25 cm deep shelf holds a small lamp, phone and book, while a 30–35 cm floating drawer unit adds hidden storage but needs a little more walking space.",
+            "Try to keep at least 50–60 cm of clear floor between the shelf edge and any wardrobe or wall so you can still get in and out of bed comfortably."
+          ],
+          "specs": [
+            { "label": "Minimal shelf", "value": "20 – 25 cm deep" },
+            { "label": "Floating drawer unit", "value": "30 – 35 cm deep" },
+            { "label": "Width", "value": "35 – 45 cm typical" }
+          ]
+        },
+        {
+          "id": "nightstand-styles",
+          "title": "3. Pick the Right Style",
+          "paragraphs": [
+            "A single floating shelf is the slimmest option and suits phone-and-lamp minimalists. A floating drawer or cube hides chargers, glasses and clutter; look for units with a cable hole at the back.",
+            "A shelf with an integrated lamp removes the need for a table lamp and frees the whole top. A wall-mounted two-tier or ladder shelf adds vertical book storage when you can't go wider."
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Floating Bedside Table with Drawer",
+              "description": "Wall-mounted bedside units with a small drawer for chargers and glasses. Check the listed depth and load rating.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=floating+bedside+table+drawer&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "wall-fixings",
+          "title": "4. Use the Right Fixings for Your Wall",
+          "paragraphs": [
+            "Floating furniture is only as strong as its fixings. Solid brick or block walls take standard wall plugs and screws, while plasterboard needs plasterboard-specific fixings or, ideally, screws into the timber or metal studs behind it.",
+            "Use a stud and cable detector before drilling, because bedside walls often carry cables to sockets and switches. Check the load rating printed on both the shelf and the fixings, and leave a safety margin, since people lean on nightstands."
+          ],
+          "tip": "A hollow sound when you knock usually means plasterboard and a dull, solid sound usually means masonry, but a detector is still the safer check.",
+          "recommendedProducts": [
+            {
+              "name": "Stud and Cable Detector",
+              "description": "Handheld detectors that help locate studs and live cables before drilling into a wall.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=stud+cable+detector&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "rental-alternatives",
+          "title": "5. Rental-Friendly Alternatives (No Drilling)",
+          "paragraphs": [
+            "If your tenancy doesn't allow drilling, clip-on bedside shelves attach to the bed frame or slide under the mattress, and narrow leaning ladder shelves rest against the wall without fixings.",
+            "Some tenancy agreements allow small screw holes if they are filled when you move out, so check your agreement or ask your landlord in writing first."
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Clip-On Bedside Shelf",
+              "description": "Bed-attached shelves that hold a phone, book or glass without any wall fixings.",
+              "price": "Check current price",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=clip+on+bedside+shelf&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "lighting-cables",
+          "title": "6. Plan Your Lighting and Cables",
+          "paragraphs": [
+            "Wall-mounted or plug-in wall lights above a floating shelf keep the top clear for essentials.",
+            "Run cables through a slim paintable cable cover, or choose a unit with a built-in cable hole, so the floating effect isn't spoiled by wires hanging underneath."
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Floating Nightstand Options Compared",
+        "headers": ["Type", "Typical Depth", "Storage", "Drilling Needed", "Best For"],
+        "rows": [
+          ["Single floating shelf", "20–25 cm", "Low", "Yes", "Very tight gaps"],
+          ["Floating drawer unit", "30–35 cm", "Medium (hidden)", "Yes", "Clutter control"],
+          ["Shelf with built-in lamp", "20–30 cm", "Low", "Yes", "Freeing up the top"],
+          ["Clip-on bed shelf", "15–25 cm", "Low", "No", "Renters"],
+          ["Leaning ladder shelf", "25–35 cm", "Medium (open)", "No", "Renters, books"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How high should a floating nightstand be?",
+        "answer": "Level with the top of your mattress or up to about 5 cm below it. For most beds that is 50–65 cm from the floor."
+      },
+      {
+        "question": "How deep should a floating nightstand be in a small bedroom?",
+        "answer": "20–25 cm for a simple shelf, or 30–35 cm if you want a drawer. Try to keep 50–60 cm of clear floor beside the bed."
+      },
+      {
+        "question": "Can floating nightstands go on plasterboard walls?",
+        "answer": "Yes, with plasterboard-rated fixings or screws into the studs. Always check the load rating and scan for cables before drilling."
+      },
+      {
+        "question": "Are floating nightstands good for renters?",
+        "answer": "Only if drilling is allowed. Otherwise, clip-on bed shelves or leaning shelves give a similar effect without damaging walls."
+      },
+      {
+        "question": "Do floating nightstands make a room look bigger?",
+        "answer": "Usually yes. Seeing more floor under furniture makes a room read as larger, and the floor is easier to clean."
+      }
+    ],
+    "relatedArticleSlugs": [
+      "small-bedroom-ideas",
+      "small-bedroom-storage",
+      "small-bedroom-layout-ideas"
+    ],
+    "relatedShopLookSlugs": [
+      "modern-small-bedroom"
     ]
   }
 ];

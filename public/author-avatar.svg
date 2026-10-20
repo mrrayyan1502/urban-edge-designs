@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="60" fill="#171611" />
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#8b6f47" stroke-width="2" stroke-dasharray="4 2" opacity="0.6"/>
+  <circle cx="60" cy="60" r="48" fill="#1f1e18" />
+  <text x="60" y="70" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#f8f5ee" text-anchor="middle" letter-spacing="1">UE</text>
+  <circle cx="60" cy="84" r="2.5" fill="#8b6f47" />
+</svg>
