@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f4eee1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#171611" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1500" fill="url(#bgGrad)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="36" y="36" width="928" height="1428" rx="24" fill="none" stroke="#ded4c2" stroke-width="2" />
+  <rect x="48" y="48" width="904" height="1404" rx="16" fill="none" stroke="#ebe3d5" stroke-width="1" />
+
+  <!-- Header Branding -->
+  <g transform="translate(80, 85)">
+    <circle cx="28" cy="28" r="28" fill="#171611" />
+    <text x="28" y="35" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#c8ad7f" text-anchor="middle">UE</text>
+    <text x="72" y="24" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="bold" fill="#171611" letter-spacing="0.5">URBAN EDGE <tspan fill="#8b6f47" font-style="italic">DESIGN</tspan></text>
+    <text x="72" y="44" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b6f47" letter-spacing="3">ARCHITECTURAL SPATIAL STANDARDS</text>
+  </g>
+
+  <!-- Content Layer -->
+  
+  <!-- Category Badge -->
+  <g transform="translate(80, 175)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#8b6f47" fill-opacity="0.12" />
+    <text x="110" y="22" font-family="'Inter', Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8b6f47" text-anchor="middle" letter-spacing="2">BEDROOM ERGONOMICS</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="#171611">
+    Bed &amp; Wardrobe
+  </text>
+  <text x="80" y="310" font-family="'Playfair Display', Georgia, serif" font-size="34" font-style="italic" fill="#8b6f47">
+    Clearance &amp; Nightstand Height Rules
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="355" font-family="'Inter', Helvetica, sans-serif" font-size="16" fill="#171611" fill-opacity="0.75">
+    The essential small bedroom spacing guide to avoid blocked wardrobes.
+  </text>
+
+  <!-- Visual Schematic -->
+  <g transform="translate(80, 395)" filter="url(#cardShadow)">
+    <rect width="840" height="420" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <text x="35" y="45" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#8b6f47" letter-spacing="2">COMPACT BEDROOM LAYOUT SCHEMATIC</text>
+
+    <!-- Bed Representation -->
+    <rect x="250" y="100" width="340" height="260" rx="12" fill="#ebe3d5" stroke="#171611" stroke-width="2" />
+    <rect x="280" y="115" width="130" height="40" rx="6" fill="#ffffff" stroke="#171611" stroke-width="1" />
+    <rect x="430" y="115" width="130" height="40" rx="6" fill="#ffffff" stroke="#171611" stroke-width="1" />
+    <text x="420" y="250" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="bold" fill="#171611" text-anchor="middle">DOUBLE BED (135 x 190 cm)</text>
+
+    <!-- Floating Nightstands -->
+    <rect x="150" y="115" width="70" height="50" rx="6" fill="#171611" />
+    <text x="185" y="145" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#c8ad7f" text-anchor="middle">STAND</text>
+    <rect x="620" y="115" width="70" height="50" rx="6" fill="#171611" />
+    <text x="655" y="145" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#c8ad7f" text-anchor="middle">STAND</text>
+
+    <!-- Side Clearance Indicator -->
+    <line x1="590" y1="230" x2="720" y2="230" stroke="#8b6f47" stroke-width="2" stroke-dasharray="3,3" />
+    <rect x="615" y="215" width="80" height="26" rx="6" fill="#8b6f47" />
+    <text x="655" y="233" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">60 cm</text>
+    <text x="725" y="235" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#171611">WALL</text>
+
+    <!-- Foot of Bed Clearance -->
+    <line x1="420" y1="360" x2="420" y2="400" stroke="#8b6f47" stroke-width="2" />
+    <rect x="360" y="370" width="120" height="26" rx="6" fill="#171611" />
+    <text x="420" y="388" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#c8ad7f" text-anchor="middle">FOOT: 75 cm</text>
+  </g>
+
+  <!-- Table Card -->
+  <g transform="translate(80, 850)" filter="url(#cardShadow)">
+    <rect width="840" height="480" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <rect width="840" height="55" rx="16" fill="#171611" />
+    <rect y="40" width="840" height="15" fill="#171611" />
+    
+    <text x="40" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f8f5ee" letter-spacing="1">BEDROOM SPATIAL ELEMENT</text>
+    <text x="460" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">MINIMUM</text>
+    <text x="680" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">COMFORT</text>
+
+    <g transform="translate(40, 95)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Bed-to-Side-Wall Walkway</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Allows making the bed comfortably</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">55 cm (22")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">75 cm (30")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 175)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Hinged Wardrobe Door Arc Buffer</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Door swing + standing user clearance</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">80 cm (32")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">95 cm (38")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 255)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Nightstand Height vs Mattress</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Tabletop surface relative to mattress top</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">Level / -2 cm</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">Level with Top</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 335)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Under-Bed Storage Drawer Pullout</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Side clearance needed to pull drawer out</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">65 cm (26")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">80 cm (32")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 425)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#8b6f47">✓ Standard Architectural Ergonomics &amp; Neufert Anthropometric Data</text>
+    </g>
+  </g>
+
+
+  <!-- Footer CTA -->
+  <g transform="translate(80, 1375)">
+    <rect x="0" y="0" width="840" height="60" rx="30" fill="#171611" />
+    <text x="420" y="37" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8f5ee" text-anchor="middle" letter-spacing="1">
+      TAP FOR THE FULL 50+ DIMENSIONS GUIDE &amp; CHEAT SHEET ➔
+    </text>
+    <text x="420" y="-14" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8b6f47" text-anchor="middle" letter-spacing="1.5">
+      urban-edge-designs.com/ideas/small-space-dimensions-guide
+    </text>
+  </g>
+</svg>

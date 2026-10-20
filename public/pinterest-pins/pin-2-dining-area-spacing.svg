@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f4eee1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#171611" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1500" fill="url(#bgGrad)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="36" y="36" width="928" height="1428" rx="24" fill="none" stroke="#ded4c2" stroke-width="2" />
+  <rect x="48" y="48" width="904" height="1404" rx="16" fill="none" stroke="#ebe3d5" stroke-width="1" />
+
+  <!-- Header Branding -->
+  <g transform="translate(80, 85)">
+    <circle cx="28" cy="28" r="28" fill="#171611" />
+    <text x="28" y="35" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#c8ad7f" text-anchor="middle">UE</text>
+    <text x="72" y="24" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="bold" fill="#171611" letter-spacing="0.5">URBAN EDGE <tspan fill="#8b6f47" font-style="italic">DESIGN</tspan></text>
+    <text x="72" y="44" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b6f47" letter-spacing="3">ARCHITECTURAL SPATIAL STANDARDS</text>
+  </g>
+
+  <!-- Content Layer -->
+  
+  <!-- Category Badge -->
+  <g transform="translate(80, 175)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#8b6f47" fill-opacity="0.12" />
+    <text x="110" y="22" font-family="'Inter', Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8b6f47" text-anchor="middle" letter-spacing="2">DINING ROOM SPACING</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="#171611">
+    How Far From The Wall?
+  </text>
+  <text x="80" y="310" font-family="'Playfair Display', Georgia, serif" font-size="34" font-style="italic" fill="#8b6f47">
+    Small Apartment Dining Clearances
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="355" font-family="'Inter', Helvetica, sans-serif" font-size="16" fill="#171611" fill-opacity="0.75">
+    Avoid trapped guests and blocked doors with standard chair push-back metrics.
+  </text>
+
+  <!-- Visual Schematic -->
+  <g transform="translate(80, 395)" filter="url(#cardShadow)">
+    <rect width="840" height="420" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <text x="35" y="45" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#8b6f47" letter-spacing="2">DINING PERIMETER CLEARANCE RULES</text>
+
+    <!-- Table Graphic (Round Drop Leaf) -->
+    <circle cx="300" cy="240" r="110" fill="#171611" />
+    <text x="300" y="245" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="bold" fill="#c8ad7f" text-anchor="middle">90 cm ROUND</text>
+
+    <!-- Chairs -->
+    <rect x="260" y="85" width="80" height="35" rx="6" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <rect x="260" y="360" width="80" height="35" rx="6" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <rect x="145" y="200" width="35" height="80" rx="6" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <rect x="420" y="200" width="35" height="80" rx="6" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+
+    <!-- Wall Indicator Right -->
+    <line x1="680" y1="80" x2="680" y2="400" stroke="#171611" stroke-width="6" stroke-linecap="round" />
+    <text x="700" y="245" font-family="'Inter', sans-serif" font-size="15" font-weight="bold" fill="#171611">WALL</text>
+
+    <!-- Clearance Dimension Line Table to Wall -->
+    <line x1="410" y1="240" x2="680" y2="240" stroke="#8b6f47" stroke-width="2" stroke-dasharray="4,4" />
+    <rect x="480" y="215" width="130" height="30" rx="6" fill="#8b6f47" />
+    <text x="545" y="235" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">90 – 105 cm</text>
+    <text x="545" y="270" font-family="'Inter', sans-serif" font-size="12" fill="#171611" fill-opacity="0.7" text-anchor="middle">Allows Walk-Behind</text>
+  </g>
+
+  <!-- Data Table Card -->
+  <g transform="translate(80, 850)" filter="url(#cardShadow)">
+    <rect width="840" height="480" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <rect width="840" height="55" rx="16" fill="#171611" />
+    <rect y="40" width="840" height="15" fill="#171611" />
+    
+    <text x="40" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f8f5ee" letter-spacing="1">CLEARANCE REQUIREMENT</text>
+    <text x="460" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">MINIMUM</text>
+    <text x="680" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">COMFORT</text>
+
+    <g transform="translate(40, 95)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Chair Push-Back (No Passage)</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Allows diner to stand up from table</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">75 cm (30")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">80 cm (32")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 175)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Table Edge to Wall Walkway</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Allows walking behind seated diners</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">90 cm (36")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">105 cm (42")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 255)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Per-Diner Width on Tabletop</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Elbow room between diners</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">60 cm (24")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">70 cm (28")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 335)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Banquette Seating Depth</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Built-in bench cushion depth</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">45 cm (18")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">50 cm (20")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 425)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#8b6f47">✓ Complies with UK Building Regulations Part M &amp; NKBA Dining Standards</text>
+    </g>
+  </g>
+
+
+  <!-- Footer CTA -->
+  <g transform="translate(80, 1375)">
+    <rect x="0" y="0" width="840" height="60" rx="30" fill="#171611" />
+    <text x="420" y="37" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8f5ee" text-anchor="middle" letter-spacing="1">
+      TAP FOR THE FULL 50+ DIMENSIONS GUIDE &amp; CHEAT SHEET ➔
+    </text>
+    <text x="420" y="-14" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8b6f47" text-anchor="middle" letter-spacing="1.5">
+      urban-edge-designs.com/ideas/small-space-dimensions-guide
+    </text>
+  </g>
+</svg>

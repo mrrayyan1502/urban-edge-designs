@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f4eee1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#171611" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1500" fill="url(#bgGrad)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="36" y="36" width="928" height="1428" rx="24" fill="none" stroke="#ded4c2" stroke-width="2" />
+  <rect x="48" y="48" width="904" height="1404" rx="16" fill="none" stroke="#ebe3d5" stroke-width="1" />
+
+  <!-- Header Branding -->
+  <g transform="translate(80, 85)">
+    <circle cx="28" cy="28" r="28" fill="#171611" />
+    <text x="28" y="35" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#c8ad7f" text-anchor="middle">UE</text>
+    <text x="72" y="24" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="bold" fill="#171611" letter-spacing="0.5">URBAN EDGE <tspan fill="#8b6f47" font-style="italic">DESIGN</tspan></text>
+    <text x="72" y="44" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b6f47" letter-spacing="3">ARCHITECTURAL SPATIAL STANDARDS</text>
+  </g>
+
+  <!-- Content Layer -->
+  
+  <!-- Category Badge -->
+  <g transform="translate(80, 175)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#8b6f47" fill-opacity="0.12" />
+    <text x="110" y="22" font-family="'Inter', Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8b6f47" text-anchor="middle" letter-spacing="2">STUDIO APARTMENT ZONING</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="#171611">
+    Studio Zoning Rules
+  </text>
+  <text x="80" y="310" font-family="'Playfair Display', Georgia, serif" font-size="34" font-style="italic" fill="#8b6f47">
+    Dividing Sleeping &amp; Living Spaces
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="355" font-family="'Inter', Helvetica, sans-serif" font-size="16" fill="#171611" fill-opacity="0.75">
+    How to delineate private bedroom areas in micro-apartments under 45 m².
+  </text>
+
+  <!-- Visual Schematic -->
+  <g transform="translate(80, 395)" filter="url(#cardShadow)">
+    <rect width="840" height="420" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <text x="35" y="45" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#8b6f47" letter-spacing="2">OPEN-PLAN STUDIO ZONING BLUEPRINT</text>
+
+    <!-- Zone A: Sleeping -->
+    <rect x="70" y="90" width="310" height="290" rx="12" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <text x="225" y="130" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611" text-anchor="middle">BEDROOM ZONE</text>
+    <rect x="110" y="160" width="230" height="190" rx="8" fill="#ffffff" stroke="#171611" stroke-width="1" />
+    <text x="225" y="260" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#171611" text-anchor="middle">Bed (135x190)</text>
+
+    <!-- Divider: Open Bookcase / Slats -->
+    <rect x="400" y="90" width="35" height="290" rx="6" fill="#171611" />
+    <text x="418" y="240" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#c8ad7f" text-anchor="middle" transform="rotate(-90 418 240)">OPEN SHELF DIVIDER</text>
+
+    <!-- Zone B: Living Room -->
+    <rect x="455" y="90" width="320" height="290" rx="12" fill="#f8f5ee" stroke="#171611" stroke-width="1.5" />
+    <text x="615" y="130" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611" text-anchor="middle">LIVING ZONE</text>
+    <rect x="480" y="180" width="270" height="80" rx="8" fill="#ebe3d5" stroke="#171611" stroke-width="1" />
+    <text x="615" y="228" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#171611" text-anchor="middle">Compact Sofa</text>
+
+    <!-- Circulation Arrow at Base -->
+    <text x="420" y="405" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#8b6f47" text-anchor="middle">
+      ◄── 75 – 90 cm CIRCULATION WALKWAY ──►
+    </text>
+  </g>
+
+  <!-- Table Card -->
+  <g transform="translate(80, 850)" filter="url(#cardShadow)">
+    <rect width="840" height="480" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <rect width="840" height="55" rx="16" fill="#171611" />
+    <rect y="40" width="840" height="15" fill="#171611" />
+    
+    <text x="40" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f8f5ee" letter-spacing="1">STUDIO PARTITION TYPE</text>
+    <text x="440" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">CLEARANCE</text>
+    <text x="660" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">LIGHT EFFICIENCY</text>
+
+    <g transform="translate(40, 95)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Open-Back Bookcase</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">35-40 cm deep unit (e.g. Kallax)</text>
+      <text x="400" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">75 - 90 cm</text>
+      <text x="620" y="8" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#171611">Preserves Daylight</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 175)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Ceiling Curtain Track</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Flush ceiling profile (5 cm wide)</text>
+      <text x="400" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">60 cm buffer</text>
+      <text x="620" y="8" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#171611">100% Retractable</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 255)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Slatted Timber Screen</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Vertical acoustic wood battens</text>
+      <text x="400" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">70 cm passage</text>
+      <text x="620" y="8" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#171611">70%+ Light Flow</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 335)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Sofa Back-to-Bed Console</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">25-30 cm drop console table</text>
+      <text x="400" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">45 cm spacer</text>
+      <text x="620" y="8" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#171611">Dual Function</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 425)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#8b6f47">✓ Field-tested studio zoning benchmarks for apartments under 45 m²</text>
+    </g>
+  </g>
+
+
+  <!-- Footer CTA -->
+  <g transform="translate(80, 1375)">
+    <rect x="0" y="0" width="840" height="60" rx="30" fill="#171611" />
+    <text x="420" y="37" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8f5ee" text-anchor="middle" letter-spacing="1">
+      TAP FOR THE FULL 50+ DIMENSIONS GUIDE &amp; CHEAT SHEET ➔
+    </text>
+    <text x="420" y="-14" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8b6f47" text-anchor="middle" letter-spacing="1.5">
+      urban-edge-designs.com/ideas/small-space-dimensions-guide
+    </text>
+  </g>
+</svg>

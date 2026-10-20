@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f4eee1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#171611" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1500" fill="url(#bgGrad)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="36" y="36" width="928" height="1428" rx="24" fill="none" stroke="#ded4c2" stroke-width="2" />
+  <rect x="48" y="48" width="904" height="1404" rx="16" fill="none" stroke="#ebe3d5" stroke-width="1" />
+
+  <!-- Header Branding -->
+  <g transform="translate(80, 85)">
+    <circle cx="28" cy="28" r="28" fill="#171611" />
+    <text x="28" y="35" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#c8ad7f" text-anchor="middle">UE</text>
+    <text x="72" y="24" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="bold" fill="#171611" letter-spacing="0.5">URBAN EDGE <tspan fill="#8b6f47" font-style="italic">DESIGN</tspan></text>
+    <text x="72" y="44" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b6f47" letter-spacing="3">ARCHITECTURAL SPATIAL STANDARDS</text>
+  </g>
+
+  <!-- Content Layer -->
+  
+  <!-- Category Badge -->
+  <g transform="translate(80, 175)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#8b6f47" fill-opacity="0.12" />
+    <text x="110" y="22" font-family="'Inter', Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8b6f47" text-anchor="middle" letter-spacing="2">KITCHEN ERGONOMICS</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="bold" fill="#171611">
+    Galley Kitchen Rules
+  </text>
+  <text x="80" y="310" font-family="'Playfair Display', Georgia, serif" font-size="34" font-style="italic" fill="#8b6f47">
+    NKBA Work Aisle Clearances for Small Flats
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="355" font-family="'Inter', Helvetica, sans-serif" font-size="16" fill="#171611" fill-opacity="0.75">
+    Prevent oven door collisions and cramped prep counters in compact kitchens.
+  </text>
+
+  <!-- Schematic Diagram -->
+  <g transform="translate(80, 395)" filter="url(#cardShadow)">
+    <rect width="840" height="420" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <text x="35" y="45" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#8b6f47" letter-spacing="2">GALLEY AISLE CLEARANCE BLUEPRINT</text>
+
+    <!-- Counter Top Left -->
+    <rect x="100" y="100" width="640" height="60" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <text x="420" y="137" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#171611" text-anchor="middle">SINK &amp; PREP RUN (60 cm DEPTH)</text>
+
+    <!-- Counter Bottom Right -->
+    <rect x="100" y="280" width="640" height="60" fill="#ebe3d5" stroke="#171611" stroke-width="1.5" />
+    <text x="420" y="317" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#171611" text-anchor="middle">COOKTOP &amp; OVEN RUN (60 cm DEPTH)</text>
+
+    <!-- Aisle Clearance Dimension -->
+    <line x1="420" y1="165" x2="420" y2="275" stroke="#8b6f47" stroke-width="3" />
+    <rect x="330" y="205" width="180" height="34" rx="8" fill="#8b6f47" />
+    <text x="420" y="228" font-family="'Inter', sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">105 cm (42") AISLE</text>
+
+    <text x="710" y="228" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#8b6f47" text-anchor="end">SINGLE-COOK MIN: 90 cm</text>
+  </g>
+
+  <!-- Table -->
+  <g transform="translate(80, 850)" filter="url(#cardShadow)">
+    <rect width="840" height="480" rx="16" fill="#ffffff" stroke="#ded4c2" stroke-width="1" />
+    <rect width="840" height="55" rx="16" fill="#171611" />
+    <rect y="40" width="840" height="15" fill="#171611" />
+    
+    <text x="40" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f8f5ee" letter-spacing="1">KITCHEN WORK ZONE</text>
+    <text x="460" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">MINIMUM</text>
+    <text x="680" y="34" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#c8ad7f" letter-spacing="1">NKBA BENCHMARK</text>
+
+    <g transform="translate(40, 95)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Single-Cook Work Aisle</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Counter edge to opposing counter</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">90 cm (36")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">105 cm (42")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 175)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Two-Cook / Shared Kitchen Aisle</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Allows two adults to pass back-to-back</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">105 cm (42")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">120 cm (48")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 255)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Oven Door Swing Open Buffer</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Door open plus squatting cook space</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">90 cm (36")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">105 cm (42")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 335)">
+      <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="bold" fill="#171611">Upper Cabinet Clearance</text>
+      <text x="0" y="20" font-family="'Inter', sans-serif" font-size="13" fill="#171611" fill-opacity="0.6">Countertop to underside of wall cabinets</text>
+      <text x="420" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#8b6f47">45 cm (18")</text>
+      <text x="640" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#171611">50 cm (20")</text>
+      <line x1="0" y1="38" x2="760" y2="38" stroke="#ebe3d5" stroke-width="1" />
+    </g>
+
+    <g transform="translate(40, 425)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#8b6f47">✓ National Kitchen &amp; Bath Association (NKBA) Planning Guideline 3</text>
+    </g>
+  </g>
+
+
+  <!-- Footer CTA -->
+  <g transform="translate(80, 1375)">
+    <rect x="0" y="0" width="840" height="60" rx="30" fill="#171611" />
+    <text x="420" y="37" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f8f5ee" text-anchor="middle" letter-spacing="1">
+      TAP FOR THE FULL 50+ DIMENSIONS GUIDE &amp; CHEAT SHEET ➔
+    </text>
+    <text x="420" y="-14" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#8b6f47" text-anchor="middle" letter-spacing="1.5">
+      urban-edge-designs.com/ideas/small-space-dimensions-guide
+    </text>
+  </g>
+</svg>
