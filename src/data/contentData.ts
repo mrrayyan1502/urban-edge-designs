@@ -6583,10 +6583,867 @@ export const ARTICLES: Article[] = [
     "relatedShopLookSlugs": [
       "modern-small-bedroom"
     ]
-  }
+  },
+{
+  "id": "art-29",
+  "slug": "small-space-dimensions-guide",
+  "title": "The Small-Space Dimensions Guide: 50+ Layout Clearances & Furniture Sizes for Flats and Studios",
+  "excerpt": "The definitive architectural clearance reference for small spaces. Over 50 field-tested ergonomic measurements, NKBA standards, and furniture dimension tables for apartments, studios, and compact homes.",
+  "category": "Small Apartments",
+  "roomSlug": "small-apartments",
+  "style": "Contemporary",
+  "color": "Neutral",
+  "budget": "Mid-range",
+  "space": "Small",
+  "propertyType": "Studio",
+  "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+  "pinterestImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=80",
+  "author": AUTHORS[0],
+  "publishDate": "2026-10-20",
+  "updatedDate": "2026-10-20",
+  "readTime": "14 min read",
+  "toc": [
+    {
+      "id": "circulation-walkways",
+      "title": "1. Walkways & Primary Circulation Pathways"
+    },
+    {
+      "id": "living-room-clearances",
+      "title": "2. Living Room Furniture Spacing & Layout Clearances"
+    },
+    {
+      "id": "tv-viewing-distances",
+      "title": "3. 4K TV Sizes & Ergonomic Viewing Distances"
+    },
+    {
+      "id": "bedroom-bed-clearances",
+      "title": "4. Bedroom Clearances & Standard Bed Dimensions"
+    },
+    {
+      "id": "nightstand-wardrobe-clearances",
+      "title": "5. Nightstand Heights & Wardrobe Opening Clearances"
+    },
+    {
+      "id": "kitchen-work-aisles",
+      "title": "6. Kitchen Work Aisles, Prep Counters & NKBA Standards"
+    },
+    {
+      "id": "dining-table-clearances",
+      "title": "7. Dining Table Dimensions & Per-Diner Space Standards"
+    },
+    {
+      "id": "bathroom-fixture-clearances",
+      "title": "8. Bathroom Fixture Clearances & Compact Layout Spacing"
+    },
+    {
+      "id": "home-office-ergonomics",
+      "title": "9. Compact Home Office Ergonomic Clearances"
+    },
+    {
+      "id": "mounting-heights",
+      "title": "10. Wall Art, Lighting & Shelf Mounting Heights"
+    },
+    {
+      "id": "faq-section",
+      "title": "Frequently Asked Questions"
+    }
+  ],
+  "content": {
+    "intro": "When decorating a compact urban flat, studio apartment, or cottage conversion, guesswork is the fastest route to claustrophobia. A sofa that extends just 10 cm too far into a doorway ruins room circulation. A coffee table placed 50 cm away from seating leaves you straining for your mug, while one 25 cm away traps your shins. Spatial comfort in small homes is not an accident\u2014it is the direct mathematical result of respecting human ergonomic clearances. This guide compiles over 50 authoritative, field-tested measurements drawn from architectural guidelines, NKBA kitchen standards, and ergonomic studies into a single definitive reference for compact living.",
+    "quickAnswer": "The three non-negotiable clearances for any small space are: 1) Keep primary walkways at a minimum of 75 cm (ideally 90 cm); 2) Leave exactly 35 cm to 45 cm between your sofa edge and coffee table; 3) Maintain at least 60 cm of walking clearance along each side of your bed. Adhering to these three dimensions prevents 90% of layout mistakes in compact homes.",
+    "sections": [
+      {
+        "id": "circulation-walkways",
+        "title": "1. Walkways & Primary Circulation Pathways",
+        "paragraphs": [
+          "Circulation pathways represent the invisible arteries of any home. In a small apartment, the human eye instinctively calculates spatial openness by assessing unbroken floor runs and the ease with which one can navigate from room to room without sideways sidestepping.",
+          "Architectural standards distinguish between 'primary pathways' (the main route connecting the entry door, kitchen, and bathroom) and 'secondary pathways' (routes around coffee tables, between a bed and a window, or into a reading corner). Primary paths require an absolute minimum of 75 cm to allow an adult to carry groceries or laundry without grazing walls.",
+          "Where two people frequently cross paths in an open-plan studio, widen primary circulation corridors to 90 cm to 105 cm. Secondary access paths can taper to 50 cm to 60 cm in tight corners without creating psychological restriction."
+        ],
+        "specs": [
+          {
+            "label": "Primary Pathway",
+            "value": "75 cm min (90 cm optimal)"
+          },
+          {
+            "label": "Secondary Pathway",
+            "value": "50 cm - 60 cm"
+          },
+          {
+            "label": "Two-Person Passing Corridor",
+            "value": "90 cm - 105 cm"
+          }
+        ],
+        "table": {
+          "caption": "Table 1: Architectural Circulation Standards for Compact Homes",
+          "headers": [
+            "Pathway Type",
+            "Absolute Minimum",
+            "Ergonomic Standard",
+            "Source / Reference"
+          ],
+          "rows": [
+            [
+              "Primary Entry / Hallway Route",
+              "75 cm (30 in)",
+              "90 cm (36 in)",
+              "UK Building Regs Part M / Neufert"
+            ],
+            [
+              "Secondary Furniture Pathway",
+              "50 cm (20 in)",
+              "60 cm (24 in)",
+              "Architectural Graphic Standards"
+            ],
+            [
+              "Two-Person Bi-Directional Passage",
+              "90 cm (36 in)",
+              "105 cm (42 in)",
+              "Time-Saver Standards for Interior Design"
+            ],
+            [
+              "Balcony / Patio Door Access",
+              "70 cm (28 in)",
+              "80 cm (32 in)",
+              "Universal Design Ergonomic Benchmarks"
+            ]
+          ]
+        },
+        "tip": "Tape Test: Lay blue painter's tape along your planned floor walkways for 48 hours before purchasing furniture. If your shoulders brush doorframes or furniture corners, increase pathway width by at least 10 cm."
+      },
+      {
+        "id": "living-room-clearances",
+        "title": "2. Living Room Furniture Spacing & Layout Clearances",
+        "paragraphs": [
+          "In a small living room, furniture spacing determines whether the room feels curated or overcrowded. The most crucial dimension is the gap between the front edge of your sofa seat and the coffee table. The golden ergonomic rule is 35 cm to 45 cm (14 to 18 inches). This distance allows an adult to sit down and stretch their legs comfortably while still being able to reach a drink or book without leaning forward.",
+          "Sofas in compact spaces should feature a seat depth of 80 cm to 85 cm with elevated legs (15 cm to 20 cm) that expose unbroken floor area beneath. Heavy, skirted sofas sitting flush on the floor visually shrink the room by up to 25%.",
+          "For side tables, position the tabletop within 5 cm (above or below) of the sofa arm height. An oversized area rug should extend at least 15 cm to 20 cm beyond both sides of the sofa, with all front furniture legs resting firmly on the rug to visually anchor the conversational zone."
+        ],
+        "specs": [
+          {
+            "label": "Sofa to Coffee Table",
+            "value": "35 cm - 45 cm"
+          },
+          {
+            "label": "Sofa Leg Clearance",
+            "value": "15 cm - 20 cm"
+          },
+          {
+            "label": "Rug Border Extension",
+            "value": "15 cm - 20 cm beyond sofa"
+          }
+        ],
+        "table": {
+          "caption": "Table 2: Living Room Spatial & Furniture Clearances",
+          "headers": [
+            "Spatial Relationship",
+            "Minimum Dimension",
+            "Ideal Range",
+            "Standard Function"
+          ],
+          "rows": [
+            [
+              "Sofa Front to Coffee Table",
+              "35 cm (14 in)",
+              "40 cm - 45 cm (16 - 18 in)",
+              "Legroom and effortless reach"
+            ],
+            [
+              "Side Table to Sofa Arm Height",
+              "Equal height",
+              "\u00b15 cm (\u00b12 in)",
+              "Natural arm reach without spilling"
+            ],
+            [
+              "Armchair to Conversation Center",
+              "120 cm (48 in)",
+              "180 cm - 240 cm (72 - 96 in)",
+              "Intimate voice conversation"
+            ],
+            [
+              "Sofa Back to Wall (Air Gap)",
+              "5 cm (2 in)",
+              "8 cm - 10 cm (3 - 4 in)",
+              "Prevents visual crowding and scuffs"
+            ],
+            [
+              "Area Rug Front Leg Overlap",
+              "15 cm (6 in)",
+              "20 cm - 30 cm (8 - 12 in)",
+              "Anchors seating visually"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "tv-viewing-distances",
+        "title": "3. 4K TV Sizes & Ergonomic Viewing Distances",
+        "paragraphs": [
+          "One of the most frequent mistakes in small living rooms is mounting an oversized television at the wrong viewing distance or too high on the wall. For modern 4K Ultra HD televisions, the Society of Motion Picture and Television Engineers (SMPTE) and THX recommend a 30 to 40-degree field of view.",
+          "In practice, the ideal viewing distance for a 4K TV equals approximately 1.2 to 1.6 times the diagonal screen size. For example, a 50-inch 4K screen requires a viewing distance of 1.5 m to 2.0 m (5.0 to 6.5 ft), which fits standard compact apartment widths perfectly.",
+          "For vertical mounting height, the center of the television screen should align directly with your seated eye level\u2014typically 100 cm to 110 cm (39 to 43 inches) from the finished floor to the screen center. Mounting a TV above a high mantelpiece causes persistent cervical neck strain."
+        ],
+        "specs": [
+          {
+            "label": "4K Distance Multiplier",
+            "value": "1.2x to 1.6x screen diagonal"
+          },
+          {
+            "label": "Eye-Level Screen Center",
+            "value": "100 cm - 110 cm from floor"
+          },
+          {
+            "label": "Media Console Depth",
+            "value": "30 cm - 38 cm optimal"
+          }
+        ],
+        "table": {
+          "caption": "Table 3: Recommended 4K UHD TV Viewing Distances & Console Depths",
+          "headers": [
+            "Screen Size (Diagonal)",
+            "Minimum Distance (1.2x)",
+            "Comfortable Distance (1.6x)",
+            "Recommended Console Depth"
+          ],
+          "rows": [
+            [
+              "43 Inches (109 cm)",
+              "1.3 m (4.3 ft)",
+              "1.7 m (5.7 ft)",
+              "28 cm - 32 cm (11 - 13 in)"
+            ],
+            [
+              "50 Inches (127 cm)",
+              "1.5 m (5.0 ft)",
+              "2.0 m (6.7 ft)",
+              "30 cm - 35 cm (12 - 14 in)"
+            ],
+            [
+              "55 Inches (140 cm)",
+              "1.7 m (5.5 ft)",
+              "2.2 m (7.3 ft)",
+              "32 cm - 38 cm (13 - 15 in)"
+            ],
+            [
+              "65 Inches (165 cm)",
+              "2.0 m (6.5 ft)",
+              "2.6 m (8.7 ft)",
+              "35 cm - 40 cm (14 - 16 in)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "bedroom-bed-clearances",
+        "title": "4. Bedroom Clearances & Standard Bed Dimensions",
+        "paragraphs": [
+          "The bed inevitably commands the greatest share of square footage in any small bedroom. To maintain a functional, restful atmosphere, preserve a minimum perimeter clearance of 60 cm (24 inches) on all sides of the bed that require daily access. While 75 cm (30 inches) provides optimum comfort for changing sheets and opening wardrobe doors, 60 cm is the recognized ergonomic threshold for making a bed without bruising knees.",
+          "In very tight bedrooms (under 9 square meters), downscaling from a Super King (180 cm width) or King (150 cm width) to a UK Double (135 cm width) or Small Double / Queen (120 cm width) returns 30 cm to 60 cm of precious perimeter circulation, allowing space for a narrow wardrobe or compact workspace."
+        ],
+        "specs": [
+          {
+            "label": "Bedside Walkway Min",
+            "value": "60 cm (75 cm ideal)"
+          },
+          {
+            "label": "Foot-of-Bed Clearance",
+            "value": "65 cm min to wall or dresser"
+          },
+          {
+            "label": "Under-Bed Storage Height",
+            "value": "25 cm - 35 cm clearance"
+          }
+        ],
+        "table": {
+          "caption": "Table 4: Standard UK & US Bed Dimensions and Small-Room Suitability",
+          "headers": [
+            "Bed Size Designation",
+            "Width x Length (Metric)",
+            "Width x Length (Imperial)",
+            "Recommended Min Room Size"
+          ],
+          "rows": [
+            [
+              "UK Single / US Twin",
+              "90 cm x 190 cm",
+              "3'0\" x 6'3\"",
+              "2.1 m x 2.7 m (5.7 m\u00b2)"
+            ],
+            [
+              "UK Small Double / Three-Quarter",
+              "120 cm x 190 cm",
+              "4'0\" x 6'3\"",
+              "2.4 m x 2.8 m (6.7 m\u00b2)"
+            ],
+            [
+              "UK Double / US Full",
+              "135 cm x 190 cm",
+              "4'6\" x 6'3\"",
+              "2.7 m x 3.0 m (8.1 m\u00b2)"
+            ],
+            [
+              "UK King / US Queen",
+              "150 cm x 200 cm",
+              "5'0\" x 6'6\"",
+              "3.0 m x 3.3 m (9.9 m\u00b2)"
+            ],
+            [
+              "UK Super King / US King",
+              "180 cm x 200 cm",
+              "6'0\" x 6'6\"",
+              "3.5 m x 3.6 m (12.6 m\u00b2)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "nightstand-wardrobe-clearances",
+        "title": "5. Nightstand Heights & Wardrobe Opening Clearances",
+        "paragraphs": [
+          "A nightstand that sits awkwardly above or below your mattress creates daily frustration and nighttime spills. The optimal ergonomic rule dictates that the top surface of your nightstand should rest within 5 cm (level with, or up to 5 cm below) the top of your sleeping mattress surface, including any mattress topper. For most standard beds, this translates to 50 cm to 65 cm from the finished floor.",
+          "Wardrobe and closet clearances demand strict attention in small bedrooms. Hinged wardrobe doors require 60 cm to 75 cm of forward projection clearance: 50 cm for the swinging door panel, plus 15 cm to 25 cm of standing clearance for you to browse hangers comfortably. If your room clearance in front of the wardrobe is under 75 cm, choose sliding doors or track-mounted bi-fold panels to eliminate door-swing conflicts completely."
+        ],
+        "specs": [
+          {
+            "label": "Nightstand Top Height",
+            "value": "Level to -5 cm vs mattress top"
+          },
+          {
+            "label": "Hinged Wardrobe Clearance",
+            "value": "75 cm - 90 cm in front of doors"
+          },
+          {
+            "label": "Standard Wardrobe Depth",
+            "value": "58 cm - 62 cm (hanger clearance)"
+          }
+        ],
+        "table": {
+          "caption": "Table 5: Bedroom Storage & Nightstand Ergonomic Dimensions",
+          "headers": [
+            "Storage Element",
+            "Minimum Clearance",
+            "Standard Dimension",
+            "Design Tip"
+          ],
+          "rows": [
+            [
+              "Nightstand Surface Height",
+              "Level with mattress",
+              "50 cm - 65 cm (20 - 26 in)",
+              "Keep level to prevent knocking glasses"
+            ],
+            [
+              "Floating Nightstand Depth",
+              "20 cm (8 in)",
+              "25 cm - 30 cm (10 - 12 in)",
+              "Frees floor area for vacuuming"
+            ],
+            [
+              "Hinged Wardrobe Door Swing",
+              "60 cm (24 in)",
+              "75 cm - 90 cm (30 - 36 in)",
+              "Switch to sliding doors if under 70 cm"
+            ],
+            [
+              "Dresser Drawer Extension",
+              "45 cm (18 in)",
+              "90 cm total (drawers open + body)",
+              "Ensure walkway remains when open"
+            ],
+            [
+              "Full-Length Mirror Distance",
+              "90 cm (36 in)",
+              "120 cm - 150 cm (48 - 60 in)",
+              "Enables full head-to-toe view"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "kitchen-work-aisles",
+        "title": "6. Kitchen Work Aisles, Prep Counters & NKBA Standards",
+        "paragraphs": [
+          "Kitchen efficiency is governed by the National Kitchen and Bath Association (NKBA) Planning Guidelines. In galley and open apartment kitchens, the width of the work aisle between facing counters or between a counter and an island is paramount.",
+          "NKBA Guideline 7 dictates a minimum work aisle width of 36 inches (91 cm) for single-cook kitchens, and 42 inches (107 cm) for multiple cooks. In compact city apartments, 90 cm is the absolute functional minimum that allows an oven door or dishwasher rack to open fully without pinning the cook against the opposing wall.",
+          "The classical Kitchen Work Triangle (connecting refrigerator, sink, and stovetop) should have a combined perimeter of between 3.6 m (12 ft) and 7.9 m (26 ft), with no single leg measuring under 1.2 m (4 ft) or over 2.7 m (9 ft). Counters should maintain a standard finished working height of 90 cm to 91 cm (35.5 to 36 inches) for neutral spinal posture."
+        ],
+        "specs": [
+          {
+            "label": "Single-Cook Work Aisle",
+            "value": "91 cm min (NKBA Guideline 7)"
+          },
+          {
+            "label": "Standard Counter Height",
+            "value": "90 cm - 91 cm"
+          },
+          {
+            "label": "Work Triangle Perimeter",
+            "value": "3.6 m to 7.9 m total"
+          }
+        ],
+        "table": {
+          "caption": "Table 6: NKBA Kitchen Clearance Standards for Compact Living",
+          "headers": [
+            "Kitchen Work Zone",
+            "NKBA Minimum Standard",
+            "Small Apartment Compromise",
+            "Clearance Rationale"
+          ],
+          "rows": [
+            [
+              "Single-Cook Work Aisle Width",
+              "91 cm (36 in)",
+              "90 cm (35.5 in)",
+              "Oven and dishwasher door extension"
+            ],
+            [
+              "Multi-Cook Work Aisle Width",
+              "107 cm (42 in)",
+              "100 cm (39.5 in)",
+              "Passing space behind an active cook"
+            ],
+            [
+              "Prep Counter Landing beside Sink",
+              "61 cm (24 in) on one side",
+              "45 cm (18 in)",
+              "Sufficient cutting board stability"
+            ],
+            [
+              "Stovetop Side Landing Area",
+              "38 cm (15 in) on one side",
+              "30 cm (12 in)",
+              "Resting hot pans safely"
+            ],
+            [
+              "Distance: Stove to Upper Cabinets",
+              "76 cm (30 in) for gas",
+              "65 cm (26 in) for induction",
+              "Fire safety and extraction clearance"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "dining-table-clearances",
+        "title": "7. Dining Table Dimensions & Per-Diner Space Standards",
+        "paragraphs": [
+          "Dining tables in small spaces require careful calculations of two separate factors: table surface width per diner and chair pull-out clearance behind the table.",
+          "Each seated diner requires an absolute minimum table width of 60 cm (24 inches) and a depth of 35 cm to 40 cm (14 to 16 inches) to prevent elbow clashes. In the center of the table, reserve a 20 cm to 25 cm shared strip for serving dishes and condiments.",
+          "Behind every dining chair, preserve a minimum clearance of 75 cm (30 inches) from the table edge to the nearest wall or obstruction so guests can rise from the table. To allow someone to walk behind an occupied dining chair comfortably, increase this clearance to 90 cm to 105 cm (36 to 42 inches). In tight flats, swapping chairs on one side for a wall-adjacent banquette or bench eliminates 20 cm of required pull-back space."
+        ],
+        "specs": [
+          {
+            "label": "Width per Seated Diner",
+            "value": "60 cm min (65 cm comfortable)"
+          },
+          {
+            "label": "Chair Pull-Back Space",
+            "value": "75 cm min (90 cm to walk past)"
+          },
+          {
+            "label": "Pendant Height above Table",
+            "value": "75 cm - 90 cm from tabletop"
+          }
+        ],
+        "table": {
+          "caption": "Table 7: Dining Space Standards & Table Sizing for Small Flats",
+          "headers": [
+            "Seating Capacity",
+            "Table Shape",
+            "Minimum Dimensions",
+            "Recommended Floor Clearance"
+          ],
+          "rows": [
+            [
+              "2 Persons (Bistro)",
+              "Round (Diameter)",
+              "75 cm - 80 cm (30 - 32 in)",
+              "75 cm perimeter walkway"
+            ],
+            [
+              "2 - 4 Persons (Drop-Leaf)",
+              "Rectangular / Square",
+              "80 cm x 80 cm (open to 120 cm)",
+              "75 cm pull-back clearance"
+            ],
+            [
+              "4 Persons (Comfortable)",
+              "Round (Diameter)",
+              "90 cm - 105 cm (36 - 42 in)",
+              "85 cm perimeter clearance"
+            ],
+            [
+              "4 - 6 Persons (Expandable)",
+              "Rectangular",
+              "80 cm x 135 cm (extends to 180 cm)",
+              "90 cm around active seating"
+            ],
+            [
+              "Wall Banquette / Bench Side",
+              "Fixed Bench",
+              "Depth 45 cm (no pull-back needed)",
+              "Saves 20 cm versus dining chairs"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "bathroom-fixture-clearances",
+        "title": "8. Bathroom Fixture Clearances & Compact Layout Spacing",
+        "paragraphs": [
+          "Small bathrooms, powder rooms, and ensuites are governed by strict plumbing code clearances (such as UK Building Regulations Approved Document M and US International Residential Code Section R307).",
+          "In front of any toilet (water closet) or vanity washbasin, building regulations require an absolute minimum clear floor space of 53 cm (21 inches), with 76 cm (30 inches) recommended for everyday ergonomics. From the centerline of the toilet to any side wall or vanity edge, provide at least 38 cm (15 inches), with 45 cm (18 inches) representing the comfortable standard.",
+          "For shower enclosures in compact bathrooms, a 76 cm x 76 cm (30 x 30 in) quadrant or square tray is the absolute code minimum, while an 80 cm x 80 cm or 90 cm x 90 cm tray dramatically improves elbow clearance during showering."
+        ],
+        "specs": [
+          {
+            "label": "Clearance in front of WC",
+            "value": "53 cm min (76 cm recommended)"
+          },
+          {
+            "label": "WC Centerline to Side Wall",
+            "value": "38 cm min (45 cm standard)"
+          },
+          {
+            "label": "Shower Enclosure Minimum",
+            "value": "76 cm x 76 cm (80 cm+ preferred)"
+          }
+        ],
+        "table": {
+          "caption": "Table 8: Standard Plumbing Fixture Clearances for Small Bathrooms",
+          "headers": [
+            "Bathroom Fixture",
+            "Building Code Minimum",
+            "Ergonomic Recommendation",
+            "Authority Reference"
+          ],
+          "rows": [
+            [
+              "Clearance in Front of Toilet",
+              "53 cm (21 in)",
+              "76 cm (30 in)",
+              "IRC Section R307 / UK Part M"
+            ],
+            [
+              "Toilet Centerline to Side Obstruction",
+              "38 cm (15 in)",
+              "45 cm (18 in)",
+              "NKBA Bath Guidelines / IRC"
+            ],
+            [
+              "Clearance in Front of Vanity Basin",
+              "53 cm (21 in)",
+              "76 cm (30 in)",
+              "International Residential Code"
+            ],
+            [
+              "Vanity Countertop Height",
+              "76 cm (30 in)",
+              "86 cm - 91 cm (34 - 36 in)",
+              "Modern Comfort-Height Ergonomics"
+            ],
+            [
+              "Shower Enclosure Interior",
+              "76 x 76 cm (30x30 in)",
+              "90 x 90 cm (36x36 in)",
+              "IRC Minimum / NKBA Guideline"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "home-office-ergonomics",
+        "title": "9. Compact Home Office Ergonomic Clearances",
+        "paragraphs": [
+          "With remote work becoming a permanent fixture of urban apartment living, carving an ergonomic desk nook out of a living room or bedroom alcove requires millimetre precision.",
+          "A compact desk for laptop work can measure as shallow as 45 cm to 50 cm, but if you utilize an external monitor and separate keyboard, a minimum surface depth of 60 cm (24 inches) is essential to preserve a 50 cm to 75 cm (20 to 30 inches) ergonomic eye-to-screen distance.",
+          "Behind your desk chair, preserve at least 90 cm to 105 cm (36 to 42 inches) of unobstructed floor depth so the office chair can roll back without striking walls, bed frames, or open doors. Standard desk surface height sits between 72 cm and 75 cm (28.5 to 29.5 inches) from the floor."
+        ],
+        "specs": [
+          {
+            "label": "Desk Depth (Laptop only)",
+            "value": "45 cm - 50 cm"
+          },
+          {
+            "label": "Desk Depth (Monitor + Keyboard)",
+            "value": "60 cm minimum"
+          },
+          {
+            "label": "Chair Roll-Back Clearance",
+            "value": "90 cm - 105 cm"
+          }
+        ],
+        "table": {
+          "caption": "Table 9: Compact Home Office Workspace Ergonomics",
+          "headers": [
+            "Workstation Dimension",
+            "Minimum Metric",
+            "Ergonomic Standard",
+            "Function / Health Impact"
+          ],
+          "rows": [
+            [
+              "Desk Worktop Depth (Monitor)",
+              "55 cm (22 in)",
+              "60 cm - 70 cm (24 - 28 in)",
+              "Preserves 50cm-75cm monitor focal distance"
+            ],
+            [
+              "Desk Worktop Width (Single user)",
+              "80 cm (32 in)",
+              "100 cm - 120 cm (40 - 48 in)",
+              "Room for keyboard, mouse and notebook"
+            ],
+            [
+              "Chair Pull-Back Depth",
+              "80 cm (32 in)",
+              "90 cm - 105 cm (36 - 42 in)",
+              "Effortless egress and wheel movement"
+            ],
+            [
+              "Desktop Finished Height",
+              "71 cm (28 in)",
+              "73 cm - 75 cm (29 in)",
+              "90-degree neutral elbow angle"
+            ],
+            [
+              "Top of Monitor Viewing Angle",
+              "Level with eye",
+              "0 - 15 degrees below horizontal",
+              "Prevents chronic cervical neck strain"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "mounting-heights",
+        "title": "10. Wall Art, Lighting & Shelf Mounting Heights",
+        "paragraphs": [
+          "Vertical placement mistakes are rampant in small flats. Mounting wall art too high visually detaches furniture and lowers the apparent ceiling height of the room.",
+          "Galleries and museums universally follow the 57-inch rule (145 cm to 152 cm): the vertical center point of any picture frame or art grouping should sit precisely at average eye level (145 cm to 150 cm from the finished floor). When hanging art directly above a sofa or headboard, position the bottom edge of the frame 15 cm to 20 cm (6 to 8 inches) above the furniture back.",
+          "For wall-mounted sconces and bedside reading lamps, mount the fixture backplate at 140 cm to 150 cm from the floor (or approximately 75 cm to 85 cm above the mattress top). Pendant lights suspended over dining tables or kitchen islands should hang 75 cm to 90 cm (30 to 36 inches) above the tabletop."
+        ],
+        "specs": [
+          {
+            "label": "Art Centerline Height",
+            "value": "145 cm - 150 cm (57-60 in)"
+          },
+          {
+            "label": "Art Gap above Sofa",
+            "value": "15 cm - 20 cm (6-8 in)"
+          },
+          {
+            "label": "Pendant above Tabletop",
+            "value": "75 cm - 90 cm (30-36 in)"
+          }
+        ],
+        "table": {
+          "caption": "Table 10: Standard Mounting Heights for Lighting, Art & Floating Shelves",
+          "headers": [
+            "Wall Installation Element",
+            "Mounting Height / Clear Distance",
+            "Reference Line",
+            "Visual Purpose"
+          ],
+          "rows": [
+            [
+              "Wall Art Centerline",
+              "145 cm - 150 cm (57 - 59 in)",
+              "Finished floor to center of artwork",
+              "Universal museum eye-level baseline"
+            ],
+            [
+              "Art Frame Above Sofa / Headboard",
+              "15 cm - 20 cm (6 - 8 in)",
+              "Top of furniture back to bottom of frame",
+              "Creates unified vertical composition"
+            ],
+            [
+              "Dining Pendant Fixture Base",
+              "75 cm - 90 cm (30 - 36 in)",
+              "Tabletop surface to bottom of shade",
+              "Illuminates food without blocking sightlines"
+            ],
+            [
+              "Bedside Wall Sconce Base",
+              "140 cm - 150 cm (55 - 59 in)",
+              "Floor (or 75cm-85cm above mattress)",
+              "Reading light without glare or head bumps"
+            ],
+            [
+              "Floating Bookshelf Spacing",
+              "25 cm - 35 cm (10 - 14 in)",
+              "Vertical distance between shelves",
+              "Standard paperback and hardcover heights"
+            ]
+          ]
+        }
+      }
+    ],
+    "comparisonTable": {
+      "caption": "Master Small Space Dimension Cheat Sheet: Quick Reference Table",
+      "headers": [
+        "Room Zone",
+        "Key Clearance Dimension",
+        "Absolute Minimum",
+        "Ergonomic Target",
+        "Source Standard"
+      ],
+      "rows": [
+        [
+          "Circulation",
+          "Primary Walkway Corridor",
+          "75 cm (30 in)",
+          "90 cm (36 in)",
+          "UK Part M / Neufert"
+        ],
+        [
+          "Living Room",
+          "Sofa to Coffee Table Gap",
+          "35 cm (14 in)",
+          "40 - 45 cm (16 - 18 in)",
+          "Architectural Graphic Standards"
+        ],
+        [
+          "Living Room",
+          "Sofa Leg Floor Clearance",
+          "12 cm (5 in)",
+          "15 - 20 cm (6 - 8 in)",
+          "Spatial Sightline Optimization"
+        ],
+        [
+          "Living Room",
+          "55-inch 4K TV Viewing Distance",
+          "1.7 m (5.5 ft)",
+          "2.0 - 2.2 m (6.5 - 7.3 ft)",
+          "SMPTE / THX 4K Standards"
+        ],
+        [
+          "Bedroom",
+          "Bedside Walkway Clearance",
+          "60 cm (24 in)",
+          "75 cm (30 in)",
+          "Time-Saver Standards for Interiors"
+        ],
+        [
+          "Bedroom",
+          "Nightstand Height vs Mattress",
+          "Level with mattress",
+          "-5 cm to Level",
+          "Ergonomic Reach Benchmarks"
+        ],
+        [
+          "Bedroom",
+          "Wardrobe Door Clearance",
+          "60 cm (24 in)",
+          "75 - 90 cm (30 - 36 in)",
+          "Hinged Door Clearance Standards"
+        ],
+        [
+          "Kitchen",
+          "Single-Cook Work Aisle",
+          "91 cm (36 in)",
+          "107 cm (42 in)",
+          "NKBA Guideline 7"
+        ],
+        [
+          "Kitchen",
+          "Counter Finished Worktop Height",
+          "90 cm (35.5 in)",
+          "91 - 92 cm (36 in)",
+          "Ergonomic Spinal Neutral Posture"
+        ],
+        [
+          "Dining Room",
+          "Width Allocation per Diner",
+          "60 cm (24 in)",
+          "65 cm (26 in)",
+          "Neufert Architects' Data"
+        ],
+        [
+          "Dining Room",
+          "Chair Pull-Back Wall Space",
+          "75 cm (30 in)",
+          "90 - 105 cm (36 - 42 in)",
+          "Dining Ergonomic Standards"
+        ],
+        [
+          "Bathroom",
+          "Clear Floor in Front of WC",
+          "53 cm (21 in)",
+          "76 cm (30 in)",
+          "IRC Section R307 / UK Part M"
+        ],
+        [
+          "Bathroom",
+          "Toilet Centerline to Side Wall",
+          "38 cm (15 in)",
+          "45 cm (18 in)",
+          "NKBA Bath Planning Guidelines"
+        ],
+        [
+          "Home Office",
+          "Desk Depth with External Monitor",
+          "55 cm (22 in)",
+          "60 - 70 cm (24 - 28 in)",
+          "Ergonomic Eye Distance (50-75cm)"
+        ],
+        [
+          "Wall Heights",
+          "Wall Art Vertical Centerline",
+          "145 cm (57 in)",
+          "150 cm (59 in)",
+          "Museum 57-Inch Eye-Level Rule"
+        ]
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the absolute minimum walkway width in a small apartment?",
+      "answer": "The absolute minimum walkway width is 75 cm (approximately 30 inches) for primary pathways connecting main living areas, doors, and kitchens. For secondary paths, such as squeezing past a coffee table or bed corner, 50 cm to 60 cm is acceptable in tight footprints."
+    },
+    {
+      "question": "How far should a coffee table be from a small sofa?",
+      "answer": "Maintain between 35 cm and 45 cm (14 to 18 inches) between the sofa seat edge and the coffee table. This preserves natural legroom while allowing you to reach drinks and remotes without bending forward."
+    },
+    {
+      "question": "What is the minimum clearance needed on the sides of a bed?",
+      "answer": "Maintain a minimum clearance of 60 cm (24 inches) on all sides of the bed that require daily walking access. This provides sufficient room to make the bed and vacuum without bruising knees."
+    },
+    {
+      "question": "How much space is needed between opposing kitchen counters?",
+      "answer": "The National Kitchen and Bath Association (NKBA) mandates a minimum of 91 cm (36 inches) for a single-cook kitchen work aisle, and 107 cm (42 inches) for multiple cooks, ensuring oven and dishwasher doors open without obstruction."
+    },
+    {
+      "question": "How high should wall art be hung in a room with standard ceilings?",
+      "answer": "Hang artwork so the vertical centerline sits at 145 cm to 150 cm (57 to 59 inches) from the finished floor. This standard eye-level benchmark is used by art galleries and museums worldwide."
+    },
+    {
+      "question": "How do I calculate TV viewing distance for a small living room?",
+      "answer": "For 4K Ultra HD televisions, multiply the diagonal screen size by 1.2 to 1.6. For example, a 50-inch 4K TV is viewed best from 1.5 m to 2.0 m (5.0 to 6.7 ft) away, making it ideal for compact living rooms."
+    }
+  ],
+  "relatedArticleSlugs": [
+    "small-living-room-ideas",
+    "small-bedroom-storage",
+    "studio-apartment-layout-ideas"
+  ],
+  "relatedShopLookSlugs": [
+    "warm-minimalist-living-room",
+    "modern-small-bedroom"
+  ]
+}
 ];
 
 export const EVERGREEN_GUIDES = [
+  {
+    title: "The Small-Space Dimensions Guide: 50+ Layout Clearances & Furniture Sizes",
+    slug: "small-space-dimensions-guide",
+    category: "Master Guide",
+    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+    readTime: "14 min read"
+  },
   {
     title: "Ways to Make a Small Room Look Bigger (Without Knocking Down Walls)",
     slug: "small-living-room-ideas",

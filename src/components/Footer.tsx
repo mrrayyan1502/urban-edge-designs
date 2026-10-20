@@ -75,7 +75,8 @@ export default function Footer() {
               <li><Link to="/category/storage" className="hover:text-[#c8ad7f]">Storage Solutions</Link></li>
               <li><Link to="/category/decor" className="hover:text-[#c8ad7f]">Decor</Link></li>
               <li><Link to="/shop-the-look" className="hover:text-[#c8ad7f]">Shop the Look</Link></li>
-              <li><Link to="/ideas/small-living-room-ideas" className="hover:text-[#c8ad7f]">Popular Guides</Link></li>
+              <li><Link to="/ideas/small-space-dimensions-guide" className="hover:text-[#c8ad7f] font-semibold text-[#c8ad7f]">50+ Dimensions Guide</Link></li>
+              <li><Link to="/ideas/small-living-room-ideas" className="hover:text-[#c8ad7f]">Small Living Room Ideas</Link></li>
             </ul>
           </div>
 

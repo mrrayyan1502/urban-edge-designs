@@ -57,10 +57,16 @@ export default function HomePage() {
                   Explore Small Space Ideas <ArrowRight size={16} />
                 </Link>
                 <Link
-                  to="/shop-the-look"
-                  className="px-7 py-3.5 rounded-full border border-[#171611]/20 text-[#171611] text-sm font-semibold hover:border-[#171611] transition-colors flex items-center gap-2 bg-[#f8f5ee]"
+                  to="/ideas/small-space-dimensions-guide"
+                  className="px-6 py-3.5 rounded-full border border-[#8b6f47] text-[#171611] text-sm font-semibold hover:bg-[#8b6f47] hover:text-[#f8f5ee] transition-colors flex items-center gap-2 bg-[#f8f5ee]"
                 >
-                  <Sparkles size={16} className="text-[#8b6f47]" /> Shop the Look
+                  <Compass size={16} className="text-[#8b6f47]" /> 50+ Dimensions Guide
+                </Link>
+                <Link
+                  to="/shop-the-look"
+                  className="px-6 py-3.5 rounded-full border border-[#171611]/20 text-[#171611] text-sm font-semibold hover:border-[#171611] transition-colors flex items-center gap-2 bg-[#f8f5ee]"
+                >
+                  <Sparkles size={16} className="text-[#8b6f47]" /> Shop Looks
                 </Link>
               </div>
 
