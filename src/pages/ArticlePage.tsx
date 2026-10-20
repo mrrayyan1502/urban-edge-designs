@@ -7,6 +7,13 @@ import AdPlaceholder from "@/components/AdPlaceholder";
 import { usePageMeta } from "@/lib/usePageMeta";
 import NotFound from "@/components/NotFound";
 
+const SECTION_ANCHOR_ALIASES: Record<string, string[]> = {
+  "circulation-walkways": ["studio-apartment-zoning", "studio-zoning-clearances"],
+  "bedroom-bed-clearances": ["bedroom-ergonomics"],
+  "kitchen-work-aisles": ["galley-kitchen-work-aisles"],
+  "dining-table-clearances": ["dining-area-spacing"]
+};
+
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
   const article = ARTICLES.find((a) => a.slug === slug);
@@ -194,11 +201,19 @@ export default function ArticlePage() {
             <AdPlaceholder slot="In-Article Top" />
 
             {/* Sections */}
-            {article.content.sections.map((sec) => (
-              <section id={sec.id} key={sec.id} className="space-y-4 pt-6 border-t border-[#ebe3d5]">
-                <h2 className="font-serif text-2xl font-bold text-[#171611] tracking-tight">
-                  {sec.title}
-                </h2>
+            {article.content.sections.map((sec) => {
+              const aliases = [
+                ...(SECTION_ANCHOR_ALIASES[sec.id] || []),
+                ...((sec as any).aliasIds || [])
+              ];
+              return (
+                <section id={sec.id} key={sec.id} className="space-y-4 pt-6 border-t border-[#ebe3d5] relative scroll-mt-24">
+                  {aliases.map((alias) => (
+                    <span key={alias} id={alias} className="absolute -top-24 pointer-events-none" />
+                  ))}
+                  <h2 className="font-serif text-2xl font-bold text-[#171611] tracking-tight">
+                    {sec.title}
+                  </h2>
 
                 {/* Paragraphs */}
                 {sec.paragraphs && sec.paragraphs.length > 0 ? (
@@ -317,7 +332,8 @@ export default function ArticlePage() {
                   </div>
                 )}
               </section>
-            ))}
+            );
+          })}
 
             {/* Master Comparison Table */}
             {article.content.comparisonTable && (
