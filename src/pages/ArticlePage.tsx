@@ -6,6 +6,7 @@ import PinterestButton from "@/components/PinterestButton";
 import AdPlaceholder from "@/components/AdPlaceholder";
 import { usePageMeta } from "@/lib/usePageMeta";
 import NotFound from "@/components/NotFound";
+import ClearanceCalculator from "@/components/ClearanceCalculator";
 
 const SECTION_ANCHOR_ALIASES: Record<string, string[]> = {
   "circulation-walkways": ["studio-apartment-zoning", "studio-zoning-clearances"],
@@ -196,6 +197,11 @@ export default function ArticlePage() {
                   {article.content.quickAnswer}
                 </p>
               </div>
+            )}
+
+            {/* Interactive Clearance Calculator Tool (Flagship Link Magnet) */}
+            {article.slug === "small-space-dimensions-guide" && (
+              <ClearanceCalculator />
             )}
 
             <AdPlaceholder slot="In-Article Top" />
