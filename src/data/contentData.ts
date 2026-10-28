@@ -7433,7 +7433,418 @@ export const ARTICLES: Article[] = [
     "warm-minimalist-living-room",
     "modern-small-bedroom"
   ]
-}
+},
+  {
+    "id": "art-30",
+    "slug": "small-bedroom-layout-ideas-for-box-rooms",
+    "title": "Small Bedroom Layout Ideas: 10 Space-Smart Floor Plans for Box Rooms (Under 100 Sq Ft)",
+    "excerpt": "Maximize cramped bedrooms and studio sleeping alcoves with 10 field-tested floor plans, standard mattress clearances, and smart wardrobe door swings for spaces under 100 sq ft.",
+    "category": "Bedroom",
+    "roomSlug": "bedroom",
+    "style": "Warm Minimalist",
+    "color": "Neutral",
+    "budget": "Mid-range",
+    "space": "Tiny",
+    "propertyType": "Flat",
+    "heroImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef4?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef4?auto=format&fit=crop&w=1000&q=1500",
+    "author": AUTHORS[0],
+    "publishDate": "2026-10-28",
+    "updatedDate": "2026-10-28",
+    "readTime": "9 min read",
+    "toc": [
+      { "id": "corner-vs-centered", "title": "1. Corner-Tucked Bed vs Centered Bed Layout" },
+      { "id": "walkway-clearances", "title": "2. Walking Clearances: The 60 cm Perimeter Rule" },
+      { "id": "wardrobe-door-clearances", "title": "3. Wardrobe Clearance: Sliding vs Hinged Doors" },
+      { "id": "floating-nightstands", "title": "4. Floating Nightstands & Vertical Wall Storage" },
+      { "id": "underbed-storage", "title": "5. Under-Bed Storage Clearances & Hydraulic Lifts" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "Arranging a small bedroom or box room under 100 square feet (9.3 sq metres) requires balancing millimeter-level clearances with daily psychological calm. Pushing an oversized bed frame into a cramped room can block radiator convection, trap wardrobe doors shut, and turn routine morning dressing into an obstacle course.",
+      "quickAnswer": "For box rooms under 2.5m x 2.7m, prioritize a small double bed (120 cm x 190 cm) or tuck a standard double into a well-insulated corner to preserve a continuous 75 cm dressing walkway. Replace hinged wardrobes with sliding panels to save 80 cm of floor swing clearance.",
+      "sections": [
+        {
+          "id": "corner-vs-centered",
+          "title": "1. Corner-Tucked Bed vs Centered Bed Layout",
+          "paragraphs": [
+            "In interior design theory, centering a bed with twin nightstands is considered the gold standard for symmetry. However, in narrow box rooms under 2.6 metres wide, centering a 135 cm double bed leaves less than 50 cm of walkway on either side—violating the universal 60 cm ergonomic threshold required to make a bed comfortably.",
+            "Tucking the bed against a single interior partition wall frees up a substantial 90 cm to 110 cm continuous floor zone on the opposite side. This consolidated zone allows you to position a wardrobe or dedicated study desk with adequate pull-back clearance.",
+            "If corner placement is necessary, place the mattress against an internal party wall rather than an exterior perimeter wall to avoid radiant heat loss and cold air drafts during winter."
+          ],
+          "specs": [
+            { "label": "Centered Bed Room Width Min", "value": "270 cm (9 ft)" },
+            { "label": "Corner Bed Space Saved", "value": "45 cm - 60 cm" },
+            { "label": "Draft Buffer from Window", "value": "30 cm (12 in)" }
+          ],
+          "tip": "For comprehensive mattress dimensions and side walkway benchmarks, reference our master <a href=\"/ideas/small-space-dimensions-guide#bedroom-ergonomics\" class=\"text-[#8b6f47] font-semibold underline\">Small-Space Dimensions Guide: Bedroom Clearances</a>."
+        },
+        {
+          "id": "walkway-clearances",
+          "title": "2. Walking Clearances: The 60 cm Perimeter Rule",
+          "paragraphs": [
+            "Architectural anthropometrics establish 60 cm (24 inches) as the absolute minimum human passage clearance for private residential zones. Any secondary walkway under 50 cm forces an adult to shuffle sideways, creating unconscious daily friction.",
+            "Primary walkways—connecting the bedroom entry door to the wardrobe or en-suite bathroom—require 75 cm to 90 cm of clear, unobstructed floor to accommodate carrying laundry hampers or dressing comfortably.",
+            "When measuring walking paths, measure from the protruding edge of baseboards, radiator valves, and door architraves rather than bare drywall, as physical trims routinely subtract 5 cm to 8 cm of usable passage width."
+          ],
+          "specs": [
+            { "label": "Absolute Min Bed Walkway", "value": "55 cm - 60 cm (22 - 24 in)" },
+            { "label": "Primary Bedroom Pathway", "value": "75 cm - 90 cm (30 - 36 in)" },
+            { "label": "Baseboard/Radiator Deduction", "value": "5 cm - 8 cm (2 - 3 in)" }
+          ]
+        },
+        {
+          "id": "wardrobe-door-clearances",
+          "title": "3. Wardrobe Clearance: Sliding vs Hinged Doors",
+          "paragraphs": [
+            "Hinged wardrobe doors require an arc clearance equal to the door width (typically 50 cm to 60 cm) plus an additional 30 cm to 40 cm for an adult to stand comfortably in front of the open cabinet. In total, a hinged wardrobe commands 80 cm to 100 cm of clear perimeter.",
+            "In compact box rooms where the distance between the bed edge and the wardrobe wall is under 90 cm, hinged doors inevitably strike the mattress or nightstand. Sliding wardrobe doors eliminate door-swing clearance entirely, operating on internal top-hung tracks that require zero floor clearance.",
+            "If your budget favors modular flat-pack wardrobes, consider open garment rails or floor-to-ceiling sheer curtain enclosures that retract smoothly without rigid swing panels."
+          ],
+          "specs": [
+            { "label": "Hinged Door Clearance Arc", "value": "80 cm - 100 cm (32 - 40 in)" },
+            { "label": "Sliding Door Floor Footprint", "value": "0 cm swing buffer" },
+            { "label": "Wardrobe Carcass Depth", "value": "58 cm - 60 cm (23 - 24 in)" }
+          ]
+        },
+        {
+          "id": "floating-nightstands",
+          "title": "4. Floating Nightstands & Vertical Wall Storage",
+          "paragraphs": [
+            "Floor-standing bedside cabinets occupy roughly 45 cm x 40 cm of floor footprint per side, visually boxing in the headboard wall and collecting dust bunnies in tight gaps. Floating, wall-mounted nightstands keep continuous flooring visible, tricking the eye into perceiving expanded square footage.",
+            "Mount floating nightstand shelves so the top surface sits exactly level with or up to 2 cm below the finished mattress top (typically 55 cm to 65 cm from the floor). This ergonomic alignment allows effortless reach for water glasses, books, or phones without risking elbow collisions.",
+            "Pair floating nightstands with wall-mounted articulated sconce lamps positioned 75 cm to 85 cm above the mattress, freeing 100% of the bedside tabletop for functional items."
+          ],
+          "specs": [
+            { "label": "Nightstand Top Height", "value": "Level with mattress (55 - 65 cm)" },
+            { "label": "Sconce Mounting Height", "value": "75 cm - 85 cm above bed" },
+            { "label": "Floating Shelf Depth", "value": "25 cm - 30 cm (10 - 12 in)" }
+          ]
+        },
+        {
+          "id": "underbed-storage",
+          "title": "5. Under-Bed Storage Clearances & Hydraulic Lifts",
+          "paragraphs": [
+            "In rooms lacking floor space for a secondary chest of drawers, the cubic volume beneath a double bed offers over 600 litres of dead storage. However, conventional rolling drawers require at least 70 cm of open side clearance to pull open fully.",
+            "If side walkways are constrained to 55 cm, pull-out drawers become unusable. In these configurations, an ottoman-style hydraulic gas-lift bed frame provides vertical access directly from the foot of the bed without requiring lateral floor clearance.",
+            "Ensure the hydraulic pistons are rated for your specific mattress weight (typically 600N to 800N for latex or hybrid pocket-sprung mattresses) to ensure smooth, effortless lifting."
+          ],
+          "specs": [
+            { "label": "Drawer Pull-Out Clearance", "value": "70 cm (28 in) min" },
+            { "label": "Ottoman Gas-Lift Clearance", "value": "0 cm side clearance needed" },
+            { "label": "Usable Storage Volume", "value": "550L - 750L (Double/King)" }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Box Room Bed Sizing & Walkway Feasibility Matrix",
+        "headers": ["Room Dimensions", "Recommended Bed Size", "Mattress Footprint", "Remaining Walkway", "Layout Viability"],
+        "rows": [
+          ["2.1 m x 2.4 m (54 sq ft)", "Single (90 x 190 cm)", "0.90 m x 1.90 m", "80 cm primary passage", "Optimal for guest/study room"],
+          ["2.4 m x 2.7 m (70 sq ft)", "Small Double (120 x 190 cm)", "1.20 m x 1.90 m", "70 cm dressing zone", "Recommended for box bedrooms"],
+          ["2.7 m x 3.0 m (87 sq ft)", "Standard Double (135 x 190 cm)", "1.35 m x 1.90 m", "65 cm twin side passages", "Centered bed layout feasible"],
+          ["3.0 m x 3.3 m (106 sq ft)", "King Size (150 x 200 cm)", "1.50 m x 2.00 m", "75 cm walkways + wardrobe", "Standard master bedroom layout"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "Can a double bed fit in an 8ft x 8ft (2.4m x 2.4m) box bedroom?",
+        "answer": "Yes, but only if tucked into a corner. A standard double bed (135 cm x 190 cm) leaves roughly 105 cm of lateral space when placed against a wall, allowing enough space for a slim wardrobe or sliding unit. Centering the bed in an 8x8 ft room leaves only 52 cm on each side, which restricts movement."
+      },
+      {
+        "question": "What is the absolute minimum walking clearance around a bed?",
+        "answer": "Architectural guidelines set the minimum at 55 cm to 60 cm (22 to 24 inches) for secondary bed paths. For the primary dressing walkway connecting the room entry door to the closet, maintain at least 75 cm to 90 cm."
+      },
+      {
+        "question": "Are sliding wardrobes better than hinged doors in a small bedroom?",
+        "answer": "Yes. Sliding doors operate entirely within their own track frame and require zero outward swing clearance, whereas hinged doors require 80 cm to 100 cm of clear floor to open fully and accommodate a standing person."
+      },
+      {
+        "question": "What is the ideal height for a floating nightstand?",
+        "answer": "The top surface of a floating nightstand should align precisely with the top of the mattress or sit up to 2 cm lower (typically 55 cm to 65 cm from the floor). This allows natural reach without bumping your elbow while reclining."
+      },
+      {
+        "question": "How can I fit a desk into a small bedroom without crowding?",
+        "answer": "Replace one bedside table with a slim wall-mounted drop-leaf desk or a 45 cm deep console table. This dual-purpose setup serves as both your nightstand and a dedicated work-from-home surface."
+      }
+    ]
+  },
+  {
+    "id": "art-31",
+    "slug": "l-shaped-vs-galley-kitchen-for-compact-flats",
+    "title": "L-Shaped vs Galley Kitchen for Compact Flats: Clearance, Cost & Ergonomics Comparison",
+    "excerpt": "Deciding between an L-shaped or galley layout for a small kitchen? We compare minimum NKBA work aisles, prep counters, appliance clearances, and storage efficiency for flats.",
+    "category": "Kitchen",
+    "roomSlug": "kitchen",
+    "style": "Modern",
+    "color": "Neutral",
+    "budget": "Mid-range",
+    "space": "Small",
+    "propertyType": "Apartment",
+    "heroImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=1500",
+    "author": AUTHORS[0],
+    "publishDate": "2026-10-28",
+    "updatedDate": "2026-10-28",
+    "readTime": "9 min read",
+    "toc": [
+      { "id": "work-triangle-efficiency", "title": "1. The Ergonomic Work Triangle in Small Kitchens" },
+      { "id": "walkway-aisle-widths", "title": "2. Work Aisle Clearances: Single vs Two-Cook Widths" },
+      { "id": "corner-storage-efficiency", "title": "3. Storage Density & Corner Cabinet Dead Zones" },
+      { "id": "open-plan-flow", "title": "4. Social Flow: Open-Plan vs Enclosed Layouts" },
+      { "id": "cost-cabinetry-benchmarks", "title": "5. Installation Cost & Cabinetry Benchmarks" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "When renovating a compact flat or planning a kitchenette under 12 square metres, choosing between an L-shaped layout and a double-sided galley kitchen determines your daily cooking efficiency, storage capacity, and circulation flow. Both layouts have clear architectural merits, but their performance depends directly on room width and door positions.",
+      "quickAnswer": "Choose a galley kitchen if your room is long, narrow (2.1m to 2.8m wide), and enclosed, as parallel counters deliver up to 30% more continuous prep space and eliminate dead corners. Choose an L-shaped layout if your flat features an open-plan lounge, allowing seamless integration with a dining table or island.",
+      "sections": [
+        {
+          "id": "work-triangle-efficiency",
+          "title": "1. The Ergonomic Work Triangle in Small Kitchens",
+          "paragraphs": [
+            "The kitchen work triangle—connecting the primary zones of refrigerator, sink, and cooktop—should total between 4.0 and 7.9 metres in combined perimeter length according to National Kitchen and Bath Association (NKBA) standards.",
+            "In an L-shaped compact kitchen, the triangle naturally spreads across two adjoining perpendicular walls. This keeps food prep uninterrupted while keeping the center of the room open for circulation.",
+            "In a parallel galley kitchen, the work triangle sits split across opposite counters. Placing the sink and dishwasher on one run and the cooktop and refrigerator directly opposite creates the most efficient, tight cooking pivot for a single chef."
+          ],
+          "specs": [
+            { "label": "Ideal Total Triangle Perimeter", "value": "4.0 m - 7.0 m (13 - 23 ft)" },
+            { "label": "Minimum Counter Run Between Zones", "value": "60 cm (24 in)" },
+            { "label": "NKBA Guideline", "value": "Planning Rule 1 Compliant" }
+          ],
+          "tip": "Check exact appliance clearances and aisle dimensions using our <a href=\"/ideas/small-space-dimensions-guide#galley-kitchen-work-aisles\" class=\"text-[#8b6f47] font-semibold underline\">Small-Space Dimensions Guide: Kitchen Work Aisles</a>."
+        },
+        {
+          "id": "walkway-aisle-widths",
+          "title": "2. Work Aisle Clearances: Single vs Two-Cook Widths",
+          "paragraphs": [
+            "The primary limiting factor for galley kitchens is minimum room width. Standard base cabinets require 60 cm of depth per side. To achieve the NKBA single-cook minimum aisle width of 90 cm to 105 cm, a room must measure at least 2.10 m (7 ft) from wall to wall.",
+            "If two people regularly cook together, or if your oven and dishwasher sit directly opposite each other, the central aisle should measure 120 cm (48 in) to prevent door collision hazards.",
+            "L-shaped layouts avoid central corridor congestion entirely by keeping one side open to the living area. Even in a narrow room of 1.8 m width, an L-shape functions cleanly where a double-sided galley would be physically impossible."
+          ],
+          "specs": [
+            { "label": "Single-Cook Galley Aisle", "value": "90 cm - 105 cm (36 - 42 in)" },
+            { "label": "Two-Cook Galley Aisle", "value": "120 cm (48 in)" },
+            { "label": "L-Shape Open Circulation Buffer", "value": "90 cm (36 in)" }
+          ]
+        },
+        {
+          "id": "corner-storage-efficiency",
+          "title": "3. Storage Density & Corner Cabinet Dead Zones",
+          "paragraphs": [
+            "The architectural flaw of L-shaped kitchens is the corner void. Standard 90 cm x 90 cm base corner cabinets represent inaccessible dead space unless fitted with expensive carousel hardware, LeMans pullouts, or Magic Corners.",
+            "Galley kitchens consist exclusively of straight, linear cabinetry runs without corner joints. Every linear metre provides full, uncompromised drawer pull-out depth and maximum vertical wall unit volume.",
+            "For flats under 50 square metres where pantry storage is limited, a galley kitchen provides approximately 25% to 35% more accessible storage volume per square metre of kitchen floor area."
+          ],
+          "specs": [
+            { "label": "Corner Cabinet Usable Loss", "value": "Up to 30% volume lost without pullouts" },
+            { "label": "Straight Galley Drawer Efficiency", "value": "100% accessible cubic space" },
+            { "label": "Hardware Premium for Corner Fitments", "value": "+£250 - £600 per corner" }
+          ]
+        },
+        {
+          "id": "open-plan-flow",
+          "title": "4. Social Flow: Open-Plan vs Enclosed Layouts",
+          "paragraphs": [
+            "Modern urban lifestyle heavily prioritizes social interaction. L-shaped kitchens shine in multi-purpose living spaces, seamlessly wrapping around an open corner and allowing the chef to face guests or family in the lounge.",
+            "An L-shaped counter naturally pairs with a small dining table or mobile prep island positioned just 90 cm beyond the counter edge, fulfilling both dining and work surface functions.",
+            "Galley kitchens, unless designed with one side open as a breakfast bar, tend to be more visually compartmentalized. In narrow through-rooms with doors at both ends, a galley functions as a high-traffic thoroughfare that requires disciplined zoning."
+          ],
+          "specs": [
+            { "label": "Table-to-Counter Clearance", "value": "90 cm - 105 cm (36 - 42 in)" },
+            { "label": "Social Sightline Rating (L-Shape)", "value": "High / Unrestricted" },
+            { "label": "Traffic Throughfare Buffer", "value": "100 cm (40 in)" }
+          ]
+        },
+        {
+          "id": "cost-cabinetry-benchmarks",
+          "title": "5. Installation Cost & Cabinetry Benchmarks",
+          "paragraphs": [
+            "Installation complexity differs considerably between the two layouts. L-shaped countertops require precision miter joints, specialized joint bolts, and waterproof silicone sealing to prevent moisture swelling in laminate or quartz corners.",
+            "Galley kitchens utilize straight, un-joined countertop runs that can be cut and fitted with minimal material waste and lower fabrication costs.",
+            "Plumbing and electrical routing in galley kitchens is often concentrated along a single service wall (running sink, washing machine, and dishwasher consecutively), reducing contractor rough-in labour by 15% to 20% compared to spanning pipework across perpendicular corner walls."
+          ],
+          "specs": [
+            { "label": "Worktop Miter Joint Cost", "value": "£120 - £250 per joint" },
+            { "label": "Plumbing Concentration (Galley)", "value": "Single service wall efficiency" },
+            { "label": "Average Installation Time", "value": "Galley: 2-3 days | L-Shape: 3-4 days" }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "L-Shaped vs Galley Kitchen Performance Benchmark",
+        "headers": ["Evaluation Metric", "Galley Kitchen", "L-Shaped Kitchen", "Recommended Use Case"],
+        "rows": [
+          ["Minimum Room Width Required", "2.10 m (7 ft) for two runs", "1.80 m (6 ft) for single wall + return", "Galley for narrow rooms; L-shape for open spaces"],
+          ["Storage Capacity Density", "High (No corner dead zones)", "Moderate (Corner cabinet loss)", "Galley wins on accessible cubic volume"],
+          ["Prep Counter Continuity", "Excellent parallel straight runs", "Interrupted by 90-degree corner", "Galley for serious multi-step cooks"],
+          ["Open-Plan Social Integration", "Limited (unless one side is island)", "Excellent (faces lounge area)", "L-Shape wins for studio entertaining"],
+          ["Worktop & Joint Cost", "Lower (Straight simple runs)", "Higher (Precision corner miters)", "Galley is more cost-effective per linear metre"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "What is the minimum width needed to install a double-sided galley kitchen?",
+        "answer": "A minimum room width of 2.10 metres (7 feet) is required. This accommodates two standard 60 cm deep counter runs on opposite walls while preserving a 90 cm central work aisle compliant with NKBA single-cook standards."
+      },
+      {
+        "question": "Is an L-shaped kitchen better than a galley for an apartment?",
+        "answer": "An L-shaped layout is superior if your kitchen is part of an open-plan living room, as it frees the center of the room for a dining table. A galley layout is superior if your kitchen is in an enclosed, narrow corridor room where maximizing storage is the primary priority."
+      },
+      {
+        "question": "What is the 105 cm rule for kitchen work aisles?",
+        "answer": "The 105 cm (42 inch) rule is the NKBA guideline for a comfortable kitchen work aisle. It allows an adult to work at the counter while leaving sufficient room for oven doors and dishwasher drawers to fold down without blocking the walkway."
+      },
+      {
+        "question": "How do you eliminate dead corners in an L-shaped kitchen?",
+        "answer": "Install pull-out LeMans kidney shelves, a Magic Corner mechanism, or full-extension corner drawers. These hardware units bring items stored deep in the 90-degree corner out into full light."
+      },
+      {
+        "question": "Which kitchen layout is cheaper to renovate?",
+        "answer": "Galley kitchens are generally 15% to 20% cheaper to install because they use straight worktops without expensive corner miter joints, and plumbing/waste lines are typically consolidated along a single wet wall."
+      }
+    ]
+  },
+  {
+    "id": "art-32",
+    "slug": "studio-apartment-room-divider-ideas-without-blocking-light",
+    "title": "Studio Apartment Room Divider Ideas: 7 Low-Footprint Partitions That Don't Block Light",
+    "excerpt": "Delineate your sleeping alcove from living zones without building drywall. Explore open-back bookcases, ceiling tracks, acoustic wood slats, and glass screens that preserve daylight.",
+    "category": "Small Apartments",
+    "roomSlug": "small-apartments",
+    "style": "Scandinavian",
+    "color": "Neutral",
+    "budget": "Budget",
+    "space": "Small",
+    "propertyType": "Studio",
+    "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1000&q=1500",
+    "author": AUTHORS[0],
+    "publishDate": "2026-10-28",
+    "updatedDate": "2026-10-28",
+    "readTime": "10 min read",
+    "toc": [
+      { "id": "daylight-buffer-rule", "title": "1. The Daylight Preservation Rule: 1.2m Window Buffer" },
+      { "id": "open-back-bookcases", "title": "2. Open-Back Bookcases: Dual-Sided Storage Partitions" },
+      { "id": "ceiling-curtain-tracks", "title": "3. Ceiling-Mounted Curtain Tracks & Sheer Linen Drops" },
+      { "id": "acoustic-wood-slats", "title": "4. Vertical Timber Slat Screens: Light & Sound Absorption" },
+      { "id": "fluted-glass-screens", "title": "5. Fluted & Ribbed Glass Industrial Partitions" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "In open-concept studios and micro-apartments under 45 square metres, establishing a distinct bedroom sanctuary is critical for mental rest. However, building solid stud walls or erecting opaque dividers invariably plunges the interior into gloom, blocking sunlight from the studio's primary windows and shrinking perceived volume.",
+      "quickAnswer": "The best studio dividers balance optical privacy with 70%+ light transmission. Use open-backed cube shelving (like the IKEA Kallax), top-hung sheer linen curtain tracks, or vertical timber slats placed with a 1.2m setback from exterior windows to preserve continuous daylight illumination.",
+      "sections": [
+        {
+          "id": "daylight-buffer-rule",
+          "title": "1. The Daylight Preservation Rule: 1.2m Window Buffer",
+          "paragraphs": [
+            "A critical mistake in studio apartment zoning is positioning a partition flush against the window glazing. This creates awkward window mullion junctions, disrupts natural radiator airflow, and halves ambient light distribution across the room.",
+            "Architectural daylight guidelines mandate a minimum 1.2 metre (4 ft) buffer between any room partition and the perimeter window wall. This clear aperture permits sunlight to wash deep into both the living and sleeping quarters simultaneously.",
+            "By preserving an unbroken run of glass and flooring along the window elevation, the eye reads the studio as an expansive single architectural envelope rather than two cramped, subdivided cubicles."
+          ],
+          "specs": [
+            { "label": "Window Setback Buffer", "value": "120 cm (48 in) min" },
+            { "label": "Radiator Convection Clearance", "value": "30 cm (12 in)" },
+            { "label": "Light Penetration Gain", "value": "+45% ambient foot-candles" }
+          ],
+          "tip": "For exact studio circulation walkways and partition measurements, see our <a href=\"/ideas/small-space-dimensions-guide#studio-apartment-zoning\" class=\"text-[#8b6f47] font-semibold underline\">Studio Apartment Zoning & Partition Clearances Guide</a>."
+        },
+        {
+          "id": "open-back-bookcases",
+          "title": "2. Open-Back Bookcases: Dual-Sided Storage Partitions",
+          "paragraphs": [
+            "Open-backed cube shelving units—such as the ubiquitous 4x4 IKEA Kallax or steel architectural étagères—provide spatial division, structural stability, and storage utility without building permanent drywall.",
+            "Because there is no solid backboard, light easily filters through the open cubbies. To maximize light passage, populate only 60% of the shelf volume with books and ceramics, leaving the remaining 40% open for sightlines and trailing pothos or philodendron plants.",
+            "Always secure tall divider shelving to the floor or ceiling joists using discreet angle brackets or tension compression poles to prevent tip-over hazards."
+          ],
+          "specs": [
+            { "label": "Standard Divider Depth", "value": "35 cm - 40 cm (14 - 16 in)" },
+            { "label": "Cylinder Walkway Clearance", "value": "75 cm - 90 cm on side" },
+            { "label": "Optimal Open Air Ratio", "value": "40% open volume" }
+          ]
+        },
+        {
+          "id": "ceiling-curtain-tracks",
+          "title": "3. Ceiling-Mounted Curtain Tracks & Sheer Linen Drops",
+          "paragraphs": [
+            "For zero-floor-footprint division, ceiling-mounted curtain tracks represent the most flexible zoning tool in compact flats. When retracted during the daytime, the entire studio retains an unbroken 100% floor plan.",
+            "At night, drawing the curtains creates an enclosed, cocoon-like sleeping alcove that blocks visual distractions and softens interior acoustics.",
+            "Choose semi-sheer washed linen or open-weave slub cotton fabrics. These textiles provide soft visual concealment from the living room while diffusing 65% to 75% of ambient light through the weave."
+          ],
+          "specs": [
+            { "label": "Track Profile Thickness", "value": "1.5 cm - 2.5 cm (flush ceiling mount)" },
+            { "label": "Floor Clearance from Hem", "value": "1 cm - 1.5 cm (hover effect)" },
+            { "label": "Light Transmission (Sheer Linen)", "value": "65% - 75%" }
+          ]
+        },
+        {
+          "id": "acoustic-wood-slats",
+          "title": "4. Vertical Timber Slat Screens: Light & Sound Absorption",
+          "paragraphs": [
+            "Vertical acoustic wood battens (typically oak or walnut on felt backing or tension posts) offer a rich, Japandi-inspired aesthetic that provides spatial definition without turning into a solid barrier.",
+            "Spacing the slats with a 25 mm gap between 35 mm battens allows light to pass diagonally while screening direct sightlines to the unmade bed when viewed straight on from the sofa.",
+            "The natural acoustic felt backing dampens reverberant echoes in modern flats with hard laminate flooring, significantly improving conversation clarity and nighttime quiet."
+          ],
+          "specs": [
+            { "label": "Slat Dimensions", "value": "35 mm width x 20 mm depth" },
+            { "label": "Inter-Slat Spacing", "value": "20 mm - 25 mm gap" },
+            { "label": "Sound Reduction Coefficient", "value": "NRC 0.60 - 0.75" }
+          ]
+        },
+        {
+          "id": "fluted-glass-screens",
+          "title": "5. Fluted & Ribbed Glass Industrial Partitions",
+          "paragraphs": [
+            "Fluted (reeded) glass set in slim black aluminium or bronze framing delivers the highest level of architectural polish in boutique studio apartments.",
+            "The vertical textured ribs refract light waves, creating complete visual distortion of objects behind the panel while transmitting more than 85% of incoming daylight.",
+            "Fluted glass partitions can be installed as static half-screens (90 cm to 120 cm wide) extending from the headboard wall, or configured as sliding pocket screens on top-hung barn tracks."
+          ],
+          "specs": [
+            { "label": "Glass Thickness", "value": "6 mm - 8 mm toughened safety glass" },
+            { "label": "Light Transmission", "value": "85% - 90%" },
+            { "label": "Screen Width Recommendation", "value": "90 cm - 120 cm (36 - 48 in)" }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Studio Apartment Room Divider Performance Comparison",
+        "headers": ["Divider Type", "Light Transmission", "Floor Footprint", "Storage Capacity", "Rental Friendliness"],
+        "rows": [
+          ["Open-Back Bookcase", "50% - 60% (depending on styling)", "35 cm - 40 cm deep", "Very High (Cubbies & display)", "100% Freestanding / Zero damage"],
+          ["Ceiling Track Curtains", "65% - 80% (sheer fabrics)", "0 cm (overhead track only)", "None", "High (Discreet anchor holes)"],
+          ["Vertical Wood Slat Screen", "70% - 75% (diagonal sightlines)", "5 cm - 8 cm deep", "Low", "Moderate (Tension poles or screws)"],
+          ["Fluted Glass Screen", "85% - 90% (Maximum daylight)", "4 cm - 6 cm frame", "None", "Low (Requires architectural install)"],
+          ["Half-Wall Breakfast Bar", "80% (Upper room stays open)", "45 cm - 50 cm counter", "Moderate (Kitchen base units)", "Low (Permanent joinery)"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How do you separate a bedroom and living room in a studio without building a wall?",
+        "answer": "Use multifunctional, low-footprint dividers such as open-backed cube shelving, top-hung ceiling curtain tracks with sheer linen drapes, or vertical wood slat screens. These delineate zones visually without requiring planning permission or building work."
+      },
+      {
+        "question": "Will an open-backed bookcase block natural light in a studio flat?",
+        "answer": "No, provided you maintain an open styling ratio. Keep at least 40% of the shelf cubbies open or lightly dressed with small plants and clear glassware to allow natural light to filter through to the sleeping alcove."
+      },
+      {
+        "question": "How much space should be left between a bed and a room divider?",
+        "answer": "Maintain a minimum buffer of 60 cm (24 inches) between the mattress edge and the room divider. This allows you to comfortably get in and out of bed and change bedsheets without bumping the divider."
+      },
+      {
+        "question": "Are ceiling curtain tracks rental-friendly?",
+        "answer": "Yes. Slim curtain tracks mount into the ceiling plasterboard using small drywall anchors. When moving out, the tiny screw holes can be filled and painted over in minutes, returning the ceiling to its original state."
+      },
+      {
+        "question": "What is the best setback distance between a room divider and exterior windows?",
+        "answer": "Maintain at least 1.2 metres (4 feet) of open clearance between the end of any divider and the exterior window wall. This preserves continuous airflow, prevents radiator obstruction, and allows natural light to wash across the entire apartment."
+      }
+    ]
+  }
+
 ];
 
 export const EVERGREEN_GUIDES = [
