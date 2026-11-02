@@ -31,7 +31,7 @@ If you are updating or adding external reference resources to your small spaces 
 Either way, thank you for continuously publishing stellar home styling content!
 
 Warm regards,
-Rayyan Malik
+Mr Ash
 Founder & Interior Design Researcher | Urban Edge Designs
 https://urban-edge-designs.com
 ```
@@ -60,7 +60,7 @@ It features 11 structured data tables cross-referenced against Neufert Architect
 Thought this might make a useful reference citation for your writers or an external resource for readers planning micro-space renovations.
 
 Best regards,
-Rayyan Malik
+Mr Ash
 Urban Edge Design Desk
 https://urban-edge-designs.com
 ```
@@ -89,7 +89,7 @@ It provides exact metric clearances for galley kitchen aisles (90–105 cm singl
 Thought your editorial team might find these metric tables helpful as a reference link when curating compact living advice.
 
 Warm regards,
-Rayyan Malik
+Mr Ash
 Founder & Researcher | Urban Edge Designs
 https://urban-edge-designs.com
 ```
@@ -116,7 +116,7 @@ The guide breaks down 11 verified clearance tables—from the 45 cm sofa-to-coff
 Thought this might be a valuable practical resource for your urban living and renter guides.
 
 Best regards,
-Rayyan Malik
+Mr Ash
 Urban Edge Design Desk
 https://urban-edge-designs.com
 ```
@@ -145,7 +145,7 @@ It compiles 11 field-tested clearance tables cross-referenced against Neufert Ar
 Thought this data index would be a relevant technical reference for your small apartments resource archive.
 
 Best regards,
-Rayyan Malik
+Mr Ash
 Founder & Interior Design Researcher | Urban Edge Designs
 https://urban-edge-designs.com
 ```
@@ -174,7 +174,7 @@ The guide details 11 tables covering dining push-back distances (75–105 cm), f
 If you ever curate design resource roundups or layout planning tools, feel free to cite or link to our clearance tables.
 
 Warmly,
-Rayyan Malik
+Mr Ash
 Urban Edge Designs
 https://urban-edge-designs.com
 ```
@@ -201,7 +201,7 @@ It covers ergonomic walkway standards, seating clearances, and partition spacing
 If you maintain a resources section or want to link out to a verified clearance cheat sheet in your interior features, this could be a great fit for your audience.
 
 Best regards,
-Rayyan Malik
+Mr Ash
 Founder, Urban Edge Designs
 https://urban-edge-designs.com
 ```
@@ -233,7 +233,7 @@ It provides students with clear tables for:
 If you maintain an external resources list or tenant move-in advice section, this free measurement reference may save students significant headache during move-in week.
 
 Warm regards,
-Rayyan Malik
+Mr Ash
 Urban Edge Design Desk
 https://urban-edge-designs.com
 ```
@@ -262,7 +262,7 @@ It contains verified measurement tables covering bedroom walkways, desk ergonomi
 If you update your private tenant checklists or student advisory links, this guide is completely free and may be a valuable resource for your students.
 
 Sincerely,
-Rayyan Malik
+Mr Ash
 Research Lead | Urban Edge Design
 https://urban-edge-designs.com
 ```
@@ -291,7 +291,7 @@ It features concise tables detailing minimum walkway requirements (60–90 cm), 
 If your office maintains a list of practical moving resources or tenant guides, this reference could be very useful to your student community.
 
 Warm regards,
-Rayyan Malik
+Mr Ash
 Founder | Urban Edge Design
 https://urban-edge-designs.com
 ```

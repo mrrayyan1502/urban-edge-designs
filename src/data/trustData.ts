@@ -19,7 +19,7 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
       },
       {
         heading: "Who We Are",
-        text: "Founded by Rayyan Malik, an interior design researcher and small-space enthusiast, Urban Edge Design operates with an independent editorial desk. We work directly with spatial planning principles, ergonomic standards (including NKBA and Neufert data), and real apartment floor plans to curate living rooms, bedrooms, kitchens, and multi-purpose studio zones that balance aesthetic calm with genuine functional utility."
+        text: "Founded by Mr Ash, an interior design researcher and small-space enthusiast, Urban Edge Design operates with an independent editorial desk. We work directly with spatial planning principles, ergonomic standards (including NKBA and Neufert data), and real apartment floor plans to curate living rooms, bedrooms, kitchens, and multi-purpose studio zones that balance aesthetic calm with genuine functional utility."
       },
       {
         heading: "Editorial Integrity & Fact-Checking",

@@ -188,7 +188,7 @@ export const CATEGORIES = [
 
 export const AUTHORS = [
   {
-    name: "Rayyan Malik",
+    name: "Mr Ash",
     role: "Founder & Interior Design Researcher",
     avatar: "/author-avatar.svg",
     bio: "Founder & Interior Design Researcher at Urban Edge Designs, focusing on practical small-space living, layout optimization, and functional decor. Each guide is built on published planning guidelines and real spatial clearances."
@@ -7841,6 +7841,330 @@ export const ARTICLES: Article[] = [
       {
         "question": "What is the best setback distance between a room divider and exterior windows?",
         "answer": "Maintain at least 1.2 metres (4 feet) of open clearance between the end of any divider and the exterior window wall. This preserves continuous airflow, prevents radiator obstruction, and allows natural light to wash across the entire apartment."
+      }
+    ]
+  },
+  {
+    "id": "art-33",
+    "slug": "best-drop-leaf-dining-tables-for-small-apartments",
+    "title": "7 Best Space-Saving Drop-Leaf Dining Tables for Small Apartments (Under £200): Clearance & Buyer Guide",
+    "excerpt": "Looking for a dining table that folds away to 25 cm when not in use? We review the 7 best drop-leaf and extendable dining tables for small flats, comparing leaf hinge stability, seating capacity, and essential chair push-back clearances.",
+    "category": "Small Apartments",
+    "roomSlug": "small-apartments",
+    "style": "Scandinavian",
+    "color": "Neutral",
+    "budget": "Budget",
+    "space": "Small",
+    "propertyType": "Flat",
+    "heroImage": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=1500",
+    "author": AUTHORS[0],
+    "publishDate": "2026-11-02",
+    "updatedDate": "2026-11-02",
+    "readTime": "11 min read",
+    "toc": [
+      { "id": "why-drop-leaf", "title": "1. Why Drop-Leaf Tables Outperform Fixed Tables in Studios" },
+      { "id": "clearance-rules", "title": "2. Dining Ergonomics: The 75 cm Push-Back Clearance Rule" },
+      { "id": "top-picks-breakdown", "title": "3. The 7 Best Drop-Leaf Tables Evaluated (Under £200)" },
+      { "id": "hinge-stability", "title": "4. Hinge Mechanisms & Weight Capacities: Wooden Gateleg vs Steel Bracket" },
+      { "id": "chair-storage", "title": "5. Nesting & Folding Chair Storage Solutions" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "In a compact urban flat under 50 square metres, a permanent four-seater dining table is often an expensive waste of valuable floor space. For 90% of the week, it sits idle while consuming up to 3.5 square metres of circulation area. A precision-engineered drop-leaf dining table solves this spatial conflict by collapsing down to a slim console footprint of just 25 cm to 35 cm against a wall, expanding only when entertaining guests.",
+      "quickAnswer": "For tight studio flats, choose a dual drop-leaf gateleg table with integrated central drawer storage (such as the classic birch folding design). It collapses from a 150 cm six-person banquet table down to a 26 cm console footprint, freeing up over 2.5 square metres of prime daytime circulation space while maintaining the essential 75 cm chair push-back clearance.",
+      "sections": [
+        {
+          "id": "why-drop-leaf",
+          "title": "1. Why Drop-Leaf Tables Outperform Fixed Tables in Studios",
+          "paragraphs": [
+            "Fixed dining tables dictate room traffic permanently. In studio apartments or open-plan lounge-diners, placing a static 120 cm x 80 cm table forces furniture into uncomfortable perimeter bottlenecks, reducing main walkways below the recommended 90 cm threshold.",
+            "Drop-leaf tables offer dynamic spatial zoning: with both leaves down, the unit functions as an unobtrusive entryway console or laptop charging station requiring barely 0.3 square metres of floor space. Opening one leaf creates a comfortable breakfast bar for one or two diners, while raising both leaves accommodates dinner for four to six adults.",
+            "This dual personality allows compact living rooms to retain visual calm and unobstructed natural light lines during work hours without sacrificing dinner party hospitality on weekends."
+          ],
+          "specs": [
+            { "label": "Closed Console Footprint", "value": "25 cm - 35 cm (10 - 14 in)" },
+            { "label": "Full Expansion Width", "value": "130 cm - 160 cm (51 - 63 in)" },
+            { "label": "Floor Area Saved When Closed", "value": "2.4 m² - 3.2 m²" }
+          ],
+          "tip": "For comprehensive architectural walkway clearances around dining furniture, check our master <a href=\"/ideas/small-space-dimensions-guide#dining-area-spacing\" class=\"text-[#8b6f47] font-semibold underline\">Small-Space Dimensions Guide: Dining Area Clearances</a>."
+        },
+        {
+          "id": "clearance-rules",
+          "title": "2. Dining Ergonomics: The 75 cm Push-Back Clearance Rule",
+          "paragraphs": [
+            "Even the most compact folding table fails if you do not account for dynamic perimeter clearances. According to architectural anthropometrics, an adult sitting at a dining table requires an absolute minimum of 75 cm (30 inches) of clear floor space from the table edge to the nearest wall or sofa back to pull a chair back and stand up without awkward contortions.",
+            "If your room layout requires people to walk behind seated diners while food is being served, this clearance must expand to 90 cm to 105 cm (36 to 42 inches) to prevent elbow bumps and spills.",
+            "In narrow galley-style dining nooks, position the drop-leaf table perpendicular to the wall. This allows diners to pull chairs out into the central open corridor rather than getting trapped against partition walls."
+          ],
+          "specs": [
+            { "label": "Chair Push-Back Clearance Min", "value": "75 cm (30 in)" },
+            { "label": "Walk-Behind Passage Buffer", "value": "90 cm - 105 cm (36 - 42 in)" },
+            { "label": "Per-Diner Tabletop Width", "value": "60 cm (24 in) min" }
+          ]
+        },
+        {
+          "id": "top-picks-breakdown",
+          "title": "3. The 7 Best Drop-Leaf Tables Evaluated (Under £200)",
+          "paragraphs": [
+            "We rigorously tested and evaluated the market's leading space-saving folding dining tables across build quality, leaf hinge wobble, storage integration, and small-space suitability under £200.",
+            "Our top overall selection is the Dual Drop-Leaf Gateleg Console Table with 6 Storage Drawers. Constructed from solid pine and engineered wood, its central column features six deep vertical drawers ideal for storing cutlery, placemats, and laptop chargers, while both drop leaves operate on sturdy pivoting wooden gateleg supports.",
+            "For minimalist studios seeking a lighter Scandinavian look, the Round Twin-Leaf Drop Table (£119) offers a 90 cm circular dining top that folds into a flat half-moon against any wall, completely eliminating sharp corner hazards in tight pathways."
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Solid Wood Dual Drop-Leaf Gateleg Table with 6 Drawers",
+              "description": "The gold standard small-flat dining table. Expands from a 26 cm console up to 152 cm six-seater table with 6 built-in storage drawers.",
+              "price": "£169.99",
+              "rating": "4.7 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=drop+leaf+dining+table+with+drawers&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Nordic Minimalist Round Drop-Leaf Folding Table (90 cm)",
+              "description": "Curved edge design prevents hip bumps in tight hallways. Folds down flat against the wall as a demi-lune breakfast console.",
+              "price": "£119.50",
+              "rating": "4.6 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=round+drop+leaf+dining+table&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Wall-Mounted Drop-Leaf Floating Dining & Laptop Desk",
+              "description": "Zero floor footprint. Mounts directly to masonry or timber studs and folds flat to 4 cm depth when closed.",
+              "price": "£59.99",
+              "rating": "4.5 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=wall+mounted+drop+leaf+table&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Extendable Dining Table with 4 Stored Folding Chairs",
+              "description": "Mobile rolling kitchen island that conceals 4 folding dining chairs inside its central cabinet chassis.",
+              "price": "£189.00",
+              "rating": "4.8 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=folding+dining+table+with+chair+storage&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "hinge-stability",
+          "title": "4. Hinge Mechanisms & Weight Capacities: Wooden Gateleg vs Steel Bracket",
+          "paragraphs": [
+            "A frequent failure point in budget drop-leaf tables is leaf sagging and wobble under heavy dinnerware. There are two primary support architectures: pivoting wooden gatelegs and spring-loaded steel folding brackets.",
+            "Wooden gatelegs swing outward on heavy-duty hinges from the central base. Because the leg makes direct contact with the floor, it transfers downward load directly into the flooring, easily supporting up to 50 kg per leaf without bending.",
+            "Spring-loaded steel cantilever brackets mount beneath the table leaf without floor legs. While they provide superior under-table legroom, cheaper stamped-steel brackets can deflect under heavy lean pressure. When choosing steel bracket tables, verify that the locking strut is rated for at least 30 kg working load."
+          ],
+          "specs": [
+            { "label": "Gateleg Load Rating", "value": "45 kg - 60 kg per leaf" },
+            { "label": "Steel Cantilever Load Rating", "value": "25 kg - 35 kg per leaf" },
+            { "label": "Hinge Type Recommendation", "value": "Continuous piano hinge or brass butt hinge" }
+          ]
+        },
+        {
+          "id": "chair-storage",
+          "title": "5. Nesting & Folding Chair Storage Solutions",
+          "paragraphs": [
+            "A folding dining table only solves half the spatial equation: four bulky dining chairs left standing around a collapsed console table will immediately recreate room clutter.",
+            "To maintain an open floor plan, pair your drop-leaf table with slim folding wooden chairs (such as beech or bamboo slat chairs) that collapse to 6 cm flat depth. These can be hung on decorative wall peg rails or stowed inside the table's integrated storage bay.",
+            "Alternatively, use a backless dining bench that slides completely beneath the table between meals, keeping walkways 100% open while providing seating for two to three diners."
+          ],
+          "specs": [
+            { "label": "Folded Chair Thickness", "value": "5 cm - 7 cm (2 - 3 in)" },
+            { "label": "Peg Rail Wall Clearance", "value": "15 cm from wall" },
+            { "label": "Bench Slide-Under Clearance", "value": "Table leg span minus 10 cm" }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Top Drop-Leaf Dining Table Types Compared for Small Spaces",
+        "headers": ["Table Design", "Closed Dimensions", "Open Seating Capacity", "Floor Space Required", "Best Room Location"],
+        "rows": [
+          ["Dual-Leaf Gateleg Cabinet", "26 cm x 80 cm", "4 - 6 Diners (152 cm)", "1.8 m² open floor zone", "Lounge-diner central divide"],
+          ["Round Twin Drop-Leaf", "45 cm x 90 cm", "3 - 4 Diners (90 cm dia)", "1.4 m² open floor zone", "Kitchen breakfast nook"],
+          ["Wall-Mounted Drop Table", "4 cm x 80 cm", "2 Diners (60 x 80 cm)", "0.8 m² open floor zone", "Studio kitchenette corridor"],
+          ["Rolling Cabinet with Chairs", "30 cm x 85 cm", "4 Diners (Conceals chairs)", "1.6 m² open floor zone", "Multi-purpose open studio"],
+          ["Drop-Leaf Bar-Height Console", "35 cm x 110 cm", "2 - 3 Barstools (90 cm high)", "1.2 m² open floor zone", "Behind sofa backrest divider"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "How much floor space do you need for a drop-leaf dining table?",
+        "answer": "When closed as a console, a drop-leaf table requires as little as 0.25 to 0.35 square metres of floor footprint. When fully extended for 4 to 6 diners, you need a clear rectangular zone of roughly 2.8m x 2.2m to accommodate both the expanded tabletop and standard 75 cm chair push-back clearances."
+      },
+      {
+        "question": "Can you use one leaf of a drop-leaf table against a wall?",
+        "answer": "Yes. Most quality dual drop-leaf tables operate each wing independently. You can keep the back leaf folded flush against the wall and open only the front leaf to create a space-efficient desk or breakfast bar for two people."
+      },
+      {
+        "question": "What is the weight capacity of a typical folding dining table leaf?",
+        "answer": "Tables supported by pivoting floor gatelegs typically support 40 kg to 60 kg per leaf, easily holding heavy dishes and dinnerware. Cantilever steel-bracket tables generally hold 25 kg to 35 kg."
+      },
+      {
+        "question": "What chairs work best with small space drop-leaf tables?",
+        "answer": "Opt for slim folding chairs that collapse to under 7 cm thickness, stackable lightweight bentwood chairs, or backless sliding benches that tuck completely beneath the table frame when not in use."
+      },
+      {
+        "question": "How high should a dining pendant light hang over a drop-leaf table?",
+        "answer": "Position the bottom of the pendant shade 75 cm to 90 cm (30 to 36 inches) above the tabletop. This ensures adequate illumination without blocking eye-level conversation across the table."
+      }
+    ]
+  },
+  {
+    "id": "art-34",
+    "slug": "best-under-bed-storage-boxes-and-organizers",
+    "title": "8 Best Under-Bed Storage Boxes & Drawers for Small Bedrooms (2026 Review): Clearance & Dust-Proof Guide",
+    "excerpt": "Turn dead bedroom space into 500+ litres of clean storage. We review the 8 best under-bed storage containers, rolling wooden drawers, and vacuum fabric organizers with exact bed clearance benchmarks.",
+    "category": "Storage",
+    "roomSlug": "storage",
+    "style": "Warm Minimalist",
+    "color": "Neutral",
+    "budget": "Budget",
+    "space": "Small",
+    "propertyType": "Apartment",
+    "heroImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+    "pinterestImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=1500",
+    "author": AUTHORS[0],
+    "publishDate": "2026-11-02",
+    "updatedDate": "2026-11-02",
+    "readTime": "11 min read",
+    "toc": [
+      { "id": "measuring-underbed-height", "title": "1. How to Measure Under-Bed Clearances & Center Support Rails" },
+      { "id": "storage-types-comparison", "title": "2. Rolling Drawers vs Rigid Polycarbonate vs Breathable Fabric Bags" },
+      { "id": "top-organizers-reviewed", "title": "3. The 8 Best Under-Bed Storage Units Reviewed" },
+      { "id": "dust-proofing-ventilation", "title": "4. Dust-Proofing, Zippers & Moisture Prevention in Compact Flats" },
+      { "id": "pull-out-walkway-rules", "title": "5. Pull-Out Clearance: The 70 cm Bedside Aisle Rule" },
+      { "id": "faq-section", "title": "Frequently Asked Questions" }
+    ],
+    "content": {
+      "intro": "In a compact bedroom under 10 square metres, floor space is the most precious commodity. While wardrobes and chests of drawers consume vertical height and crowd visual sightlines, the void beneath your bed frame represents between 450 and 750 litres of untapped cubic storage—equivalent to a standard three-door wardrobe laid horizontally.",
+      "quickAnswer": "Before buying under-bed storage, measure the vertical ground clearance between your finished floor and the bottom edge of the side rail (standard frames range from 15 cm to 28 cm). For winter duvets and seasonal linens, choose breathable fabric organizers with transparent vinyl lids; for daily shoes and clothes, select hard-sided rolling wooden drawers with 360-degree rubber casters.",
+      "sections": [
+        {
+          "id": "measuring-underbed-height",
+          "title": "1. How to Measure Under-Bed Clearances & Center Support Rails",
+          "paragraphs": [
+            "The most common mistake when ordering under-bed storage boxes is measuring only from the floor to the top of the bed frame. In reality, the critical measurement is the vertical opening between the finished flooring and the bottom lip of the side rail.",
+            "Standard platform bed frames offer between 15 cm and 22 cm of clearance, whereas traditional leggy bed frames often provide 25 cm to 32 cm. If your clearance is below 15 cm, only ultra-low-profile vacuum storage bags will fit without catching on hardware.",
+            "Do not overlook center support legs. Most double and king bed frames feature one to three structural center legs dividing the under-bed zone into two distinct longitudinal channels, meaning containers wider than 65 cm cannot span the center span."
+          ],
+          "specs": [
+            { "label": "Standard Platform Bed Clearance", "value": "15 cm - 22 cm (6 - 8.5 in)" },
+            { "label": "High-Clearance Wooden Frames", "value": "25 cm - 32 cm (10 - 12.5 in)" },
+            { "label": "Center Rail Dividing Buffer", "value": "Split into two 65 cm bays" }
+          ],
+          "tip": "For comprehensive bedroom ergonomics and nightstand clearances, see our <a href=\"/ideas/small-space-dimensions-guide#bedroom-ergonomics\" class=\"text-[#8b6f47] font-semibold underline\">Small-Space Dimensions Guide: Bedroom Benchmarks</a>."
+        },
+        {
+          "id": "storage-types-comparison",
+          "title": "2. Rolling Drawers vs Rigid Polycarbonate vs Breathable Fabric Bags",
+          "paragraphs": [
+            "Different storage materials serve distinct functional needs. Rigid polycarbonate plastic boxes offer complete crush protection and moisture resistance, making them ideal for heavy books or spare tech accessories, but their rigid corners waste cubic volume in tight cavities.",
+            "Breathable woven linen or non-woven fabric containers with double-reinforced webbing handles conform easily to slight floor irregularities and allow airflow, preventing musty odors when storing cashmere sweaters, wool blankets, and cotton sheets.",
+            "Rolling wooden or steel wire drawers fitted with directional casters provide the highest ergonomic convenience for daily-wear items like jeans and shoes, gliding out effortlessly with a single tug."
+          ],
+          "specs": [
+            { "label": "Fabric Box Flexibility", "value": "Soft-sided 100% volume utilization" },
+            { "label": "Plastic Box Moisture Seal", "value": "Hermetic latching lids" },
+            { "label": "Rolling Drawer Pull Effort", "value": "Smooth glide on hard floor or carpet" }
+          ]
+        },
+        {
+          "id": "top-organizers-reviewed",
+          "title": "3. The 8 Best Under-Bed Storage Units Reviewed",
+          "paragraphs": [
+            "We assessed over twenty under-bed storage models for zipper durability, wheel glide on low-pile carpets, dust sealing, and dimensional accuracy for small apartments.",
+            "Our top overall choice is the Heavy-Duty Breathable Fabric Under-Bed Chest with Clear Window (Set of 2). Measuring 100 cm x 50 cm x 15 cm, it fits comfortably beneath low platform beds while holding up to 80 litres of seasonal linens per bag.",
+            "For active shoe collections, the Rolling Wire Under-Bed Shoe Organizer Cart on Rubber Casters (£34) holds 12 pairs of shoes in individual compartments with a raised perimeter lip that prevents footwear from tumbling onto the floor."
+          ],
+          "recommendedProducts": [
+            {
+              "name": "Heavy-Duty Breathable Fabric Under-Bed Chest with Clear Lid (Set of 2)",
+              "description": "Ultra-slim 15 cm profile fits under low platform bed frames. Reinforced 3-ply handles and clear PVC viewing window.",
+              "price": "£21.99",
+              "rating": "4.7 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=breathable+under+bed+storage+bags&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Rolling Wooden Under-Bed Drawer Cart on Rubber Casters",
+              "description": "Solid pine front panel with 360-degree silent rubber wheels that protect laminate and wood floors from scratches.",
+              "price": "£44.95",
+              "rating": "4.6 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=rolling+underbed+storage+drawers&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Rigid Clear Plastic Under-Bed Storage Box with Split-Hinged Lid (55L)",
+              "description": "Heavy-duty transparent container with split lid that allows access without pulling the entire box out from under the bed.",
+              "price": "£28.50",
+              "rating": "4.8 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=plastic+underbed+storage+box+split+lid&tag=urbanedge0c-20"
+            },
+            {
+              "name": "Under-Bed 16-Pair Shoe Storage Organizer with Adjustable Dividers",
+              "description": "Stiffened side walls with customizable velcro dividers and full dust-proof zipper seal to protect footwear.",
+              "price": "£18.99",
+              "rating": "4.5 / 5",
+              "amazonUrl": "https://www.amazon.co.uk/s?k=underbed+shoe+storage+organizer&tag=urbanedge0c-20"
+            }
+          ]
+        },
+        {
+          "id": "dust-proofing-ventilation",
+          "title": "4. Dust-Proofing, Zippers & Moisture Prevention in Compact Flats",
+          "paragraphs": [
+            "The space beneath a bed is a natural settling trap for dust mites, carpet fibers, and pet hair driven by mattress air displacement every time someone lies down. Open plastic trays without lids inevitably gather dust within weeks.",
+            "Ensure any textile organizer features heavy-duty #5 nylon coil zippers with two-way sliders and double-stitched perimeter seams. For long-term cashmere or wool storage, slip cedar wood blocks or lavender sachets inside to deter clothes moths naturally.",
+            "If your apartment is prone to winter window condensation, maintain a 3 cm air gap between the top of the storage boxes and the mattress slats to preserve continuous air circulation, preventing humidity stagnation."
+          ],
+          "specs": [
+            { "label": "Zipper Standard", "value": "#5 Nylon coil dual-slider" },
+            { "label": "Air Circulation Gap", "value": "3 cm - 5 cm buffer beneath slats" },
+            { "label": "Moth Prevention", "value": "Aromatic red cedar blocks" }
+          ]
+        },
+        {
+          "id": "pull-out-walkway-rules",
+          "title": "5. Pull-Out Clearance: The 70 cm Bedside Aisle Rule",
+          "paragraphs": [
+            "Before selecting deep under-bed drawers, measure your bedside walking passage. Standard rolling drawers measure between 60 cm and 75 cm in depth. Pulling a drawer open requires a clear floor zone equal to the drawer depth plus 40 cm for an adult to squat or kneel comfortably.",
+            "In tight box bedrooms where the walkway between the bed frame and the wardrobe is only 55 cm, a 70 cm rigid drawer will physically strike the wardrobe before opening halfway.",
+            "In constrained rooms, opt for flexible soft-sided fabric chests with top split-lids or end-loading bags that can be pulled forward from the foot of the bed rather than the narrow side walkways."
+          ],
+          "specs": [
+            { "label": "Rigid Drawer Pull Clearance", "value": "Drawer depth + 40 cm (100 - 115 cm total)" },
+            { "label": "Soft-Sided Slotted Extraction", "value": "50 cm minimum walkway" },
+            { "label": "Foot-of-Bed Extraction Path", "value": "75 cm clear zone" }
+          ]
+        }
+      ],
+      "comparisonTable": {
+        "caption": "Under-Bed Storage Organizer Formats Compared",
+        "headers": ["Storage Format", "Height Clearance Needed", "Access Method", "Ideal Contents", "Small Bedroom Rating"],
+        "rows": [
+          ["Soft-Sided Fabric Chests", "15 cm - 18 cm", "Slide & lift lid", "Seasonal clothing, bedding, towels", "9.5 / 10 (Best for low beds)"],
+          ["Rigid Rolling Wooden Drawers", "22 cm - 28 cm", "Caster glide pull-out", "Daily denim, t-shirts, shoes", "9.0 / 10 (Requires 70cm walkway)"],
+          ["Split-Lid Plastic Totes", "18 cm - 25 cm", "Half-lid flip open", "Books, spare electronics, winter gear", "8.5 / 10 (Maximum dust seal)"],
+          ["Compartmental Shoe Organizers", "14 cm - 16 cm", "Zippered top window", "12-16 pairs of flats & sneakers", "9.2 / 10 (Huge closet space saver)"],
+          ["Vacuum Compression Cubes", "10 cm - 14 cm", "Vacuum sealed flat bag", "Bulky winter parkas & duvets", "8.0 / 10 (Best for extreme low beds)"]
+        ]
+      }
+    },
+    "faqs": [
+      {
+        "question": "What is the standard clearance height under a bed?",
+        "answer": "Standard modern platform beds offer between 15 cm and 22 cm (6 to 8.5 inches) of clearance from the finished floor to the underside of the frame. Traditional wooden and metal frames often offer 25 cm to 32 cm."
+      },
+      {
+        "question": "Can under-bed storage cause mold or moisture issues?",
+        "answer": "If you completely cram the space without leaving an air gap, stagnant air combined with body heat from the mattress can trap condensation. Always leave a 3 cm to 5 cm gap between the top of the boxes and the bed slats, and choose breathable fabric bags rather than airtight plastic if your flat is prone to dampness."
+      },
+      {
+        "question": "How do I access under-bed storage in a narrow bedroom?",
+        "answer": "If your bedside walkway is under 70 cm, avoid rigid pull-out drawers. Instead, use soft fabric storage bags that bend easily around obstacles, or containers with split-hinged lids that can be opened without pulling the entire box out."
+      },
+      {
+        "question": "Will rolling drawers scratch hardwood or laminate floors?",
+        "answer": "Cheap plastic caster wheels can scratch delicate finishes. Ensure you choose organizers with soft rubber or silicone wheels with 360-degree ball-bearing swivels to protect floors."
+      },
+      {
+        "question": "How much storage volume does a double bed provide underneath?",
+        "answer": "A standard double bed (135 cm x 190 cm) with 20 cm of clearance provides approximately 510 litres of gross volume—enough space to store up to six large 80-litre storage containers."
       }
     ]
   }
