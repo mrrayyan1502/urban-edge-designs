@@ -126,8 +126,8 @@ export function getRouteMeta(path: string): RouteMeta {
   // 4. Shop the Look (/shop-the-look and /shop-the-look/:slug)
   if (cleanPath === "/shop-the-look") {
     return {
-      title: "Shop the Look | Curated Small Space Furniture & Decor | Urban Edge Design",
-      description: "Explore curated furniture and decor pairings designed for compact living rooms, small bedrooms, and studio apartments.",
+      title: "Shop the Look | Curated Small Space Furniture | Urban Edge Design",
+      description: "Explore curated small-space furniture packages and shoppable room lookbooks for apartments, living rooms, and bedrooms from Urban Edge Design.",
       canonicalUrl,
       ogImage: DEFAULT_IMAGE,
       ogType: "website"

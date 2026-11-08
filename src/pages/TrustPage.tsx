@@ -63,9 +63,9 @@ export default function TrustPage() {
           <div className="space-y-8 text-sm text-[#171611]/85 leading-relaxed font-light">
             {doc.sections.map((sec, idx) => (
               <div key={idx} className="space-y-2">
-                <h3 className="font-serif text-xl font-bold text-[#171611]">
+                <h2 className="font-serif text-xl font-bold text-[#171611]">
                   {sec.heading}
-                </h3>
+                </h2>
                 <p>{sec.text}</p>
               </div>
             ))}

@@ -55,7 +55,7 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
     slug: "privacy-policy",
     title: "Privacy Policy",
     lastUpdated: "October 2026",
-    summary: "How Urban Edge Design collects, uses, and safeguards your data in compliance with the General Data Protection Regulation (GDPR), the UK Data Protection Act, and Google AdSense publisher policies.",
+    summary: "Read the Urban Edge Design privacy policy. Learn how we handle personal data, cookies, analytics, and affiliate tracking with complete transparency.",
     sections: [
       {
         heading: "1. Overview & Data Controller",
@@ -79,11 +79,11 @@ export const TRUST_DOCS: Record<string, TrustDoc> = {
       },
       {
         heading: "6. GDPR & UK Data Protection Rights",
-        text: "If you are a resident of the European Economic Area (EEA) or the United Kingdom, you have comprehensive rights under the GDPR and UK Data Protection Act, including: the right to access your personal data, the right to rectify inaccurate records, the right to erasure ('right to be forgotten'), the right to restrict processing, and the right to data portability. To exercise any of these rights, contact us at contact@urban-edge-designs.com."
+        text: "If you are a resident of the European Economic Area (EEA) or the United Kingdom, you have comprehensive rights under the GDPR and UK Data Protection Act, including: the right to access your personal data, the right to rectify inaccurate records, the right to erasure ('right to be forgotten'), the right to restrict processing, and the right to data portability. To exercise any of these rights, contact us at urbanedgedesigns88@gmail.com."
       },
       {
         heading: "7. California Consumer Privacy Act (CCPA / CPRA)",
-        text: "Under the California Consumer Privacy Act, California consumers have the right to request disclosure of personal information collected, request deletion of personal information, and opt out of the sale or sharing of personal information. Urban Edge Design does not sell consumer personal information. To submit a CCPA inquiry, email contact@urban-edge-designs.com."
+        text: "Under the California Consumer Privacy Act, California consumers have the right to request disclosure of personal information collected, request deletion of personal information, and opt out of the sale or sharing of personal information. Urban Edge Design does not sell consumer personal information. To submit a CCPA inquiry, email urbanedgedesigns88@gmail.com."
       },
       {
         heading: "8. Children's Privacy (COPPA Compliance)",
